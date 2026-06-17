@@ -1,0 +1,14 @@
+title: My Writing Archive
+description: Character profiles, stories, and worldbuilding
+
+collections:
+  characters:
+    output: true
+    permalink: /characters/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "characters"
+    values:
+      layout: character
