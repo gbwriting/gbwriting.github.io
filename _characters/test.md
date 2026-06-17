@@ -1,79 +1,66 @@
 ---
 layout: character
+name: "Full Name"
+faceclaim: "Face Claim Name"
+species: "Human / Fae / etc"
+gender: "Gender"
+pronouns: "She/Her"
 
-name: Character Name
+age: "00"
+birthday: "Month Day"
+zodiac: "Zodiac Sign"
 
-# BASIC INFORMATION
-full_name: Here
-goes_by: Here
-nicknames: Here
-pronouns: Here
-gender: Here
-orientation: Here
+orientation: "Sexual Orientation"
+relationship_status: "Single / Taken / etc"
+partner: TEXTHERE
+dating_since: TEXTHERE
+past_relationships: TEXTHERE
 
-birthday: Here
-age: Here
-zodiac: Here
+goes_by: TEXTHERE
+nicknames: TEXTHERE
 
-hometown: Here
-current_location: Here
-occupation: Here
+hometown: TEXTHERE
+current_location: TEXTHERE
 
-faceclaim: Here
+occupation: TEXTHERE
+employment: TEXTHERE
 
-# PHYSICAL APPEARANCE
-hair_color: Here
-eye_color: Here
-height: Here
-scent: Here
+education: TEXTHERE
+universities: TEXTHERE
+major: TEXTHERE
+minor: TEXTHERE
 
-piercings: Here
-tattoos: Here
-scars: Here
-features: Here
-aesthetics: Here
+hair_color: TEXTHERE
+eye_color: TEXTHERE
+height: TEXTHERE
+scent: TEXTHERE
+piercings: TEXTHERE
+tattoos: TEXTHERE
+scars: TEXTHERE
+features: TEXTHERE
+aesthetics: TEXTHERE
 
-# PERSONALITY
-love_language: Here
-enneagram: Here
-mbti: Here
+love_language: TEXTHERE
+enneagram: TEXTHERE
+mbti: TEXTHERE
 
-sun_sign: Here
-moon_sign: Here
-rising_sign: Here
+sun_sign: TEXTHERE
+moon_sign: TEXTHERE
+rising_sign: TEXTHERE
 
-positive_traits: Here
-negative_traits: Here
-quirks: Here
-fears: Here
-likes: Here
-dislikes: Here
-personality_other: Here
+positive_traits: TEXTHERE
+negative_traits: TEXTHERE
+quirks: TEXTHERE
+fears: TEXTHERE
+likes: TEXTHERE
+dislikes: TEXTHERE
+personality_other: TEXTHERE
 
-# EDUCATION & CAREER
-education: Here
-universities: Here
-major: Here
-minor: Here
+parents: TEXTHERE
+siblings: TEXTHERE
+children: TEXTHERE
+other_family: TEXTHERE
+pets: TEXTHERE
 
-occupation: Here
-employment: Here
-career_other: Here
-
-# FAMILY
-parents: Here
-siblings: Here
-children: Here
-other_family: Here
-pets: Here
-
-# RELATIONSHIPS
-relationship_status: Here
-partner: Here
-dating_since: Here
-
-# HISTORY
-history: >
-  Here
-
+history: TEXTHERE
 ---
