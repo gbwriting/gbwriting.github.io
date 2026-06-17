@@ -182,7 +182,7 @@ body {
 /* INFO BOX */
 .proftabsintro .info {
   display: flex;
-  width: 150%;
+  min-width: 500px;
   flex-direction: column;
   justify-content: center;
   padding: 10px 18px;
