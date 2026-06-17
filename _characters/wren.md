@@ -1,3 +1,5 @@
+---
+layout: character
 name: Wren Dubois
 avatar: 
 face_claim: Dove Cameron
