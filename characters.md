@@ -1,19 +1,18 @@
 ---
 layout: default
 title: Characters
-permalink: /characters/
 ---
-
-<h1>Characters</h1>
 
 <div class="character-directory">
 
 {% for character in site.characters %}
 
-  <a href="{{ character.url }}">
-    <img src="{{ character.avatar }}">
-    <div>{{ character.name }}</div>
-  </a>
+  <div class="character-card">
+    <a href="{{ character.url }}">
+      <img src="{{ character.avatar | default: 'https://placehold.co/200x250' }}" alt="{{ character.name }}">
+      <h3>{{ character.name }}</h3>
+    </a>
+  </div>
 
 {% endfor %}
 
