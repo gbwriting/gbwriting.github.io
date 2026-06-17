@@ -175,3 +175,4 @@ Wren’s divorce was final almost a year ago. Dominic did everything he could to
 Carter encouraged Wren to apply to NYU during the divorce.
 Wren currently attends NYU, where she is studying art in her second year at the program.
 Wren still lives with Carter and still works as Kennedy’s nanny. She is almost four years old.
+---
