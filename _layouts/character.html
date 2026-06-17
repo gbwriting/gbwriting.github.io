@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,38 +8,117 @@
 
 <body>
 
-  <div class="character-page">
+<div class="character-page" style="--accent:#7c5cff;">
 
-    <div class="character-banner">
-      <img src="{{ page.banner }}" alt="{{ page.name }} banner">
+  <div class="character-banner">
+    <img src="{{ page.banner }}" alt="{{ page.name }}">
+  </div>
+
+  <div class="character-header">
+
+    <div class="character-avatar">
+      <img src="{{ page.avatar }}" alt="{{ page.name }}">
     </div>
 
-    <div class="character-header">
-
-      <div class="character-avatar">
-        <img src="{{ page.avatar }}" alt="{{ page.name }} avatar">
-      </div>
-
-      <div class="character-info">
-        <h1>{{ page.name }}</h1>
-        <p><strong>Age:</strong> {{ page.age }}</p>
-        <p><strong>Occupation:</strong> {{ page.occupation }}</p>
-        <p><strong>Story:</strong> {{ page.story }}</p>
-        <p><strong>Faceclaim:</strong> {{ page.faceclaim }}</p>
-      </div>
-
-    </div>
-
-    <div class="character-content">
-
-      <section>
-        <h2>Biography</h2>
-        <p>{{ content }}</p>
-      </section>
-
+    <div class="character-info">
+      <h1>{{ page.name }}</h1>
+      <p><strong>Age:</strong> {{ page.age }}</p>
+      <p><strong>Occupation:</strong> {{ page.occupation }}</p>
+      <p><strong>Faceclaim:</strong> {{ page.faceclaim }}</p>
     </div>
 
   </div>
+
+  <div class="character-content">
+
+    <!-- BASIC INFORMATION -->
+    <section>
+      <h2>Basic Information</h2>
+      <p><strong>Full Name:</strong> {{ page.full_name }}</p>
+      <p><strong>Goes By:</strong> {{ page.goes_by }}</p>
+      <p><strong>Nicknames:</strong> {{ page.nicknames }}</p>
+      <p><strong>Pronouns:</strong> {{ page.pronouns }}</p>
+      <p><strong>Gender:</strong> {{ page.gender }}</p>
+      <p><strong>Sexual Orientation:</strong> {{ page.orientation }}</p>
+      <p><strong>Birthday:</strong> {{ page.birthday }}</p>
+      <p><strong>Zodiac:</strong> {{ page.zodiac }}</p>
+      <p><strong>Hometown:</strong> {{ page.hometown }}</p>
+      <p><strong>Currently Living:</strong> {{ page.current_location }}</p>
+    </section>
+
+    <!-- PHYSICAL -->
+    <section>
+      <h2>Physical Appearance</h2>
+      <p><strong>Hair Color:</strong> {{ page.hair_color }}</p>
+      <p><strong>Eye Color:</strong> {{ page.eye_color }}</p>
+      <p><strong>Height:</strong> {{ page.height }}</p>
+      <p><strong>Signature Scent:</strong> {{ page.scent }}</p>
+      <p><strong>Piercings:</strong> {{ page.piercings }}</p>
+      <p><strong>Tattoos:</strong> {{ page.tattoos }}</p>
+      <p><strong>Scars:</strong> {{ page.scars }}</p>
+      <p><strong>Other Features:</strong> {{ page.features }}</p>
+      <p><strong>Style Aesthetics:</strong> {{ page.aesthetics }}</p>
+    </section>
+
+    <!-- PERSONALITY -->
+    <section>
+      <h2>Personality</h2>
+      <p><strong>Love Language:</strong> {{ page.love_language }}</p>
+      <p><strong>Enneagram:</strong> {{ page.enneagram }}</p>
+      <p><strong>MBTI:</strong> {{ page.mbti }}</p>
+
+      <p><strong>Sun / Moon / Rising:</strong>
+        {{ page.sun_sign }} / {{ page.moon_sign }} / {{ page.rising_sign }}
+      </p>
+
+      <p><strong>Positive Traits:</strong> {{ page.positive_traits }}</p>
+      <p><strong>Negative Traits:</strong> {{ page.negative_traits }}</p>
+      <p><strong>Quirks & Habits:</strong> {{ page.quirks }}</p>
+      <p><strong>Fears:</strong> {{ page.fears }}</p>
+      <p><strong>Likes:</strong> {{ page.likes }}</p>
+      <p><strong>Dislikes:</strong> {{ page.dislikes }}</p>
+      <p><strong>Other:</strong> {{ page.personality_other }}</p>
+    </section>
+
+    <!-- EDUCATION -->
+    <section>
+      <h2>Education & Career</h2>
+      <p><strong>Education Level:</strong> {{ page.education }}</p>
+      <p><strong>Universities:</strong> {{ page.universities }}</p>
+      <p><strong>Major:</strong> {{ page.major }}</p>
+      <p><strong>Minor:</strong> {{ page.minor }}</p>
+      <p><strong>Occupation:</strong> {{ page.occupation }}</p>
+      <p><strong>Employment:</strong> {{ page.employment }}</p>
+      <p><strong>Other:</strong> {{ page.career_other }}</p>
+    </section>
+
+    <!-- FAMILY -->
+    <section>
+      <h2>Family</h2>
+      <p><strong>Parents:</strong> {{ page.parents }}</p>
+      <p><strong>Siblings:</strong> {{ page.siblings }}</p>
+      <p><strong>Children:</strong> {{ page.children }}</p>
+      <p><strong>Other Family:</strong> {{ page.other_family }}</p>
+      <p><strong>Pets:</strong> {{ page.pets }}</p>
+    </section>
+
+    <!-- RELATIONSHIPS -->
+    <section>
+      <h2>Relationship Status</h2>
+      <p><strong>Status:</strong> {{ page.relationship_status }}</p>
+      <p><strong>Partner:</strong> {{ page.partner }}</p>
+      <p><strong>Dating Since:</strong> {{ page.dating_since }}</p>
+    </section>
+
+    <!-- HISTORY -->
+    <section>
+      <h2>History</h2>
+      <p>{{ page.history }}</p>
+    </section>
+
+  </div>
+
+</div>
 
 </body>
 </html>
