@@ -10,21 +10,62 @@
 
 <div class="character-page" style="--accent:#7c5cff;">
 
-  <div class="character-banner">
-    <img src="{{ page.banner }}" alt="{{ page.name }}">
-  </div>
+
 
   <div class="character-header">
 
     <div class="character-avatar">
-      <img src="{{ page.avatar }}" alt="{{ page.name }}">
+      <img src="https://placehold.co/400x500" alt="{{ page.name }}">
     </div>
 
     <div class="character-info">
       <h1>{{ page.name }}</h1>
-      <p><strong>Age:</strong> {{ page.age }}</p>
-      <p><strong>Occupation:</strong> {{ page.occupation }}</p>
-      <p><strong>Faceclaim:</strong> {{ page.faceclaim }}</p>
+        
+       <div class="proftabsintro">
+
+ 
+
+  <div class="info">
+    <y>goes by</y>
+    <z>{{ page.goes_by }}</z>
+  </div>
+
+  <div class="info">
+    <y>species</y>
+    <z>{{ page.species }}</z>
+  </div>
+
+  <div class="info">
+    <y>gender</y>
+    <z>{{ page.gender }}</z>
+  </div>
+
+  <div class="info">
+    <y>sexual orientation</y>
+    <z>{{ page.orientation }}</z>
+  </div>
+
+  <div class="info">
+    <y>age</y>
+    <z>{{ page.age }} years old</z>
+  </div>
+
+  <div class="info">
+    <y>birthday</y>
+    <z>{{ page.birthday }}</z>
+  </div>
+
+  <div class="info">
+    <y>zodiac</y>
+    <z>{{ page.zodiac }}</z>
+  </div>
+
+  <div class="info">
+    <y>looks like</y>
+    <z>{{ page.face_claim }}</z>
+  </div>
+
+</div>
     </div>
 
   </div>
@@ -33,87 +74,313 @@
 
     <!-- BASIC INFORMATION -->
     <section>
-      <h2>Basic Information</h2>
-      <p><strong>Full Name:</strong> {{ page.full_name }}</p>
-      <p><strong>Goes By:</strong> {{ page.goes_by }}</p>
-      <p><strong>Nicknames:</strong> {{ page.nicknames }}</p>
-      <p><strong>Pronouns:</strong> {{ page.pronouns }}</p>
-      <p><strong>Gender:</strong> {{ page.gender }}</p>
-      <p><strong>Sexual Orientation:</strong> {{ page.orientation }}</p>
-      <p><strong>Birthday:</strong> {{ page.birthday }}</p>
-      <p><strong>Zodiac:</strong> {{ page.zodiac }}</p>
-      <p><strong>Hometown:</strong> {{ page.hometown }}</p>
-      <p><strong>Currently Living:</strong> {{ page.current_location }}</p>
+      <h2>basic<x> information</x></h2>
+      
+      <div class="proftabsdetails"><div class="proftabsdets">
+
+  <div class="info">
+      <x>full name</x>
+      <y>{{ page.full_name }}</y>
+    </div>
+
+    <div class="info">
+      <x>goes by</x>
+      <y>{{ page.goes_by }}</y>
+    </div>
+
+    <div class="info">
+      <x>nicknames</x>
+      <y>{{ page.nicknames }}</y>
+    </div>
+
+    <div class="info">
+      <x>pronouns</x>
+      <y>{{ page.pronouns }}</y>
+    </div>
+
+    <div class="info">
+      <x>gender</x>
+      <y>{{ page.gender }}</y>
+    </div>
+
+    <div class="info">
+      <x>sexual orientation</x>
+      <y>{{ page.orientation }}</y>
+    </div>
+
+    <div class="info">
+      <x>birthday</x>
+      <y>{{ page.birthday }}</y>
+    </div>
+
+    <div class="info">
+      <x>zodiac</x>
+      <y>{{ page.zodiac }}</y>
+    </div>
+        
+         <div class="info">
+      <x>species</x>
+      <y>{{ page.species }}</y>
+    </div>
+
+    <div class="info">
+      <x>hometown</x>
+      <y>{{ page.hometown }}</y>
+    </div>
+
+    <div class="info">
+      <x>currently living</x>
+      <y>{{ page.current_location }}</y>
+    </div>
+        
+            <div class="info">
+      <x>occupation</x>
+      <y>{{ page.occupation }}</y>
+    </div>
+
+
+</div>
+      
     </section>
 
     <!-- PHYSICAL -->
-    <section>
-      <h2>Physical Appearance</h2>
-      <p><strong>Hair Color:</strong> {{ page.hair_color }}</p>
-      <p><strong>Eye Color:</strong> {{ page.eye_color }}</p>
-      <p><strong>Height:</strong> {{ page.height }}</p>
-      <p><strong>Signature Scent:</strong> {{ page.scent }}</p>
-      <p><strong>Piercings:</strong> {{ page.piercings }}</p>
-      <p><strong>Tattoos:</strong> {{ page.tattoos }}</p>
-      <p><strong>Scars:</strong> {{ page.scars }}</p>
-      <p><strong>Other Features:</strong> {{ page.features }}</p>
-      <p><strong>Style Aesthetics:</strong> {{ page.aesthetics }}</p>
-    </section>
+<section>
+  <h2>physical<x> appearance</x></h2>
+
+  <div class="proftabsdetails">
+    <div class="proftabsdets">
+
+      <div class="info">
+        <x>hair color</x>
+        <y>{{ page.hair_color }}</y>
+      </div>
+
+      <div class="info">
+        <x>eye color</x>
+        <y>{{ page.eye_color }}</y>
+      </div>
+
+      <div class="info">
+        <x>height</x>
+        <y>{{ page.height }}</y>
+      </div>
+
+      <div class="info">
+        <x>signature scent</x>
+        <y>{{ page.scent }}</y>
+      </div>
+
+      <div class="info">
+        <x>piercings</x>
+        <y>{{ page.piercings }}</y>
+      </div>
+
+      <div class="info">
+        <x>tattoos</x>
+        <y>{{ page.tattoos }}</y>
+      </div>
+
+      <div class="info">
+        <x>scars</x>
+        <y>{{ page.scars }}</y>
+      </div>
+
+      <div class="info">
+        <x>other features</x>
+        <y>{{ page.features }}</y>
+      </div>
+
+    </div>
+  </div>
+</section>
 
     <!-- PERSONALITY -->
     <section>
-      <h2>Personality</h2>
-      <p><strong>Love Language:</strong> {{ page.love_language }}</p>
-      <p><strong>Enneagram:</strong> {{ page.enneagram }}</p>
-      <p><strong>MBTI:</strong> {{ page.mbti }}</p>
+      <h2>personality <x>traits</x></h2>
 
-      <p><strong>Sun / Moon / Rising:</strong>
-        {{ page.sun_sign }} / {{ page.moon_sign }} / {{ page.rising_sign }}
-      </p>
+<div class="proftabsdetails">
+  <div class="proftabsdets">
 
-      <p><strong>Positive Traits:</strong> {{ page.positive_traits }}</p>
-      <p><strong>Negative Traits:</strong> {{ page.negative_traits }}</p>
-      <p><strong>Quirks & Habits:</strong> {{ page.quirks }}</p>
-      <p><strong>Fears:</strong> {{ page.fears }}</p>
-      <p><strong>Likes:</strong> {{ page.likes }}</p>
-      <p><strong>Dislikes:</strong> {{ page.dislikes }}</p>
-      <p><strong>Other:</strong> {{ page.personality_other }}</p>
+    <div class="info">
+      <x>love language</x>
+      <y>{{ page.love_language }}</y>
+    </div>
+
+    <div class="info">
+      <x>enneagram</x>
+      <y>{{ page.enneagram }}</y>
+    </div>
+
+    <div class="info">
+      <x>mbti</x>
+      <y>{{ page.mbti }}</y>
+    </div>
+
+    <div class="info">
+      <x>sun / moon / rising</x>
+      <y>{{ page.sun_sign }} / {{ page.moon_sign }} / {{ page.rising_sign }}</y>
+    </div>
+
+    <div class="info">
+      <x>positive traits</x>
+      <y>{{ page.positive_traits }}</y>
+    </div>
+
+    <div class="info">
+      <x>negative traits</x>
+      <y>{{ page.negative_traits }}</y>
+    </div>
+
+    <div class="info">
+      <x>quirks & habits</x>
+      <y>{{ page.quirks }}</y>
+    </div>
+
+    <div class="info">
+      <x>fears</x>
+      <y>{{ page.fears }}</y>
+    </div>
+
+    <div class="info">
+      <x>likes</x>
+      <y>{{ page.likes }}</y>
+    </div>
+
+    <div class="info">
+      <x>dislikes</x>
+      <y>{{ page.dislikes }}</y>
+    </div>
+
+    <div class="info">
+      <x>other</x>
+      <y>{{ page.personality_other }}</y>
+    </div>
+
+  </div>
+</div>
     </section>
 
     <!-- EDUCATION -->
     <section>
-      <h2>Education & Career</h2>
-      <p><strong>Education Level:</strong> {{ page.education }}</p>
-      <p><strong>Universities:</strong> {{ page.universities }}</p>
-      <p><strong>Major:</strong> {{ page.major }}</p>
-      <p><strong>Minor:</strong> {{ page.minor }}</p>
-      <p><strong>Occupation:</strong> {{ page.occupation }}</p>
-      <p><strong>Employment:</strong> {{ page.employment }}</p>
-      <p><strong>Other:</strong> {{ page.career_other }}</p>
+   <h2>education <x>& career<x></h2>
+
+<div class="proftabsdetails">
+  <div class="proftabsdets">
+
+    <div class="info">
+      <x>education level</x>
+      <y>{{ page.education }}</y>
+    </div>
+
+    <div class="info">
+      <x>universities</x>
+      <y>{{ page.universities }}</y>
+    </div>
+
+    <div class="info">
+      <x>major</x>
+      <y>{{ page.major }}</y>
+    </div>
+
+    <div class="info">
+      <x>minor</x>
+      <y>{{ page.minor }}</y>
+    </div>
+
+    <div class="info">
+      <x>occupation</x>
+      <y>{{ page.occupation }}</y>
+    </div>
+
+    <div class="info">
+      <x>employment</x>
+      <y>{{ page.employment }}</y>
+    </div>
+
+  </div>
+</div>
     </section>
 
     <!-- FAMILY -->
     <section>
-      <h2>Family</h2>
-      <p><strong>Parents:</strong> {{ page.parents }}</p>
-      <p><strong>Siblings:</strong> {{ page.siblings }}</p>
-      <p><strong>Children:</strong> {{ page.children }}</p>
-      <p><strong>Other Family:</strong> {{ page.other_family }}</p>
-      <p><strong>Pets:</strong> {{ page.pets }}</p>
+      <h2>family <x>information</x></h2>
+
+<div class="proftabsdetails">
+  <div class="proftabsdets">
+
+    <div class="info">
+      <x>parents</x>
+      <y>{{ page.parents }}</y>
+    </div>
+
+    <div class="info">
+      <x>siblings</x>
+      <y>{{ page.siblings }}</y>
+    </div>
+
+    <div class="info">
+      <x>children</x>
+      <y>{{ page.children }}</y>
+    </div>
+
+    <div class="info">
+      <x>other family</x>
+      <y>{{ page.other_family }}</y>
+    </div>
+
+    <div class="info">
+      <x>pets</x>
+      <y>{{ page.pets }}</y>
+    </div>
+
+  </div>
+</div>
     </section>
 
     <!-- RELATIONSHIPS -->
     <section>
-      <h2>Relationship Status</h2>
-      <p><strong>Status:</strong> {{ page.relationship_status }}</p>
-      <p><strong>Partner:</strong> {{ page.partner }}</p>
-      <p><strong>Dating Since:</strong> {{ page.dating_since }}</p>
+      <h2>relationship <x>history</x></h2>
+
+<div class="proftabsdetails">
+  <div class="proftabsdets">
+
+    <div class="info">
+      <x>status</x>
+      <y>{{ page.relationship_status }}</y>
+    </div>
+
+    <div class="info">
+      <x>partner</x>
+      <y>{{ page.partner }}</y>
+    </div>
+
+    <div class="info">
+      <x>dating since</x>
+      <y>{{ page.dating_since }}</y>
+    </div>
+
+    <div class="info">
+      <x>past relationships</x>
+      <y>{{ page.past_relationships }}</y>
+    </div>
+
+  </div>
+</div>
     </section>
 
     <!-- HISTORY -->
     <section>
-      <h2>History</h2>
-      <p>{{ page.history }}</p>
+      <h2>history <x>information</x></h2>
+
+<div class="proftabsfree">
+  <div class="proftabsfreeform">
+
+    <div class="freeform-content">
+      {{ page.history }}
+    </div>
+
+  </div>
+</div>
     </section>
 
   </div>
