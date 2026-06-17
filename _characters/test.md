@@ -5,7 +5,7 @@ age: 24
 occupation: Musician
 story: Midnight City
 faceclaim: Emma D'Arcy
-avatar: /assets/images/wren.jpg
+avatar: /assets/image/test.png
 banner: /assets/images/wren-banner.jpg
 ---
 
