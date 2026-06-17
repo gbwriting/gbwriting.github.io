@@ -1,66 +1,73 @@
 ---
 layout: character
-name: "Full Name"
-faceclaim: "Face Claim Name"
-species: "Human / Fae / etc"
-gender: "Gender"
-pronouns: "She/Her"
 
-age: "00"
-birthday: "Month Day"
-zodiac: "Zodiac Sign"
+name: 
+avatar: 
+face_claim: 
 
-orientation: "Sexual Orientation"
-relationship_status: "Single / Taken / etc"
-partner: TEXTHERE
-dating_since: TEXTHERE
-past_relationships: TEXTHERE
+full_name: 
+goes_by: 
+nicknames: 
+pronouns: 
+gender: 
+orientation: 
 
-goes_by: TEXTHERE
-nicknames: TEXTHERE
+age: 
+birthday: 
+zodiac: 
 
-hometown: TEXTHERE
-current_location: TEXTHERE
+species: 
+hometown: 
+current_location: 
+occupation: 
 
-occupation: TEXTHERE
-employment: TEXTHERE
+hair_color: 
+eye_color: 
+height: 
+scent: 
+piercings: 
+tattoos: 
+scars: 
+features: 
 
-education: TEXTHERE
-universities: TEXTHERE
-major: TEXTHERE
-minor: TEXTHERE
+love_language: 
+enneagram: 
+mbti: 
+sun_sign: 
+moon_sign: 
+rising_sign: 
 
-hair_color: TEXTHERE
-eye_color: TEXTHERE
-height: TEXTHERE
-scent: TEXTHERE
-piercings: TEXTHERE
-tattoos: TEXTHERE
-scars: TEXTHERE
-features: TEXTHERE
-aesthetics: TEXTHERE
+positive_traits: |
+  
+negative_traits: |
+  
+quirks: |
+  
+fears: |
+  
+likes: |
+  
+dislikes: |
+  
+personality_other: |
 
-love_language: TEXTHERE
-enneagram: TEXTHERE
-mbti: TEXTHERE
+education: 
+universities: 
+major: 
+minor: 
+employment: 
 
-sun_sign: TEXTHERE
-moon_sign: TEXTHERE
-rising_sign: TEXTHERE
+parents: 
+siblings: 
+children: 
+other_family: 
+pets: 
 
-positive_traits: TEXTHERE
-negative_traits: TEXTHERE
-quirks: TEXTHERE
-fears: TEXTHERE
-likes: TEXTHERE
-dislikes: TEXTHERE
-personality_other: TEXTHERE
+relationship_status: 
+partner: 
+dating_since: 
+past_relationships: 
 
-parents: TEXTHERE
-siblings: TEXTHERE
-children: TEXTHERE
-other_family: TEXTHERE
-pets: TEXTHERE
-
-history: TEXTHERE
+history: |
+  
 ---
