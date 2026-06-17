@@ -8,354 +8,39 @@
 </head>
 
 <body>
- 
- 
 
-     
- 
-             <div class="g-4">
-   <div class="hr-mp">
-     <div class="hr-mp1">
-    
-       <div class="hr-mp1-2">
-         <gif>
-           <img src="<!-- |field_9| -->">
-         </gif>
-         <y>
-           <a href='index.php?showuser=<!-- |id| -->'>
-             <span id="username">
-               {{ page.name }}
-             </span>
-           </a>
-         </y>
-         <gif>
-           <img src="<!-- |field_12| -->">
-         </gif>
-       </div>
-     </div>
-     <div class="hr-mp2">
-       <div class="cos-tcontainer">
-         <div class="cos-ttabs">
+  <div class="character-page">
 
+    <div class="character-banner">
+      <img src="{{ page.banner }}" alt="{{ page.name }} banner">
+    </div>
 
-           <div class="cos-ttab">
-             <input type="radio" id="cos-ttab-1" name="cos-ttab-group-1" checked>
-             <label for="cos-ttab-1" title="basic information">
-               <i class="ph ph-user"></i>
-             </label>
-             <div class="cos-tcontent">
-              
- 
+    <div class="character-header">
 
- 
- <!-- CUSTOMIZE YOUR PROFILE FIELDS AND SUBTITLES. IT SCROLLS SO DO AS MANY AS YOU WANT -->
- 
- 
-                 
-                <div class="c-top">basic information</div>
- <div class="a-box"><x>full name</x><y>{{ page.full_name }}</y></div>
+      <div class="character-avatar">
+        <img src="{{ page.avatar }}" alt="{{ page.name }} avatar">
+      </div>
 
-   <div class="b-wrap">
-  <div class="b-box"><x>goes by</x><y>{{ page.nicknames }}</y></div>
-  <div class="b-box"><x>pronouns</x><y>{{ page.pronouns }}</y></div>
-  <div class="b-box"><x>birthday</x><y>{{ page.birthday }}</y></div>
-  <div class="b-box"><x>age</x><y>{{ page.age }}</y></div>
-  <div class="b-box"><x>gender</x><y>{{ page.gender }}</y></div>
-  <div class="b-box"><x>species</x><y>{{ page.species }}</y></div>
-  <div class="b-box"><x>zodiac</x><y>{{ page.zodiac }}</y></div>
-  <div class="b-box"><x>sexual orientation</x><y>{{ page.orientation }}</y></div>
-  <div class="b-box"><x>hometown</x><y>{{ page.hometown }}</y></div>
-  <div class="b-box"><x>currently living</x><y>{{ page.current_living }}</y></div>
-  <div class="b-box"><x>occupation</x><y>{{ page.occupation }}</y></div>
-  <div class="b-box"><x>face claim</x><y>{{ page.faceclaim }}</y></div>
+      <div class="character-info">
+        <h1>{{ page.name }}</h1>
+        <p><strong>Age:</strong> {{ page.age }}</p>
+        <p><strong>Occupation:</strong> {{ page.occupation }}</p>
+        <p><strong>Story:</strong> {{ page.story }}</p>
+        <p><strong>Faceclaim:</strong> {{ page.faceclaim }}</p>
+      </div>
 
-</div>
- 
-             </div>
-             
-               <div class="cos-ttab">
-               <input type="radio" id="cos-ttab-2" name="cos-ttab-group-1">
-               <label for="cos-ttab-2" title="physical appearance">
-                 <i class="ph ph-star"></i>
-               </label>
-               <div class="cos-tcontent">
-                
-                <div class="c-top">physical appearance</div>
-                <div class="a-box"><x>looks like</x><y><!-- |field_21| --></y></div>
+    </div>
 
-                <div class="b-wrap">
-                <div class="b-box"><x>hair color</x><y><!-- |field_22| --></y></div>
-                 <div class="b-box"><x>eye color</x><y><!-- |field_23| --></y></div>
-                <div class="b-box"><x>height</x><y><!-- |field_24| --></y></div>
-                <div class="b-box"><x>signature scent</x><y><!-- |field_25| --></y></div>    
-                 </div>
+    <div class="character-content">
 
-            <div class="a-box"><x>features</x><y><!-- |field_26| --></y></div>
-            <div class="a-box"><x>piercings</x><y><!-- |field_28| --></y></div>
-            <div class="a-box"><x>tattoos</x><y><!-- |field_29| --></y></div>
-            <div class="a-box"><x>scars</x><y><!-- |field_30| --></y></div>
-            <div class="a-box"><x>style aesthetics</x><y><!-- |field_31| --></y></div>
-</div>
+      <section>
+        <h2>Biography</h2>
+        <p>{{ content }}</p>
+      </section>
 
-             </div>
-             
-             
-             <div class="cos-ttab">
-               <input type="radio" id="cos-ttab-3" name="cos-ttab-group-1">
-               <label for="cos-ttab-3" title="personality">
-                 <i class="ph ph-rainbow"></i>
-               </label>
-               <div class="cos-tcontent">
-                
-<div class="c-top">personality</div>
-<div class="a-box"><x>positive traits</x><y><div class="personality-content"><!-- |field_32| --></y></div></div>
-<div class="a-box"><x>negative traits</x><y><div class="personality-content"><!-- |field_33| --></y></div></div>
-<div class="a-box"><x>quirks & habits</x><y><div class="personality-content"><!-- |field_34| --></y></div></div>
-<div class="a-box"><x>fears</x><y><div class="personality-content"><!-- |field_35| --></y></div></div>
-<div class="a-box"><x>likes</x><y><div class="personality-content"><!-- |field_36| --></y></div></div>
-<div class="a-box"><x>dislikes</x><y><div class="personality-content"><!-- |field_37| --></y></div></div>
-<div class="a-box"><x>love language</x><y><!-- |field_38| --></y></div>
-<div class="a-box"><x>personality analysis</x><y><!-- |field_39| --></y></div>
+    </div>
 
-</div>
+  </div>
 
-
-             </div>
-             
-             
-             
-             
-             
-             
-              <div class="cos-ttab">
- <input type="radio" id="cos-ttab-4" name="cos-ttab-group-1">
- <label for="cos-ttab-4" title="education & career">
-   <i class="ph ph-briefcase"></i>
- </label>
-<div class="cos-tcontent">
-                
-<div class="c-top">education & career</div>
-<div class="a-box"><x>education level</x><y><!-- |field_40| --></y></div>
-<div class="a-box"><x>universities</x><y><!-- |field_41| --></y></div>
-
- <div class="b-wrap">
-<div class="b-box"><x>major</x><y><!-- |field_42| --></y></div>
-<div class="b-box"><x>minor</x><y><!-- |field_43| --></y></div>
-</div>
-
-<div class="a-box"><x>occupation</x><y><!-- |field_44| --></y></div>
-<div class="a-box"><x>place of employment</x><y><!-- |field_45| --></y></div>
-<div class="a-box"><x>other information</x><y><!-- |field_46| --></y></div>
-
-</div>
- </div>
-             
-
-  <div class="cos-ttab">
- <input type="radio" id="cos-ttab-5" name="cos-ttab-group-1">
- <label for="cos-ttab-5" title="family & relationships">
-   <i class="ph ph-heart"></i>
- </label>
-<div class="cos-tcontent">
-                
-<div class="c-top">family & relationships</div>
- <div class="b-wrap">
-<div class="b-box"><x>relationship status</x><y><!-- |field_47| --></y></div>
-<div class="b-box"><x>partner</x><y><a href="<!-- |field_49| -->"><!-- |field_48| --></a></y></div>
-</div>
-
-<div class="a-box"><x>parents</x><y><!-- |field_51| --></y></div>
-<div class="a-box"><x>siblings</x><y><!-- |field_52| --></y></div>
-<div class="a-box"><x>children</x><y><!-- |field_53| --></y></div>
-<div class="a-box"><x>other family</x><y><!-- |field_54| --></y></div>
-<div class="a-box"><x>pets</x><y><!-- |field_55| --></y></div>
-
-</div>
- </div>
-             
-  <div class="cos-ttab">
- <input type="radio" id="cos-ttab-6" name="cos-ttab-group-1">
- <label for="cos-ttab-6" title="plotting">
-   <i class="ph ph-heartbeat"></i>
- </label>
- <div class="cos-tcontent" >
-<div class="c-top">plotting</div>
-
- <div class="shipper"><div class="shipper-head">shipper</div> <div class="shipper-content">
-	<x>familial.</x> <y><!-- |field_56| --></y>
-<x>platonic.</x> <y><!-- |field_57| --></y>
-<x>antagonistic.</x> <y><!-- |field_58| --></y>
-<x>romantic.</x> <y><!-- |field_59| --></y>
-</div></div>
-
-<div class="shipper"><div class="shipper-head">head canons</div> <div class="plothooks-content">
-<!-- |field_60| -->
-</div>
-</div>
-
- <div class="shipper"><div class="shipper-head">plot hooks</div> <div class="plothooks-content">
-<!-- |field_61| -->
-</div></div>
-
- <div class="shipper"><div class="shipper-head">goals</div> <div class="plothooks-content">
-<!-- |field_62| -->
-</div></div>
- 
-
- </div>			
- </div>
-
- <div class="cos-ttab">
- <input type="radio" id="cos-ttab-7" name="cos-ttab-group-1">
- <label for="cos-ttab-7" title="history">
-   <i class="ph ph-books"></i>
- </label>
- <div class="cos-tcontent" >
-
-<div class="c-top">history</div>
-    <tw><!-- |field_64| --></tw>
-     <div class="profinfo"><y>
-                   <!-- |field_65| -->
-                   </y></div>
- </div>			
- </div>
-
- 
-             
-             
-             
-             
-             <div class="cos-ttab">
-               <input type="radio" id="cos-ttab-8" name="cos-ttab-group-1">
-               <label for="cos-ttab-8" title="auto tracker">
-                 <i class="ph ph-user-list"></i>
-               </label>
-               <div class="cos-tcontent">
-                 <div class="no-tracker">
-                   <div id="trackerwrap">
-                    <div class="c-top">active threads</div>
-                   </div>
-                   <div id="altwrap">
-                    <div class="c-top">active comms</div>
-                   </div>
-                   <div id="historywrap">
-                     <div class="c-top">completed threads</div>
-                   </div>
-                   <span id="fizzcredits" style="display: none;"></span>
-                 </div>
-               </div>
-               
-               
-              
-   
-               
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-     <div class="hr-mp3">
-       <icon>
-         <i class="ph ph-sparkle"></i>
-       </icon>
-       <bg></bg>
- 
- 
-       <style>
-         .hr-mp3 bg:after {
-           content: '';
-           width: 100%;
-           height: 100%;
-           display: block;
-           border-radius: 5px;
-           background: url(<!-- |avatar_url| -->);
-           background-size: cover;
-         }
-       </style>
- 
- 
-       <div class="hr-mp3-1">SORTED IN <x>
-           <!-- |group| -->
-         </x>
-       </div>
-       <div class="hr-mpwave"></div>
-       <div class="hr-mpwave2"></div>
-       <div class="hr-mpwave3"></div>
-     </div>
-     <div class="hr-mp4">
-     <div class="profawards"><!-- |awards| --></div>
-
-
-     </div>
-     <div class="hr-mp5">
-       <gif>
-         <img src="<!-- |field_9| -->">
-       </gif>
-       <gif>
-         <img src="<!-- |field_10| -->">
-       </gif>
-       <gif>
-         <img src="<!-- |field_11| -->">
-       </gif>
-       <gif>
-         <img src="<!-- |field_12| -->">
-       </gif>
-     </div>
-     <div class="hr-mp6">
-       <icon>
-         <i class="ph ph-hand-heart"></i>
-       </icon>
-       <div class="hr-mp6-1">
-         <!-- |field_47| -->
-         <x>
-           <a href="<!-- |field_49| -->"><!-- |field_48| --></a>
-         </x>
-       </div>
-       <gif>
-         <img src="<!-- |field_50| -->">
-       </gif>
-     </div>
-     <div class="hr-mp7">
-       <div class="hr-mp7-1">
-         <bg>
- 
- 
- 
- <!-- CUSTOMIZE YOUR OOC FIELDS. IT SCROLLS SO DO AS MANY AS YOU WANT -->
- 
- 
- 
-           <x><!-- |field_3| --> pronouns</x>
-           <x><!-- |field_4| --> timezone</x>
-           <x>discord: <!-- |field_5| --></x>
-               <x>joined on <!-- |joined| --></x>
-           <x>last seen <!-- |last_activity| --></x>
-           <x style="width: 100%; justify-content: flex-start;">please avoid: <!-- |field_7| --> </x>
- 
- 
- 
-         </bg>
-       </div>
-       <div class="hr-mp7-2">
-         <icon>
-           <i class="ph ph-user-plus"></i>
-         </icon>
-         <x>
-           <!-- |field_1| -->
-         </x>
-         <y>as written by</y>
-       </div>
-     </div>
-   </div>
- </div>
- 
-            
-        
-   
- 
-  
 </body>
 </html>
-
- 
- 
