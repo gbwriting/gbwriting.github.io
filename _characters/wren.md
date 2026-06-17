@@ -24,10 +24,10 @@ hair_color: Blonde
 eye_color: Green
 height: 5'2"
 scent: Lemon | Bergamot | Citrus
-piercings: Wren has her ears pierced — just the typical lobes.
-tattoos: Wren has a tattoo of an orange lily on her left wrist. It is just the outline.
-scars: Wren has a small scar behind her right ear from a childhood car accident, plus a few other minor scars from childhood and teenage injuries.
-features: N/A
+piercings: Wears standard lobe piercings
+tattoos: Orange lily outline on left wrist
+scars: Small scar behind right ear from childhood car accident plus minor childhood and teenage scars
+features: None
 
 love_language: Quality Time | Acts of Service
 enneagram: 6w7 - The Buddy
@@ -48,89 +48,114 @@ positive_traits: |
 
 negative_traits: |
   Conflict Avoidant
-  Overly Apologetic & People Pleasing
+  Overly Apologetic and People Pleasing
   Hypervigilant
   Passive
-  Self-Doubting
-  Emotionally Dependent on “Safe” People
+  Self Doubting
+  Emotionally Dependent on Safe People
   Holds Guilt
 
 quirks: |
-  Speaks more fluently in French when emotional, exhausted, or half-asleep.
-  Collects small objects (ticket stubs, pressed flowers, receipts, postcards) as memory anchors.
-  Apologizes before asking questions.
-  Thanks people excessively for normal kindness.
-  Gets visibly emotional when people remember small things about her.
-  Struggles with being “loud” and minimizes her presence in spaces.
-  Flinches at sudden loud noises or sharp movements.
-  Talks quietly to Kennedy like she’s an adult, and Kennedy mimics her mannerisms.
-  Paints with soft background music and becomes stressed by silence.
-  Instinctively asks permission for things she doesn’t need permission for.
+  Speaks more fluently in French when emotional, exhausted, or half asleep
+  Collects small objects like ticket stubs and pressed flowers as memory anchors
+  Apologizes before asking questions
+  Thanks people excessively for normal kindness
+  Gets emotional when people remember small details about her
+  Struggles with taking up space in rooms
+  Flinches at sudden loud noises or sharp movements
+  Talks softly to Kennedy and encourages mimicry of her mannerisms
+  Paints with soft music and becomes stressed by silence
+  Frequently asks permission unnecessarily
 
 fears: |
-  Becoming dependent on someone who will eventually hurt her.
-  Being “too much trouble” for the people helping her.
-  Disappointing the people she loves.
-  Being abandoned once people see the “damaged” parts of her.
-  Losing the stability she’s finally beginning to build.
-  Letting herself hope for happiness and losing it again.
-  
-likes: | 
-  The sound of rain against windows
+  Becoming dependent on someone who will hurt her
+  Being too much trouble for others
+  Disappointing people she loves
+  Being abandoned after vulnerability
+  Losing stability she has built
+  Hoping for happiness and losing it again
+
+likes: |
+  Rain against windows
   Small cafes and bookstores
-  French culture — especially food and film
-  Fresh flowers, especially orange lilies and peonies.
-  Quiet domestic routines — dishes, laundry, etc.
+  French food and film culture
+  Fresh flowers especially orange lilies and peonies
+  Quiet domestic routines like dishes and laundry
   Soft sweaters and blankets
   Art museums
-  Spending time with Kennedy & Carter
+  Spending time with Kennedy and Carter
   Reading or being read to
-  Playing Piano
+  Playing piano
 
 dislikes: |
   Raised voices
-  Feeling cornered during arguments
+  Confrontation and arguments
   Silence after conflict
-  Crowded places at night
-  Being touched unexpectedly
-  People dismissing her emotions
-  Feeling watched or monitored
-  Expensive gifts that feel like obligations
-  Feeling isolated or alone
+  Crowded nighttime spaces
+  Unexpected touch
+  Emotional dismissal
+  Feeling watched or judged
+  Obligation based gifts
+  Isolation
 
 personality_other: |
-  Wren has a hard time identifying her own wants at first — her life has often revolved around anticipating the needs of others and adapting accordingly, so when people ask her what she wants, she tends to freeze or defer automatically.
-  Wren often mistakes kindness for indebtedness. If someone helps her, she immediately feels like she has to earn it or repay them somehow. That’s why becoming Kennedy’s nanny was so important to her — she has to feel useful in order to justify taking up space.
-  Wren is much funnier and lighthearted than people would expect, but it doesn’t come out unless she feels safe. This is most present around Carter and Kennedy.
-  Her relationship to her art is extremely intimate. Dominic controlled everything about her life and groomed that when she was a teenager. Art is where she can find control and make something that is entirely hers. It’s been where she finds the most comfort and is her way to figure out her feelings.
-  Wren startles easily, but hates visibly appearing afraid afterwards. She’ll immediately try to deflect or smooth it over with a smile or apology.
-  Wren struggles with making decisions that feel “selfish” without extreme guilt.
-  Wren notices shifts in emotion or behavior easily — especially changes in body language or tone.
+  Wren struggles to identify her own needs and often defaults to accommodating others
+  She confuses kindness with obligation and feels the need to repay help
+  She is funnier and lighter when she feels safe, especially around Carter and Kennedy
+  Art is her primary sense of control and emotional expression
+  She startles easily but tries to hide fear immediately
+  She experiences guilt when making decisions that benefit herself
+  She is highly perceptive of emotional changes in others
 
-education: BFA - In Progress
+education: BFA in progress
 universities: NYU
 major: Fine Art
 minor: Psychology
+employment: Nanny
 
-parents: Antoine & Celine Dubois (deceased)
+parents: Antoine and Celine Dubois deceased
 siblings: None
 children: None
-other_family: Uncle (Paternal): Louis Dubois (estranged)
+other_family: Uncle Louis Dubois estranged
 pets: None
 
 relationship_status: Single
 partner: None
-dating_since: N/A
+dating_since: Not applicable
 past_relationships: Dominic Abrams
 
 history: |
   French Childhood
-  Wren was born in Paris, France as the only child of Antoine and Celine Dubois.
-  Her parents were very devoted to her. Celine stayed home with her while Antoine worked.
-  Wren lost both her parents when she was seven years old. They were fatally stabbed during a mugging.
+  Wren was born in Paris France as the only child of Antoine and Celine Dubois
+  Her parents were devoted and caring
+  She lost both parents at age seven in a fatal mugging
 
   New York City
-  Wren’s only living relative was her paternal uncle...
+  She moved to New York to live with her uncle Louis Dubois after their deaths
+  He provided materially but was emotionally distant
+  She was homeschooled and had limited social interaction
 
+  Teenage Years
+  She met Dominic Abrams at age sixteen
+  He was connected to her uncle through work
+  The relationship developed gradually into romantic involvement after she turned eighteen
 
+  Marriage
+  She married Dominic at nineteen
+  He became controlling and restricted her independence
+  The relationship became abusive over time
+
+  Friendship with Carter Sterling
+  She met Carter during Dominic's professional events
+  Carter became a key emotional support system
+  She formed a bond with Carter's daughter Kennedy
+
+  Divorce
+  Carter helped her seek legal separation from Dominic
+  She received no financial settlement due to a prenup
+  She moved in with Carter after the separation
+
+  Current Life
+  She attends NYU studying fine art
+  She works as Kennedy's nanny and continues living with Carter
 ---
