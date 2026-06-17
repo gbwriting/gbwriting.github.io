@@ -171,7 +171,8 @@ body {
 
 
 .proftabsintro {
-  width: 100%;
+    min-width: 500px;
+
   height: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -182,7 +183,6 @@ body {
 /* INFO BOX */
 .proftabsintro .info {
   display: flex;
-  min-width: 500px;
   flex-direction: column;
   justify-content: center;
   padding: 10px 18px;
