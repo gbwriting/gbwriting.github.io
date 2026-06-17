@@ -37,74 +37,74 @@ moon_sign: Capricorn
 rising_sign: Sagittarius
 
 positive_traits: |
-  Gentle
-  Loyal
-  Thoughtful
-  Patient
-  Empathetic
-  Creative
-  Nurturing
+  Gentle<br>
+  Loyal<br>
+  Thoughtful<br>
+  Patient<br>
+  Empathetic<br>
+  Creative<br>
+  Nurturing<br>
   Optimistic
 
 negative_traits: |
-  Conflict Avoidant
-  Overly Apologetic and People Pleasing
-  Hypervigilant
-  Passive
-  Self Doubting
-  Emotionally Dependent on Safe People
+  Conflict Avoidant<br>
+  Overly Apologetic and People Pleasing<br>
+  Hypervigilant<br>
+  Passive<br>
+  Self Doubting<br>
+  Emotionally Dependent on Safe People<br>
   Holds Guilt
 
 quirks: |
-  Speaks more fluently in French when emotional, exhausted, or half asleep
-  Collects small objects like ticket stubs and pressed flowers as memory anchors
-  Apologizes before asking questions
-  Thanks people excessively for normal kindness
-  Gets emotional when people remember small details about her
-  Struggles with taking up space in rooms
-  Flinches at sudden loud noises or sharp movements
-  Talks softly to Kennedy and encourages mimicry of her mannerisms
-  Paints with soft music and becomes stressed by silence
+  Speaks more fluently in French when emotional, exhausted, or half asleep<br>
+  Collects small objects like ticket stubs and pressed flowers as memory anchors<br>
+  Apologizes before asking questions<br>
+  Thanks people excessively for normal kindness<br>
+  Gets emotional when people remember small details about her<br>
+  Struggles with taking up space in rooms<br>
+  Flinches at sudden loud noises or sharp movements<br>
+  Talks softly to Kennedy and encourages mimicry of her mannerisms<br>
+  Paints with soft music and becomes stressed by silence<br>
   Frequently asks permission unnecessarily
 
 fears: |
-  Becoming dependent on someone who will hurt her
-  Being too much trouble for others
-  Disappointing people she loves
-  Being abandoned after vulnerability
-  Losing stability she has built
+  Becoming dependent on someone who will hurt her<br>
+  Being too much trouble for others<br>
+  Disappointing people she loves<br>
+  Being abandoned after vulnerability<br>
+  Losing stability she has built<br>
   Hoping for happiness and losing it again
 
 likes: |
-  Rain against windows
-  Small cafes and bookstores
-  French food and film culture
-  Fresh flowers especially orange lilies and peonies
-  Quiet domestic routines like dishes and laundry
-  Soft sweaters and blankets
-  Art museums
-  Spending time with Kennedy and Carter
-  Reading or being read to
+  Rain against windows<br>
+  Small cafes and bookstores<br>
+  French food and film culture<br>
+  Fresh flowers especially orange lilies and peonies<br>
+  Quiet domestic routines like dishes and laundry<br>
+  Soft sweaters and blankets<br>
+  Art museums<br>
+  Spending time with Kennedy and Carter<br>
+  Reading or being read to<br>
   Playing piano
 
 dislikes: |
-  Raised voices
-  Confrontation and arguments
-  Silence after conflict
-  Crowded nighttime spaces
-  Unexpected touch
-  Emotional dismissal
-  Feeling watched or judged
-  Obligation based gifts
+  Raised voices<br>
+  Confrontation and arguments<br>
+  Silence after conflict<br>
+  Crowded nighttime spaces<br>
+  Unexpected touch<br>
+  Emotional dismissal<br>
+  Feeling watched or judged<br>
+  Obligation based gifts<br>
   Isolation
 
 personality_other: |
-  Wren struggles to identify her own needs and often defaults to accommodating others
-  She confuses kindness with obligation and feels the need to repay help
-  She is funnier and lighter when she feels safe, especially around Carter and Kennedy
-  Art is her primary sense of control and emotional expression
-  She startles easily but tries to hide fear immediately
-  She experiences guilt when making decisions that benefit herself
+  Wren struggles to identify her own needs and often defaults to accommodating others<br>
+  She confuses kindness with obligation and feels the need to repay help<br>
+  She is funnier and lighter when she feels safe, especially around Carter and Kennedy<br>
+  Art is her primary sense of control and emotional expression<br>
+  She startles easily but tries to hide fear immediately<br>
+  She experiences guilt when making decisions that benefit herself<br>
   She is highly perceptive of emotional changes in others
 
 education: BFA in progress
