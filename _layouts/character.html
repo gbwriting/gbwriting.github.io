@@ -15,7 +15,7 @@
   <div class="character-header">
 
     <div class="character-avatar">
-      <img src="https://placehold.co/400x500" alt="{{ page.name }}">
+<img src="{{ page.avatar | default: 'https://placehold.co/400x500' }}">
     </div>
 
     <div class="character-info">
