@@ -1,1 +1,46 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.name }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="character-page">
+
+    <div class="character-banner">
+      <img src="{{ page.banner }}" alt="{{ page.name }} banner">
+    </div>
+
+    <div class="character-header">
+
+      <div class="character-avatar">
+        <img src="{{ page.avatar }}" alt="{{ page.name }} avatar">
+      </div>
+
+      <div class="character-info">
+        <h1>{{ page.name }}</h1>
+        <p><strong>Age:</strong> {{ page.age }}</p>
+        <p><strong>Occupation:</strong> {{ page.occupation }}</p>
+        <p><strong>Story:</strong> {{ page.story }}</p>
+        <p><strong>Faceclaim:</strong> {{ page.faceclaim }}</p>
+      </div>
+
+    </div>
+
+    <div class="character-content">
+
+      <section>
+        <h2>Biography</h2>
+        <p>{{ content }}</p>
+      </section>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
