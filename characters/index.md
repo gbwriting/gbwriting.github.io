@@ -13,7 +13,7 @@ title: Characters
 
       <div class="character-card-info">
         <h3>{{ character.name }}</h3>
-        <p>{{ character.face_claim }}</p>
+        
       </div>
 
     </a>
@@ -35,7 +35,7 @@ title: Characters
 }
 
 .character-card img {
-  width: 100%;
+  width: 50%;
   height: auto;
   display: block;
   border-radius: 10px;
