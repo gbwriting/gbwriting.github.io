@@ -35,8 +35,8 @@ title: Characters
 }
 
 .character-card img {
-  width: 50%;
-  height: auto;
+  width: 200px;
+  height: 250px;
   display: block;
   border-radius: 10px;
 }</style>
