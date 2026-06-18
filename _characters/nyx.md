@@ -97,9 +97,8 @@ dislikes: |
   Early mornings<br>
   Bitter tastes<br>
   Anyone seeing her cry
-
   
-personality_other: 
+personality_other: none
 
 education: High School Diploma
 universities: None
