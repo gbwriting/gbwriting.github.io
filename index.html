@@ -1,10 +1,299 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>greenborough writing</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&family=Poppins:wght@400;500;700;800&family=Josefin+Sans:wght@400;500;600;700&family=Yeseva+One&display=swap" rel="stylesheet">
+
+<style>
+
+/* MAIN WRAPPER */
+.homepage {
+  max-width: 1100px;
+  margin: 60px auto;
+  background: var(--bg1);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+}
+
+/* BANNER */
+.banner {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  background: var(--g1);
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: contrast(1.05) saturate(1.05);
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.15),
+    rgba(0,0,0,0.25)
+  );
+  pointer-events: none;
+}
+
+  
+/* title */
+.title {
+  padding: 40px 40px 20px 40px;
+  background: var(--g3);
+}
+  
+.title h1{
+  font-family: var(--headerfont);
+  font-size: 90px;
+  text-transform: lowercase;
+  margin:0;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.title tag {
+  margin-top: 20px;
+  font-family: var(--subtitlefont);
+  text-transform:uppercase; 
+  letter-spacing:2px;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 40px;
+
+  
+}
+/* INTRO */
+  .intro {
+  padding: 0px 40px 25px 40px;
+  background: var(--g3);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+    
+}
+  
+  .intro .box {  background:var(--t4); padding:12px 18px; border-radius:8px; }
+
+.intro .box p {
+  margin: 0 0 12px 0;
+  font-family: var(--smallfont);
+  font-size: 13px;
+  line-height: 1.3;
+    letter-spacing: 1.5px;
+
+
+}
+
+.intro p:last-child {
+  margin-bottom: 0;
+}
+
+/* GRID */
+.navgrid{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  padding: 30px;
+}
+
+.card{
+  background: var(--g2);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.06);
+  transition: 0.25s ease;
+  text-decoration: none;
+  color: inherit;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 15px;
+}
+
+.card:hover{
+  transform: translateY(-4px);
+  background: var(--g3);
+}
+
+/* LEFT SIDE TEXT */
+.card-text{
+  flex: 1;
+  min-width: 0;
+}
+
+.card h2{
+  margin: 0px 0px 10px 0px;
+  font-family: var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card p{
+  margin-top: 15px;
+  font-family: var(--smallfont);
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 1.5px;
+  background: var(--t4);
+  padding: 12px 12px;
+  border-radius: 8px;
+}
+
+/* RIGHT IMAGE */
+.card-image{
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(0,0,0,0.2);
+}
+
+.card-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+/* FOOTER */
+.footer{
+  padding: 30px;
+  text-align:center;
+  font-size: 12px;
+  color: rgba(255,255,255,0.5);
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+/* MOBILE */
+@media (max-width: 768px){
+  .navgrid{
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 </head>
+
 <body>
-    <h1>Hello World!</h1>
-    <p>This is my first GitHub Pages site.</p>
+
+<div class="homepage">
+
+  <!-- BANNER -->
+  <div class="banner">
+    <img src="https://d.l3n.co/XVEXUH.png">
+  </div>
+
+  <!-- title -->
+  <div class="title">
+    <h1>greenborough</h1>
+    <tag>a collection of characters, places, and information about greenborough's world. </tag>
+  </div>
+
+  <div class="intro">  <div class="box">
+  <p>
+    Greenborough exists as a world where supernaturals have created lives among humans.  </p>
+<p>    
+   Greenborough was created in April 2022 by Kaci & Sarah Loveless-Hall. This site is an archive of character information, short stories, lore, and other information regarding this writing world.</p>
+    </div></div>
+  
+  
+  
+  <!-- NAV GRID -->
+  <div class="navgrid">
+
+    <a class="card" href="#">
+  <div class="card-text">
+    <h2>Characters</h2>
+    <p>profiles, histories, relationships, and information on all characters</p>
+  </div>
+  <div class="card-image">
+    <img src="https://i.pinimg.com/736x/5e/0e/c2/5e0ec256cd9a4634c54f61e24fbb11ca.jpg">
+  </div>
+</a>
+    
+    <a class="card" href="#">
+  <div class="card-text">
+    <h2>Species</h2>
+    <p>lore, history, and information about each species</p>
+  </div>
+  <div class="card-image">
+    <img src="https://i.pinimg.com/736x/f6/de/d7/f6ded7aa690fdaf8742a6b4f94acddcb.jpg">
+  </div>
+</a>
+    
+    <a class="card" href="#">
+  <div class="card-text">
+    <h2>World</h2>
+    <p>locations, businesses, groups, and world information</p>
+  </div>
+  <div class="card-image">
+    <img src="https://i.pinimg.com/736x/ff/7e/45/ff7e4585514661561c872c77e7d57f7c.jpg">
+  </div>
+</a>
+    
+   <a class="card" href="#">
+  <div class="card-text">
+    <h2>Writing</h2>
+    <p>short stories, rp collections, and other pieces of writing.</p>
+  </div>
+  <div class="card-image">
+    <img src="https://i.pinimg.com/736x/a1/b5/9c/a1b59c9f49049bb52244400b1f6a4532.jpg">
+  </div>
+</a>
+    
+    <a class="card" href="#">
+  <div class="card-text">
+    <h2>Archive</h2>
+    <p>previous lore, writing, short stories, and other information</p>
+  </div>
+  <div class="card-image">
+    <img src="https://i.pinimg.com/736x/97/24/b9/9724b970655aea556576ebba00cd0605.jpg">
+  </div>
+</a>
+
+   <a class="card" href="#">
+  <div class="card-text">
+    <h2>About</h2>
+    <p>about the writers of greenborough</p>
+  </div>
+  <div class="card-image">
+    <img src="https://i.pinimg.com/736x/5e/98/94/5e989441d6faa178d63c2622cdcc438d.jpg">
+  </div>
+</a>
+
+   
+
+    
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    © 2026 | Kaci & Sarah Loveless-Hall 
+  </div>
+
+</div>
+
 </body>
 </html>
