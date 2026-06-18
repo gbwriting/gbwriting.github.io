@@ -1,22 +1,22 @@
 ---
 layout: character
 
-name: 
-avatar: 
-face_claim: 
+name: Hendrix Carter
+avatar: https://c.l3n.co/XVCm7k.png
+face_claim: Grant Gustin
 
-full_name: 
-goes_by: 
-nicknames: 
-pronouns: 
-gender: 
-orientation: 
+full_name: Hendrix 
+goes_by: Hendrix
+nicknames: Drix
+pronouns: He/Him
+gender: Male
+orientation: Bisexual 
 
-age: 
-birthday: 
-zodiac: 
+age: 187
+birthday: July 31st, 1838
+zodiac: Leo
 
-species: 
+species: Fae
 hometown: 
 current_location: 
 occupation: 
