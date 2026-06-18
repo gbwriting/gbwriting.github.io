@@ -99,7 +99,7 @@ dislikes: |
   Anyone seeing her cry
 
   
-personality_other: -
+personality_other: 
 
 education: High School Diploma
 universities: None
