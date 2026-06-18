@@ -44,7 +44,6 @@ title: Characters
 </div>
 
 <style>
-  <style>
   .character-directory {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -85,8 +84,8 @@ title: Characters
     inset: 0;
     background: linear-gradient(
         to top,
-        rgba(var(--r1),.4),
-        rgba(var(--r1),.2)
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.2)
     );
     display: flex;
     flex-direction: column;
@@ -115,5 +114,4 @@ title: Characters
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-</style>
 </style>
