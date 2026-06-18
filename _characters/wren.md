@@ -3,6 +3,7 @@ layout: character
 name: Wren Dubois
 avatar: https://b.l3n.co/XQJFoq.png
 face_claim: Dove Cameron
+writer: Kaci
 
 full_name: Wren Elodie Dubois
 goes_by: Wren
