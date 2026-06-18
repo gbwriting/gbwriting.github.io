@@ -35,6 +35,14 @@ title: Characters
       <span>{{ character.zodiac }}</span>
       {% endif %}
 
+               {% if character.orientation %}
+      <span>{{ character.orientation }}</span>
+      {% endif %}
+
+               {% if character.writer %}
+      <span>{{ character.writer }}</span>
+      {% endif %}
+
    
 
     </div>
