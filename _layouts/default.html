@@ -1,0 +1,65 @@
+<nav class="site-nav">
+
+  <div class="nav-left">
+    <a href="/">greenborough</a>
+  </div>
+
+  <div class="nav-right">
+
+        <a href="/characters/">Characters</a>
+
+
+    <a href="/worldbuilding/">World</a>
+
+    <a href="/stories/">Writing</a>
+
+    <a href="/about/">About</a>
+
+  </div>
+
+</nav>
+
+<style>
+  .site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 20px;
+
+    background: var(--g3);
+}
+
+.site-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-left a {
+    font-size: 24px;
+    font-family: var(--headerfont);
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+  
+  .nav-right a {
+        font-size: 13px;
+    font-family: var(--subtitlefont);
+    font-weight: 700px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+  }
+
+
+</style>
