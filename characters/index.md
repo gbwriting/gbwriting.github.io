@@ -19,19 +19,23 @@ title: Characters
 
     <div class="character-tags">
 
-      <span>{{ character.face_claim }}</span>
-
       {% if character.age %}
       <span>{{ character.age }} years old</span>
       {% endif %}
 
+      {% if character.birthday %}
+      <span>{{ character.birthday }}</span>
+      {% endif %}
+      
       {% if character.species %}
       <span>{{ character.species }}</span>
       {% endif %}
-
-      {% if character.occupation %}
-      <span>{{ character.occupation }}</span>
+      
+      {% if character.zodiac %}
+      <span>{{ character.zodiac }}</span>
       {% endif %}
+
+   
 
     </div>
 
