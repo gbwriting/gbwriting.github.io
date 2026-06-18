@@ -109,7 +109,7 @@ employment: Musician | Photographer | Record Store Clerk
 parents: Thomas & June Montgomery
 siblings: None
 children: None
-other_family: Lydia Bryant - Grandmother (deceased: February 2019)
+other_family: "Lydia Bryant - Grandmother (deceased: February 2019)"
 pets: None
 
 relationship_status: Single
