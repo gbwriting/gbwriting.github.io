@@ -40,7 +40,7 @@ title: Characters
       {% endif %}
 
                {% if character.writer %}
-      <span>{{ character.writer }}</span>
+      <span>written by {{ character.writer }}</span>
       {% endif %}
 
    
