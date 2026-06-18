@@ -27,7 +27,7 @@ eye_color: Blue
 height: 5'7"
 scent: Peaches | Vanilla
 piercings: Several ear piercings
-tattoos: 'I love you' on her right wrist in her grandma's handwriting
+tattoos: "‘I love you’ on her right wrist in her grandma’s handwriting"
 scars: Two inch scar on her left thigh from falling out of a tree as a child
 features: 
 
