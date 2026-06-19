@@ -2,7 +2,7 @@
 layout: character
 
 name: Adria Mackenzie
-avatar: 
+avatar: https://d.l3n.co/X9jbQx.png
 face_claim: Anna Kendrick
 writer: Sarah
 
