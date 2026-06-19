@@ -3,7 +3,7 @@ layout: character
 
 name: Tamzin Reynolds
 avatar: https://a.l3n.co/X90gEC.png
-face_claim: Claudie Jessie
+face_claim: Claudia Jessie
 writer: Sarah
 
 full_name: Tamzin Karay Reynolds
