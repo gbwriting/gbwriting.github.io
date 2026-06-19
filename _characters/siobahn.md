@@ -8,7 +8,7 @@ writer: Sarah
 
 full_name: Siobhan MIDDLE Brandon
 goes_by: Siobhan
-nicknames: Sio
+nicknames: Sia
 pronouns: She/Her
 gender: Female
 orientation: Bisexual
