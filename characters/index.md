@@ -3,30 +3,44 @@ layout: default
 title: Characters
 ---
 
-<!-- Filter Controls Container -->
-<div class="filter-container">
+<!-- Filter Box Container -->
+<div class="filter-box">
   
-  <!-- Writer Filters -->
-  <div class="filter-group" data-filter-group="writer">
-    <span class="filter-label">Writer:</span>
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="Kaci">Kaci</button>
-    <!-- Add other writers here -->
+  <div class="filter-box-header">
+    <h3>Filter Directory</h3>
+    <p>Narrow down the character roster by writer or species</p>
   </div>
 
-  <!-- Species Filters -->
-  <div class="filter-group" data-filter-group="species">
-    <span class="filter-label">Species:</span>
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="human">Human</button>
-    <button class="filter-btn" data-filter="fae">Fae</button>
-    <button class="filter-btn" data-filter="fire witch">Fire Witch</button>
-    <button class="filter-btn" data-filter="earth witch">Earth Witch</button>
-    <button class="filter-btn" data-filter="water witch">Water Witch</button>
-    <button class="filter-btn" data-filter="air witch">Air Witch</button>
-    <button class="filter-btn" data-filter="were">Were</button>
-  </div>
+  <div class="filter-container">
+    
+    <!-- Writer Filters -->
+    <div class="filter-group" data-filter-group="writer">
+      <span class="filter-label">Writer</span>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Kaci">Kaci</button>
+                <button class="filter-btn" data-filter="Sarah">Sarah</button>
 
+      </div>
+    </div>
+
+    <!-- Species Filters -->
+    <div class="filter-group" data-filter-group="species">
+      <span class="filter-label">Species</span>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="human">Human</button>
+        <button class="filter-btn" data-filter="fae">Fae</button>
+        <button class="filter-btn" data-filter="fire witch">Fire Witch</button>
+        <button class="filter-btn" data-filter="earth witch">Earth Witch</button>
+        <button class="filter-btn" data-filter="water witch">Water Witch</button>
+        <button class="filter-btn" data-filter="air witch">Air Witch</button>
+        <button class="filter-btn" data-filter="were">Were</button>
+                <button class="filter-btn" data-filter="hunter">Hunter</button>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 <div class="character-directory">
@@ -48,7 +62,7 @@ title: Characters
     <div class="character-tags">
       {% if character.age %}<span>{{ character.age }} years old</span>{% endif %}
       {% if character.birthday %}<span>{{ character.birthday }}</span>{% endif %}
-      {% if character.species %}<span>{{ character.species }} {{ page.weretype }}</span>{% endif %}
+      {% if character.species %}<span>{{ character.species }} </span>{% endif %}
       {% if character.zodiac %}<span>{{ character.zodiac }}</span>{% endif %}
       {% if character.orientation %}<span>{{ character.orientation }}</span>{% endif %}
       {% if character.writer %}<span>written by {{ character.writer }}</span>{% endif %}
@@ -62,54 +76,112 @@ title: Characters
 </div>
 
 <style>
- .filter-container {
+ /* Filter Box Container Styling */
+.filter-box {
+    background: var(--bg1);
+    border-radius: 15px;
+    max-width: 1200px;
+    margin: 50px auto 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* Header Text Inside the Box */
+.filter-box-header {
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 15px;
+}
+
+.filter-box-header h3 {
+    margin: 0 0 5px 0;
+    font-family: var(--subtitlefont);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.filter-box-header p {
+    margin: 0;
+    font-family: var(--smallfont);
+  font-weight: 500;
+  font-size: 10px;
+      text-transform: uppercase;
+    letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+/* Filtering Layout Inside the Box */
+.filter-container {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin: 40px auto 10px;
-    max-width: 1400px;
-    padding: 0 20px;
+    gap: 20px;
 }
 
 .filter-group {
-    display: flex;
+    display: grid;
+    grid-template-columns: 100px 1fr; /* Ensures labels align perfectly */
     align-items: center;
+}
+
+.filter-label {
+    
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+.filter-buttons {
+    display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.filter-label {
-    color: #888;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    min-width: 80px; /* Aligns the button rows neatly */
-}
-
+/* Button Styling */
 .filter-btn {
-    background: #1b1b1b;
-    color: #fff;
-    border: 1px solid var(--t4, #333);
+    background: var(--t4);
+    color: #a0a0a0;
+    border: 1px solid rgba(255, 255, 255, 0.05);
     padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 11px;
-    text-transform: uppercase;
+    font: 12px var(--subtitlefont);
     letter-spacing: 1px;
+    text-transform: uppercase;
     transition: all 0.2s ease;
 }
 
-.filter-btn:hover, 
+.filter-btn:hover {
+    color: #fff;
+    background: var(--t4);
+    border-color: var(--t4, #444);
+}
+
 .filter-btn.active {
-    background: var(--t4, #333);
+    background: var(--g2);
+    color: #fff;
     border-color: var(--t4, #555);
+}
+
+/* Responsive fix for smaller screens */
+@media (max-width: 768px) {
+    .filter-group {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .filter-box {
+        margin: 20px;
+        padding: 20px;
+    }
 }
   
   .character-directory {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 25px;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
 }
@@ -169,7 +241,7 @@ title: Characters
 .character-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 5px;
 }
 
 .character-tags span {
