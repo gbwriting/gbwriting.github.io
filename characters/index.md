@@ -48,7 +48,7 @@ title: Characters
     <div class="character-tags">
       {% if character.age %}<span>{{ character.age }} years old</span>{% endif %}
       {% if character.birthday %}<span>{{ character.birthday }}</span>{% endif %}
-      {% if character.species %}<span>{{ character.species }}</span>{% endif %}
+      {% if character.species %}<span>{{ character.species }} {{ page.weretype }}</span>{% endif %}
       {% if character.zodiac %}<span>{{ character.zodiac }}</span>{% endif %}
       {% if character.orientation %}<span>{{ character.orientation }}</span>{% endif %}
       {% if character.writer %}<span>written by {{ character.writer }}</span>{% endif %}
