@@ -39,6 +39,26 @@ title: Characters
                 <button class="filter-btn" data-filter="hunter">Hunter</button>
       </div>
     </div>
+    
+    <!-- Zodiac Filters -->
+    <div class="filter-group" data-filter-group="zodiac">
+      <span class="filter-label">Zodiac</span>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="aries">Aries</button>
+        <button class="filter-btn" data-filter="taurus">Taurus</button>
+        <button class="filter-btn" data-filter="gemini">Gemini</button>
+        <button class="filter-btn" data-filter="cancer">Cancer</button>
+        <button class="filter-btn" data-filter="leo">Leo</button>
+        <button class="filter-btn" data-filter="virgo">Virgo</button>
+        <button class="filter-btn" data-filter="libra">Libra</button>
+        <button class="filter-btn" data-filter="scorpio">Scorpio</button>
+        <button class="filter-btn" data-filter="sagittarius">Sagittarius</button>
+        <button class="filter-btn" data-filter="capricorn">Capricorn</button>
+        <button class="filter-btn" data-filter="aquarius">Aquarius</button>
+        <button class="filter-btn" data-filter="pisces">Pisces</button>
+      </div>
+    </div>
 
   </div>
 </div>
@@ -51,7 +71,9 @@ title: Characters
 <a class="character-card" 
    href="{{ character.url }}" 
    data-writer="{{ character.writer }}" 
-   data-species="{{ character.species | downcase }}">
+   data-species="{{ character.species | downcase }}"
+   data-zodiac="{{ character.zodiac | downcase }}">
+  
 
   <div class="character-image">
     <img src="{{ character.avatar | default: 'https://placehold.co/400x500' }}">
@@ -259,10 +281,11 @@ document.addEventListener("DOMContentLoaded", function() {
   const filterGroups = document.querySelectorAll(".filter-group");
   const cards = document.querySelectorAll(".character-card");
 
-  // Object to keep track of currently active filters
+  // Track state for all three layers
   let activeFilters = {
     writer: "all",
-    species: "all"
+    species: "all",
+    zodiac: "all"
   };
 
   filterGroups.forEach(group => {
@@ -271,14 +294,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     buttons.forEach(button => {
       button.addEventListener("click", () => {
-        // Toggle active button style within this specific group
+        // Clear active states in this group and set current button active
         buttons.forEach(btn => btn.classList.remove("active"));
         button.classList.add("active");
 
-        // Update our active filter tracker
+        // Grab selection and store it
         activeFilters[groupName] = button.getAttribute("data-filter").toLowerCase();
 
-        // Run the filter check on all cards
+        // Trigger filter sweep
         applyFilters();
       });
     });
@@ -286,18 +309,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function applyFilters() {
     cards.forEach(card => {
-      // Fetch card values and normalize to lowercase to match our button data
+      // Pull and sanitize data values from each card
       const cardWriter = (card.getAttribute("data-writer") || "").toLowerCase();
       const cardSpecies = (card.getAttribute("data-species") || "").toLowerCase();
+      const cardZodiac = (card.getAttribute("data-zodiac") || "").toLowerCase();
 
-      // Check if card matches Writer filter
+      // Check all three conditions
       const matchesWriter = activeFilters.writer === "all" || cardWriter === activeFilters.writer;
-      
-      // Check if card matches Species filter
       const matchesSpecies = activeFilters.species === "all" || cardSpecies === activeFilters.species;
+      const matchesZodiac = activeFilters.zodiac === "all" || cardZodiac === activeFilters.zodiac;
 
-      // Card must satisfy BOTH conditions to be visible
-      if (matchesWriter && matchesSpecies) {
+      // Card must fulfill all matching filters simultaneously to show
+      if (matchesWriter && matchesSpecies && matchesZodiac) {
         card.style.display = "block";
       } else {
         card.style.display = "none";
