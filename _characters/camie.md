@@ -14,7 +14,7 @@ gender: Female
 orientation: Lesbian
 
 age: 25
-birthday: Febraury 13th, 2001
+birthday: February 13th, 2001
 zodiac: Aquarius
 
 species: Human
