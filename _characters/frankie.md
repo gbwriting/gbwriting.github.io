@@ -2,7 +2,7 @@
 layout: character
 
 name: Frankie Gallo
-avatar: 
+avatar: https://a.l3n.co/X9jGOK.png
 face_claim: Fletcher
 writer: Sarah
 
