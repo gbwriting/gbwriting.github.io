@@ -2,7 +2,7 @@
 layout: character
 
 name: Jo Darcey
-avatar: 
+avatar: https://a.l3n.co/X908sm.png
 face_claim: Keira Knightley
 writer: Sarah
 
