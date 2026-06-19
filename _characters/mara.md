@@ -2,7 +2,7 @@
 layout: character
 
 name: Mara Huntington
-avatar: 
+avatar: https://c.l3n.co/X90ADi.png
 face_claim: Phoebe Tonkin
 writer: Sarah
 
