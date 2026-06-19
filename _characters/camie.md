@@ -2,7 +2,7 @@
 layout: character
 
 name: Camie Taylor
-avatar: 
+avatar: https://b.l3n.co/X9j5Tc.png
 face_claim: Imogen Poots
 writer: Sarah
 
