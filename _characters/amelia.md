@@ -2,7 +2,7 @@
 layout: character
 
 name: Amelia Aldersley
-avatar: 
+avatar: https://c.l3n.co/X9jx51.png
 face_claim: Danielle Campbell
 writer: Sarah
 
