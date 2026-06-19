@@ -2,7 +2,7 @@
 layout: character
 
 name: Tatum Richardson
-avatar: 
+avatar: https://c.l3n.co/X90rO5.png
 face_claim: Hannah Dodd
 writer: Sarah
 
