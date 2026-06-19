@@ -2,7 +2,7 @@
 layout: character
 
 name: Harper Aldersley
-avatar: 
+avatar: https://d.l3n.co/X902ZP.png
 face_claim: Halston Sage
 writer: Sarah
 
