@@ -80,7 +80,7 @@ title: Characters
 .filter-box {
     background: var(--bg1);
     border-radius: 15px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 50px auto 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -181,7 +181,7 @@ title: Characters
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 25px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 50px auto;
     padding: 20px;
 }
@@ -189,7 +189,6 @@ title: Characters
 .character-card {
     position: relative;
     height: 450px;
-  width: 300px;
     overflow: hidden;
     border-radius: 10px;
     text-decoration: none;
