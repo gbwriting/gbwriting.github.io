@@ -3,8 +3,8 @@ layout: character
 
 name: Amelia Aldersley
 avatar: 
-face_claim: 
-writer:
+face_claim: Danielle Campbell
+writer: Sarah
 
 full_name: Amelia Lynae Aldersley
 goes_by: Amelia
