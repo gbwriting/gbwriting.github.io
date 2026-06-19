@@ -2,7 +2,7 @@
 layout: character
 
 name: Riley Brandon
-avatar: 
+avatar: https://a.l3n.co/X90jV9.png
 face_claim: Cara Delevingne
 writer: Sarah
 
