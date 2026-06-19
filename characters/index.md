@@ -188,7 +188,8 @@ title: Characters
 
 .character-card {
     position: relative;
-    height: 400px;
+    height: 450px;
+  width: 300px;
     overflow: hidden;
     border-radius: 10px;
     text-decoration: none;
