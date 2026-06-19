@@ -17,7 +17,8 @@ age: 25
 birthday: July 13th, 2000 
 zodiac: Cancer
 
-species: Were Snow Leopard
+species: Were
+weretype: Snow Leopard
 hometown: Medford, Oregon
 current_location: New York City
 occupation: Architect
