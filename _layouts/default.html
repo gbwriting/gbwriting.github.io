@@ -18,8 +18,11 @@
 <nav class="site-nav">
 
   <div class="nav-left">
-    <a href="/">greenborough</a>
-  </div>
+  <a href="/">
+    <img src="https://i.imgur.com/AzRn7Wg.png" class="nav-logo">
+    greenborough
+  </a>
+</div>
 
   <div class="nav-right">
 
@@ -64,10 +67,21 @@
 }
 
 .nav-left a {
+    display: flex;         /* Places the image and text side-by-side */
+    align-items: center;   /* Vertically centers the icon with the text */
+    gap: 10px;             /* Puts a clean 10px space between the icon and text */
+    
     font-size: 24px;
     font-family: var(--headerfont);
     text-transform: lowercase;
     letter-spacing: 1px;
+}
+
+/* Style the logo size specifically so it fits beautifully in the nav bar */
+.nav-logo {
+    width: 25px;           /* Adjust this size depending on your header height */
+    height: 25px;          
+    object-fit: contain;   /* Ensures the image doesn't distort */
 }
 
 .nav-right {
