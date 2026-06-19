@@ -158,7 +158,7 @@ title: Characters
 .filter-buttons {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
 }
 
 /* Button Styling */
@@ -166,10 +166,10 @@ title: Characters
     background: var(--t4);
     color: #a0a0a0;
     border: 1px solid rgba(255, 255, 255, 0.05);
-    padding: 8px 16px;
+    padding: 8px 10px;
     border-radius: 5px;
     cursor: pointer;
-    font: 12px var(--subtitlefont);
+    font: 11px var(--subtitlefont);
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: all 0.2s ease;
@@ -270,7 +270,7 @@ title: Characters
     background: var(--t4);
     padding: 6px 10px;
     border-radius: 5px;
-    font-size: 11px;
+    font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
