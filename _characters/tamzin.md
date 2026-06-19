@@ -2,7 +2,7 @@
 layout: character
 
 name: Tamzin Reynolds
-avatar: 
+avatar: https://a.l3n.co/X90gEC.png
 face_claim: Claudie Jessie
 writer: Sarah
 
