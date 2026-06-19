@@ -2,7 +2,7 @@
 layout: character
 
 name: Mena Guerrero
-avatar: 
+avatar: https://d.l3n.co/X90iAo.png
 face_claim: Sofia Carson
 writer: Sarah
 
