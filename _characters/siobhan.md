@@ -2,7 +2,7 @@
 layout: character
 
 name: Siobhan Brandon
-avatar: 
+avatar: https://c.l3n.co/X90I5v.png
 face_claim: Freya Allan
 writer: Sarah
 
