@@ -94,6 +94,11 @@ title: Characters
 .character-overlay {
     position: absolute;
     inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,.4),
+        rgba(0,0,0,.2)
+    );
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -101,9 +106,15 @@ title: Characters
 }
 
 .character-overlay h2 {
-    margin: 0 0 15px;
-    font-size: 32px;
+    margin: 0 0 8px;
+  font-family: var(--subtitlefont);
+    font-size: 20px;
     font-weight: 700;
+  background: var(--t4);
+    padding: 10px;
+    border-radius: 5px;
+  text-transform: uppercase;
+  
 }
 
 .character-tags {
@@ -113,8 +124,7 @@ title: Characters
 }
 
 .character-tags span {
-    background: rgba(255,255,255,.12);
-    backdrop-filter: blur(4px);
+    background: var(--t4);
     padding: 6px 10px;
     border-radius: 5px;
     font-size: 11px;
