@@ -385,7 +385,9 @@ layout: default
 <div class="proftabsfree">
   <div class="proftabsfreeform">
 
-    <div class="freeform-content">{{ content }}</div>
+    <div class="freeform-content">
+      {{ content }}
+    </div>
 
   </div>
 </div>
@@ -400,3 +402,297 @@ layout: default
 
 </body>
 </html>
+  
+  
+<style>
+/* MAIN WRAPPER */
+.character-page {
+  max-width: 1100px;
+  margin: 40px auto;
+  background: var(--bg1);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+}
+
+
+
+/* HEADER */
+.character-header {
+  display: flex;
+  gap: 25px;
+  padding: 25px;
+ background:var(--g2);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+/* AVATAR */
+.character-avatar img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+
+
+/* INFO */
+.character-info {
+  flex: 1;
+}
+
+.character-info h1 {font:700 32px var(--subtitlefont); text-transform:uppercase; letter-spacing:5px;}
+
+.character-info p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: rgba(255,255,255,0.8);
+}
+
+.character-info strong {
+  color: #fff;
+}
+
+/* CONTENT */
+.character-content {
+  padding: 30px;
+}
+
+/* SECTIONS */
+.character-content section {
+ background:var(--g1);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255,255,255,0.06);
+  transition: transform 0.2s ease;
+}
+
+
+/* HEADINGS */
+.character-content h2 
+{width:100%; border-bottom:1px dotted var(--bg4); font:32px var(--bodyfont); text-transform:lowercase; padding:0px 20px 20px 0; }
+
+.character-content h2 x{  font-weight: 700; background: -webkit-linear-gradient(left, rgba(var(--r1), 1) 0%, rgba(var(--r2), 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; padding: 0;}
+
+
+/* TEXT */
+.character-content p {
+  line-height: 1.6;
+  color: rgba(255,255,255,0.85);
+}
+
+/* SIMPLE GRID */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.grid div {
+  background: #181825;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .character-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.proftabsintro {
+width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 90px;
+  gap: 12px;
+}
+
+/* INFO BOX */
+.proftabsintro .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 18px;
+  background: var(--bg1);
+  border-radius: 10px;
+}
+
+/* LABEL */
+.proftabsintro .info y {
+  font: 500 10px var(--smallfont);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+/* VALUE */
+.proftabsintro .info z {
+  font: 700 14px var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  background: var(--g5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-top: 6px;
+}
+
+/* RELATIONSHIP BLOCK */
+.proftabsintro .rel {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: var(--bg1);
+  border-radius: 10px;
+  overflow: hidden;
+
+  font: 700 13px var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* TEXT BLOCK */
+.proftabsintro .rel x {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* GRADIENT TEXT INSIDE REL */
+.proftabsintro .rel y {
+  background: var(--g5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 6px;
+}
+
+/* IMAGE */
+.proftabsintro .rel img {
+  width: 80px;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ICON */
+.proftabsintro .rel i {
+  font-size: 40px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+.proftabsdetails {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* MAIN CONTAINER */
+.proftabsdets {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10px;
+  background: var(--bg1);
+  padding: 40px 25px;
+  overflow: auto;
+
+  padding-right: 25px;
+  overflow: auto;
+}
+
+
+
+/* INFO ROW */
+.proftabsdets .info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+  font: 400 14px var(--bodyfont);
+  border-bottom: 1px dotted var(--bg4);
+
+  text-align: right;
+}
+
+/* LABEL */
+.proftabsdets .info x {
+  font: 700 13px var(--subtitlefont);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  background: var(--g5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-align: left;
+}
+
+/* VALUE */
+.proftabsdets .info y {
+  width: 60%;
+  padding-left: 30px;
+}
+
+
+.proftabsfree {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.proftabsfreeform {
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  border-radius: 10px;
+  background: var(--bg1);
+
+  padding: 25px;
+  overflow: auto;
+}
+
+/* HISTORY TEXT AREA */
+.proftabsfreeform .freeform-content {
+  font: 400 14px var(--bodyfont);
+  line-height: 1.6;
+}
+
+.proftabsfreeform .freeform-content p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-indent: 0;
+}
+
+.proftabsfreeform .freeform-content p:last-child {
+  margin-bottom: 0;
+}
+</style>
