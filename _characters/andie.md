@@ -31,7 +31,7 @@ tattoos: Andie has no tattoos, though she'd love to get some at some point.
 scars: Scar above her left knee from a bike accident as a child.
 
 love_language: Acts of Service | Quality Time
-enneagram: 2w1 – the nurturer
+enneagram: 2w1
 mbti: INFJ
 sun_sign: Aquarius
 moon_sign: Libra
