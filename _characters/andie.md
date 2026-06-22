@@ -122,7 +122,7 @@ employment: Professor of English Literature
 parents: |
   Elliot Collins - Father<br>
   Allison Collins - Mother (deceased)
-siblings: "Sister: Thalia Collins"
+siblings: "Thalia Collins - Sister"
 children: "Eden Madeline Reynolds - Daughter (July 16, 2020)"
 other_family: None
 pets: None
