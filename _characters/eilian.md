@@ -125,7 +125,7 @@ pets: None
 relationship_status: Married (secret, for now)
 partner: Jo Darcey
 dating_since: Centuries ago
-past_relationships: Jackson Aldersley - Husband
+past_relationships: Jackson Aldridge - Husband
 
 abilities:
   - name: "Aether Constructs"
