@@ -4,6 +4,7 @@ layout: character
 name: Hendrix Carter
 avatar: https://c.l3n.co/XVCm7k.png
 face_claim: Grant Gustin
+writer: Kaci
 
 full_name: Hendrix 
 goes_by: Hendrix
