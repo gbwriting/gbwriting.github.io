@@ -18,7 +18,7 @@ age: 25
 birthday: August 24th, 2000 
 zodiac: Virgo
 
-species: Fire Witch
+species: Air Witch
 hometown: London, UK
 current_location: New York City
 occupation: Musician | Audio Engineer
@@ -96,23 +96,23 @@ dislikes: |
   Sticky things
   
 personality_other: |
-  To most people, Lux is effortlessly cool. Gritty, but charismatic. Bold, but kind. Lux is the sort of person who always seems like she’s just stepped off a stage and like she belongs there. She comes off as confident, laid back, and unapologetically herself, even when she’s a little chaotic. Some might see her as intimidating, especially in the local music scene, where she takes no shit and makes everyone aware she knows exactly what she’s doing.
+  To most people, Lux is effortlessly cool. Gritty, but charismatic. Bold, but kind. Lux is the sort of person who always seems like she’s just stepped off a stage and like she belongs there. She comes off as confident, laid back, and unapologetically herself, even when she’s a little chaotic. Some might see her as intimidating, especially in the local music scene, where she takes no shit and makes everyone aware she knows exactly what she’s doing.<br><br>
 
-  Lux is deeply devoted to being authentic — however that looks. It’s the core value of her life and she approaches everything she does with a passion to be true to herself — whether that be music, friendships, or her career. She’s deeply creative and quick-witted and thrives from connecting with others who share her passions. Her love for her mother and her found family — especially her bandmates — runs extremely deep. She’s fiercely protective of those she scares about and not afraid to show how much they mean to her.
+  Lux is deeply devoted to being authentic — however that looks. It’s the core value of her life and she approaches everything she does with a passion to be true to herself — whether that be music, friendships, or her career. She’s deeply creative and quick-witted and thrives from connecting with others who share her passions. Her love for her mother and her found family — especially her bandmates — runs extremely deep. She’s fiercely protective of those she scares about and not afraid to show how much they mean to her.<br><br>
 
   When it comes to love, Lux is intense and soft all at the same time. She can be slow to define things but is quick to feel deeply. She’s not the sort to fall in love with many — or even hook up with girls the same way her friends do. She wants her love to be the same way she approaches life — real and authentic. She has a tendency to mask her vulnerability with humor and casualness, but make no mistake — Lux loves with everything she has.
 
-education: 
-universities: 
-major: 
-minor: 
-employment: 
+education: BFA
+universities: NYU
+major: Audio Engineering
+minor: Music
+employment: Audio Engineer | Musician
 
-parents: 
-siblings: 
-children: 
-other_family: 
-pets: 
+parents: Audrey King - Mother
+siblings: None 
+children: None
+other_family: None
+pets: None
 
 relationship_status: In A Relationship
 partner: Camie Taylor
