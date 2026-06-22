@@ -119,7 +119,9 @@ major: "English Language & Literature"
 minor: None
 employment: Professor of English Literature 
 
-parents: "Elliot & Allison Collins"
+parents: |
+  Elliot Collins - Father<br>
+  Allison Collins - Mother (deceased)
 siblings: "Sister: Thalia Collins"
 children: "Eden Madeline Reynolds - Daughter (July 16, 2020)"
 other_family: None
