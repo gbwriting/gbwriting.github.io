@@ -131,7 +131,8 @@ abilities:
     info: "The ability to evoke and manipulate emotions through music"
 
 ---
-### Childhood
+<h3>Childhood:</h3>
+
 * Born as Lydia Nicole Montgomery
 * Father was a pastor of a devout Southern Baptist Church
 * Mother was stay-at-home wife/mother
@@ -139,20 +140,23 @@ abilities:
 * Very, very close with Lydia and spent as much time with her as possible. Lydia didn't approve of her daughter's lifestyle, but tried to passive to keep a relationship with Nyx
 * Lydia gave her the nickname of Nyx, short for Nicole.
   
-### Teenage Years
+<h3>Teenage Years:</h3>
+
 * Learned piano through Lydia, and taught herself how to play guitar
 * Began questioning her sexuality after developing feelings for a classmate
 * Was nearly pulled out of public school, when her father suspected, but Lydia intervened
 * Nyx agreed to go to "therapy" in order to stay in school, not realizing it was conversion therapy to "cure" her.
 * Went to multiple conversion therapy sessions a week, including extended sessions in the summer throughout high school. Nyx does not talk about these experiences other than to joke about "only actually being cured of her virginity".
   
-### Lydia's Death/Aftermath
+<h3>Lydia's Death/Aftermath:</h3>
+
 * Lydia died suddenly of a heart attack during Nyx's senior year of high school
 * Shortly after, Nyx's parents kicked her out of the house/disowned her with nothing more than the bare minimum of her belongings
 * Was taken in by her Spanish teacher for the last few months before graduation and made money by babysitting/nannying for her daughter
 * Barely graduated high school in the aftermath, but knew her grandmother would want her to
   
-### NYC
+<h3>NYC:</h3>
+
 * Took a bus to NYC immediately after graduation from high school
 * Changed her name formally to Nyx Lydia Bryant, to honor her grandmother
 * Came out as lesbian and non-binary, preferring she/they pronouns, though feels "mostly feminine"
