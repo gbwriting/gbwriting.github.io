@@ -385,11 +385,23 @@ layout: default
 <div class="proftabsfree">
   <div class="proftabsfreeform">
 
-    <div class="freeform-content">
-      {{ content }}
-    </div>
+    <div class="freeform-content">{{ content }}</div>
 
   </div>
+</div>
+    </section>
+     
+      <section>
+      <h2>supernatural <x>abilities</x></h2>
+<div class="proftabsdetails">
+  <div class="proftabsdets">
+  {% for ability in page.abilities %}
+        <div class="info">
+          <x>{{ ability.name }}</x>
+          <y>{{ ability.info }}</y>
+        </div>
+      {% endfor %}
+ </div>
 </div>
     </section>
 
