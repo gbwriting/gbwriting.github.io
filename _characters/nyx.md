@@ -107,7 +107,7 @@ minor: None
 employment: Musician | Photographer | Record Store Clerk
 
 parents: |
-  Thomas Montgomery - Father (Estranged)
+  Thomas Montgomery - Father (Estranged)<br>
   June Montgomery - Mother (Estranged)
 siblings: None
 children: None
