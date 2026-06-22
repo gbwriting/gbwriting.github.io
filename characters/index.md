@@ -100,7 +100,7 @@ title: Characters
 <style>
  /* Filter Box Container Styling */
 .filter-box {
-    background: var(--bg1);
+    background: var(--bg2);
     border-radius: 15px;
     max-width: 1400px;
     margin: 50px auto 20px;
@@ -164,7 +164,7 @@ title: Characters
 /* Button Styling */
 .filter-btn {
     background: var(--t4);
-    color: #a0a0a0;
+    color: var(--body);
     border: 1px solid rgba(255, 255, 255, 0.05);
     padding: 8px 10px;
     border-radius: 5px;
@@ -239,8 +239,8 @@ title: Characters
     inset: 0;
     background: linear-gradient(
         to top,
-        rgba(0,0,0,.3),
-        rgba(0,0,0,.2)
+        rgba(0,0,0,.2),
+        rgba(0,0,0,.1)
     );
     display: flex;
     flex-direction: column;
