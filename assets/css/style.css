@@ -340,5 +340,14 @@ body {
 .proftabsfreeform .freeform-content {
   font: 400 14px var(--bodyfont);
   line-height: 1.6;
-  white-space: pre-wrap; /* keeps formatting/new lines */
+}
+
+.proftabsfreeform .freeform-content p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-indent: 0;
+}
+
+.proftabsfreeform .freeform-content p:last-child {
+  margin-bottom: 0;
 }
