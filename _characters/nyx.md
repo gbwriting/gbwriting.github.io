@@ -106,7 +106,9 @@ major: None
 minor: None
 employment: Musician | Photographer | Record Store Clerk
 
-parents: Thomas & June Montgomery
+parents: |
+  Thomas Montgomery - Father (Estranged)
+  June Montgomery - Mother (Estranged)
 siblings: None
 children: None
 other_family: "Lydia Bryant - Grandmother (deceased: February 2019)"
