@@ -66,7 +66,7 @@ body {
 
 /* MAIN WRAPPER */
 .character-page {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 40px auto;
   background: var(--bg1);
   border-radius: 16px;
@@ -99,6 +99,10 @@ body {
 
 
 /* INFO */
+.character-info {
+  flex: 1;
+}
+
 .character-info h1 {font:700 32px var(--subtitlefont); text-transform:uppercase; letter-spacing:5px;}
 
 .character-info p {
@@ -171,8 +175,7 @@ body {
 
 
 .proftabsintro {
-    min-width: 700px;
-
+width: 100%;
   height: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
