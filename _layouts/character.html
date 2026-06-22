@@ -391,6 +391,7 @@ layout: default
 </div>
     </section>
      
+     {% unless page.species == "human" or page.species == "Human" %}
       <section>
       <h2>supernatural <x>abilities</x></h2>
 <div class="proftabsdetails">
@@ -404,6 +405,7 @@ layout: default
  </div>
 </div>
     </section>
+     {% endunless %}
 
   </div>
 
