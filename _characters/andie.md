@@ -129,6 +129,12 @@ relationship_status: Married
 partner: Tamzin Reynolds
 dating_since: Early 2010
 past_relationships: None
+
+abilities:
+  - name: "Flight"
+    info: "Can fly at speeds up to 50mph."
+  - name: "Illusion Magic"
+    info: "Can alter physical environments temporarily."
   
 ---
 Andromeda “Andie” Lillian Collins was born on February 3rd, 1991 in Chicago, IL. She was the first daughter of Elliot, a carpenter, and Allison, a music teacher. Her younger sister, Thalia Rachel Collins, was born five years later. Growing up, she was very close with her family.
