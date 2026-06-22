@@ -2,7 +2,7 @@
 layout: character
 
 name: Eden Reynolds
-avatar: https://a.l3n.co/XVCdxa.png
+avatar: https://b.l3n.co/XqObI0.png
 face_claim: 
 writer: Kaci
 
