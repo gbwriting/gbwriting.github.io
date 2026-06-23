@@ -64,7 +64,7 @@ quirks: |
   Gets emotional when people remember small details about her<br>
   Struggles with taking up space in rooms<br>
   Flinches at sudden loud noises or sharp movements<br>
-  Talks softly to Kennedy and encourages mimicry of her mannerisms<br>
+  Talks softly to Alice and encourages mimicry of her mannerisms<br>
   Paints with soft music and becomes stressed by silence<br>
   Frequently asks permission unnecessarily
 
@@ -84,7 +84,7 @@ likes: |
   Quiet domestic routines like dishes and laundry<br>
   Soft sweaters and blankets<br>
   Art museums<br>
-  Spending time with Kennedy and Carter<br>
+  Spending time with Alice and Reagan<br>
   Reading or being read to<br>
   Playing piano
 
@@ -102,7 +102,7 @@ dislikes: |
 personality_other: |
   Wren struggles to identify her own needs and often defaults to accommodating others<br>
   She confuses kindness with obligation and feels the need to repay help<br>
-  She is funnier and lighter when she feels safe, especially around Carter and Kennedy<br>
+  She is funnier and lighter when she feels safe, especially around Reagan and Kennedy<br>
   Art is her primary sense of control and emotional expression<br>
   She startles easily but tries to hide fear immediately<br>
   She experiences guilt when making decisions that benefit herself<br>
