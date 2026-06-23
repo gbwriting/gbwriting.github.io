@@ -31,8 +31,8 @@ scars: Small scar behind right ear from childhood car accident plus minor childh
 features: None
 
 love_language: Quality Time | Acts of Service
-enneagram: 6w7 - The Buddy
-mbti: ISFJ - The Defender
+enneagram: 6w7
+mbti: ISFJ
 sun_sign: Gemini
 moon_sign: Capricorn
 rising_sign: Sagittarius
