@@ -16,9 +16,11 @@ title: Character Directory - Table View
         <th onclick="sortTable(1)">Age <span class="sort-icon">↕</span></th>
         <th onclick="sortTable(2)">Birthday <span class="sort-icon">↕</span></th>
         <th onclick="sortTable(3)">Species <span class="sort-icon">↕</span></th>
-        <th onclick="sortTable(4)">Zodiac <span class="sort-icon">↕</span></th>
-        <th onclick="sortTable(5)">Orientation <span class="sort-icon">↕</span></th>
-        <th onclick="sortTable(6)">Writer <span class="sort-icon">↕</span></th>
+        <th onclick="sortTable(4)">Height <span class="sort-icon">↕</span></th>
+        <th onclick="sortTable(5)">Zodiac <span class="sort-icon">↕</span></th>
+        <th onclick="sortTable(6)">MBTI <span class="sort-icon">↕</span></th>
+        <th onclick="sortTable(7)">Enneagram <span class="sort-icon">↕</span></th>
+        <th onclick="sortTable(8)">Writer <span class="sort-icon">↕</span></th>
       </tr>
     </thead>
     <tbody>
@@ -33,8 +35,10 @@ title: Character Directory - Table View
         <td data-sort="{{ character.age | default: 0 }}">{{ character.age | default: "—" }}</td>
         <td>{{ character.birthday | default: "—" }}</td>
         <td>{{ character.species | default: "—" }}</td>
+        <td>{{ character.height | default: "—" }}</td>
         <td>{{ character.zodiac | default: "—" }}</td>
-        <td>{{ character.orientation | default: "—" }}</td>
+        <td>{{ character.mbti | default: "—" }}</td>
+        <td>{{ character.enneagram | default: "—" }}</td>
         <td>{{ character.writer | default: "—" }}</td>
       </tr>
       {% endfor %}
