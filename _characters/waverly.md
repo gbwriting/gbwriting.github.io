@@ -67,7 +67,6 @@ quirks: |
   Honorary Brandon for life
   
 fears: |
-  Losing control of her divided mind<br>
   Losing Riley, Mara, or the Brandon family<br>
   Getting lost<br>
   Being alone<br>
