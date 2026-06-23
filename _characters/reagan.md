@@ -24,7 +24,7 @@ current_location: New York City
 occupation: Lawyer | High Priestess
 
 hair_color: Blonde
-eye_color: Blue
+eye_color: Green
 height: 5'7"
 scent: Earthy | Jasmine
 piercings: Ears
