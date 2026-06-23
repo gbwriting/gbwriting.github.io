@@ -32,7 +32,7 @@ scars: Two inch scar on her left thigh from falling out of a tree as a child
 features: 
 
 love_language: Physical Touch | Quality Time
-enneagram: 7w6 - The Enthusiast
+enneagram: 7w6
 mbti: ENFP
 sun_sign: Sagittarius 
 moon_sign: Aquarius
