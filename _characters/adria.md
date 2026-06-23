@@ -64,7 +64,7 @@ positive_traits: |
   Witty
   
 negative_traits: |
-  Controntational<br>
+  Confrontational <br>
   Impatient<br>
   Stubborn to a fault<br>
   Refuses help even when she needs it<br>
