@@ -33,7 +33,7 @@ scars: None
 features: None
 
 love_language: Acts of Service | Quality Time
-enneagram: 6w7 – the loyalist
+enneagram: 6w7
 mbti: ISTJ
 sun_sign: Cancer
 moon_sign: Sagittarius
