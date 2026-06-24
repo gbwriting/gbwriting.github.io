@@ -15,6 +15,7 @@ orientation: Lesbian
 
 age: 5
 birthday: July 16th, 2020
+birth_date: "2020-07-16"
 zodiac: Cancer
 
 species: Fae
