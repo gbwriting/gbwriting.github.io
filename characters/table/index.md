@@ -149,4 +149,41 @@ title: Character Directory - Table View
 }
 </style>
 
+<script>
+function sortTable(columnIndex) {
+  const table = document.getElementById("characterTable");
+  const tbody = table.tBodies[0];
+  const rows = Array.from(tbody.querySelectorAll("tr"));
+  
+  // Track sorting direction
+  const isAscending = !table.querySelectorAll("th")[columnIndex].classList.contains("th-sort-asc");
+  
+  // Reset sorting classes on all headers
+  table.querySelectorAll("th").forEach(th => th.classList.remove("th-sort-asc", "th-sort-desc"));
+  
+  // Sort logic
+  rows.sort((rowA, rowB) => {
+    const cellA = rowA.cells[columnIndex];
+    const cellB = rowB.cells[columnIndex];
+    
+    // Check if we should sort by custom numeric data attribute (like age)
+    const valA = cellA.hasAttribute("data-sort") ? parseFloat(cellA.getAttribute("data-sort")) : cellA.textContent.trim().toLowerCase();
+    const valB = cellB.hasAttribute("data-sort") ? parseFloat(cellB.getAttribute("data-sort")) : cellB.textContent.trim().toLowerCase();
+    
+    if (typeof valA === "number" && typeof valB === "number") {
+      return isAscending ? valA - valB : valB - valA;
+    }
+    
+    return isAscending 
+      ? valA.localeCompare(valB, undefined, { numeric: true, sensitivity: 'base' })
+      : valB.localeCompare(valA, undefined, { numeric: true, sensitivity: 'base' });
+  });
+  
+  // Re-append sorted rows to the table body
+  rows.forEach(row => tbody.appendChild(row));
+  
+  // Apply visual state class to header
+  table.querySelectorAll("th")[columnIndex].classList.add(isAscending ? "th-sort-asc" : "th-sort-desc");
+}
+</script>
 
