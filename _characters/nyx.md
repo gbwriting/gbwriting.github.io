@@ -15,6 +15,7 @@ orientation: Lesbian
 
 age: 25
 birthday: December 1st, 2000
+birth_date: "2000-12-01"
 zodiac: Sagittarius
 
 species: Fae
@@ -109,7 +110,10 @@ employment: Musician | Photographer | Record Store Clerk
 parents: |
   Thomas Montgomery - Father (Estranged)<br>
   June Montgomery - Mother (Estranged)
-siblings: None
+siblings: |
+  Frankie Gallo<br>
+  Dylan Gallo<br>
+  Alex Camden
 children: None
 other_family: "Lydia Bryant - Grandmother (deceased: February 2019)"
 pets: None
