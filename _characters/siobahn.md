@@ -6,7 +6,7 @@ avatar: https://c.l3n.co/X90I5v.png
 face_claim: Freya Allan
 writer: Sarah
 
-full_name: Siobhan MIDDLE Brandon
+full_name: Siobhan Hailey Brandon
 goes_by: Siobhan
 nicknames: Sia
 pronouns: She/Her
@@ -20,14 +20,14 @@ zodiac: Capricorn
 species: Were
 weretype: Leopard
 hometown: New York City
-current_location: 
-occupation: 
+current_location: New York City 
+occupation: Public Relations Manager
 
-hair_color: 
-eye_color: 
-height: 
+hair_color: Light Brown
+eye_color: Blue
+height: 5'7"
 scent: 
-piercings: 
+piercings: Ears - 2 in each ear
 tattoos: 
 scars: 
 features: 
@@ -53,23 +53,34 @@ dislikes: |
   
 personality_other: |
 
-education: 
-universities: 
-major: 
-minor: 
-employment: 
+education: BSILR | MILR
+universities: Cornell University School of Industrial and Labor Relations
+major: Industrial and Labor Relations - Human Resources
+minor: Sociology
+employment: Aldersley-Brandon Foundation
 
-parents: 
-siblings: 
-children: 
-other_family: 
+parents: |
+  Saoirse Aldersley-Brandon - Mother<br>
+  Ben Brandon - Father
+siblings: |
+  Riley Brandon - Sister
+  Waverly Vanderbilt - Sister
+children: None
+other_family: |
+  Eliana Aldersley - Aunt<br>
+  Harper Aldersley - Aunt<br>
+  Amelia Aldersley - Cousin<br>
+  Alice Aldersley - Cousin<br>
+  Reagan Mitchell - Cousin<br>
+  Jackson Albridge - Uncle<br>
+  Mara Huntington
 pets: 
 
-relationship_status: 
+relationship_status: Single
 partner: 
 dating_since: 
 past_relationships: 
 
-history: |
+abilities: 
   
 ---
