@@ -7,27 +7,31 @@ face_claim: Xana
 writer: Sarah
 
 full_name: Halle Allison Reed
-goes_by: Halle
-nicknames: Halle | Ember
+goes_by: Halle | Ember (work)
+nicknames: Halle | Hal | Ember (work)
 pronouns: She/Her
 gender: Female
 orientation: Lesbian
 
 age: 26
 birthday: May 13th, 2000 
+birth_date: "2000-05-13"
 zodiac: Taurus
 
 species: Human
-hometown: 
-current_location: 
-occupation: 
+hometown: Union City, NJ
+current_location: New York City
+occupation: Student | Stripper
 
-hair_color: 
-eye_color: 
-height: 
+hair_color: Brown (Naturally)
+eye_color: Brown
+height: 5'3"
 scent: 
-piercings: 
-tattoos: 
+piercings: |
+  Belly Button<br>
+  Nipples<br>
+  Tongue
+tattoos: Various Tattoos 
 scars: 
 features: 
 
@@ -52,23 +56,29 @@ dislikes: |
   
 personality_other: |
 
-education: 
+education: BS | MS - In Progress
 universities: 
-major: 
+major: Computer Science
 minor: 
-employment: 
+employment: Stripper | Student
 
-parents: 
-siblings: 
-children: 
-other_family: 
-pets: 
+parents: Unknown
+siblings: Unknown
+children: None
+other_family: Unknown
+pets: None
 
-relationship_status: 
-partner: 
+relationship_status: It's Complicated
+partner: Charlie Mackenzie
 dating_since: 
 past_relationships: 
-
-history: |
   
 ---
+<h3>History Information: </h3>
+* Abandoned shortly after birth and ended up in a group home where she stayed until she was 18
+* Being the smallest at the group home meant she was often picked on by the bigger kids, so she learned how to defend herself
+* One day, she was held down by a group of boys and they took turns beating her before sexually assaulting her
+* She often left the group home to wander and take time for herself, it happened more and more - not that anyone noticed
+* The second she turned 18, she went to a strip club and begged the woman who owned the club to give her a job - she's been working there ever since
+* She is paying her way through school and is determined to make life her own
+* Isn't one for relationships, one-night stands are preferable - though she's found herself in a casual hook-up situation with Charlie
