@@ -16,6 +16,7 @@ orientation: Lesbian
 
 age: 28
 birthday: August 5th, 1997
+birth_date: "1997-08-05"
 zodiac: Leo
 
 species: Earth Witch
