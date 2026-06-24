@@ -14,7 +14,7 @@ gender: Female
 orientation: Lesbian
 
 age: 35
-birthday: Octobber 31st, 1990 
+birthday: October 31st, 1990 
 birth_date: "1990-10-31"
 zodiac: Scorpio
 
