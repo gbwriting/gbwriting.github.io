@@ -15,6 +15,7 @@ orientation: Bisexual
 
 age: 28
 birthday: December 25th, 1997 
+birth_date: "1997-12-25"
 zodiac: Capricorn
 
 species: Were
@@ -63,7 +64,7 @@ parents: |
   Saoirse Aldersley-Brandon - Mother<br>
   Ben Brandon - Father
 siblings: |
-  Riley Brandon - Sister
+  Riley Brandon - Sister<br>
   Waverly Vanderbilt - Sister
 children: None
 other_family: |
