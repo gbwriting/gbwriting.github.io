@@ -65,14 +65,16 @@ siblings: |
   Saoirse Aldersley-Brandon - Sister<br>
   Eilian Aldersley - Sister<br>
   Ben Brandon - Brother<br>
-  Jo Darcey - Sister
+  Jo Darcey - Sister<br>
+  Quinton Carter - Brother (deceased)
 children: Alice Aldersley
 other_family: |
+  Hendrix Carter - Nephew<br>
   Siobhan Brandon - Niece<br>
   Amelia Aldersley - Niece<br>
   Riley Brandon - Niece<br>
   Piper Darcey - Niece<br>
-  Reagan Mitchell - Niece
+  Reagan Mitchell - Niece<br>
   Waverly Vanderbilt - Niece<br>
   Mara Huntington<br>
   Wren Dubois
