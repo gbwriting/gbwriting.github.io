@@ -15,8 +15,8 @@ gender: Female
 orientation: Lesbian
 
 age: 26
-birthday: November 4th, 1998 
-birth_date: "1998-11-04"
+birthday: November 4th, 1999 
+birth_date: "1999-11-04"
 zodiac: Scorpio
 
 species: Air Witch
@@ -104,11 +104,11 @@ employment: Publishing Illustrator
 parents: |
   Nathaniel Vanderbilt - Father (estranged)<br>
   Eleanor Westley - Mother (deceased)
-siblings: None
-children: None
-other_family: |
+siblings: 
   Mara Huntington - Sister<br>
   Siobhan Brandon - Sister<br>
+children: None
+other_family: |
   Saoirse Brandon - Surrogate Mother<br>
   Ben Brandon - Surrogate Father<br>
   Eliana Aldersley - Aunt<br>
