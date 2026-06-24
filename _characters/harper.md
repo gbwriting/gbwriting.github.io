@@ -62,7 +62,7 @@ parents: |
   Moira McNeal - Mother<br>
   Liam McNeal - Father<<br>
 siblings: |
-  Saoirse Aldersley-Brandon<br>
+  Saoirse Aldersley-Brandon - Sister<br>
   Eilian Aldersley - Sister<br>
   Ben Brandon - Brother<br>
   Jo Darcey - Sister
