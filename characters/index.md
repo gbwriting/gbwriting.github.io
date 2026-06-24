@@ -79,10 +79,10 @@ title: Characters
     <img src="{{ character.avatar | default: 'https://placehold.co/400x500' }}">
   </div>
 
- <div class="character-overlay">
+<div class="character-overlay">
   <h2>{{ character.name }}</h2>
   <div class="character-tags">
-    <span><span class="character-age" data-birthdate="{{ character.birth_date }}">Unknown</span> years old</span>
+    <span class="character-age" data-birthdate="{{ character.birth_date }}">Unknown years old</span>
     
     {% if character.birthday %}<span>{{ character.birthday }}</span>{% endif %}
     {% if character.species %}<span>{{ character.species }} </span>{% endif %}
