@@ -15,6 +15,7 @@ orientation: Lesbian
 
 age: 35
 birthday: February 3rd, 1991
+birth_date: "1991-02-03"
 zodiac: Aquarius
 
 species: Fae
