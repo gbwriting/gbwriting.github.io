@@ -14,8 +14,9 @@ pronouns: She/Her
 gender: Female
 orientation: Lesbian
 
-age: 27
+age: 26
 birthday: November 4th, 1998 
+birth_date: "1998-11-04"
 zodiac: Scorpio
 
 species: Air Witch
