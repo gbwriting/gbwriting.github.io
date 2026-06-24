@@ -14,7 +14,8 @@ gender: Female
 orientation: Lesbian
 
 age: 26
-birthday: June 27th, 1999
+birthday: June 27th, 2000
+birth_date: "2000-06-27"
 zodiac: Cancer
 
 species: Were
