@@ -79,17 +79,18 @@ title: Characters
     <img src="{{ character.avatar | default: 'https://placehold.co/400x500' }}">
   </div>
 
-  <div class="character-overlay">
-    <h2>{{ character.name }}</h2>
-    <div class="character-tags">
-      {% if character.age %}<span>{{ character.age }} years old</span>{% endif %}
-      {% if character.birthday %}<span>{{ character.birthday }}</span>{% endif %}
-      {% if character.species %}<span>{{ character.species }} </span>{% endif %}
-      {% if character.zodiac %}<span>{{ character.zodiac }}</span>{% endif %}
-      {% if character.orientation %}<span>{{ character.orientation }}</span>{% endif %}
-      {% if character.writer %}<span>written by {{ character.writer }}</span>{% endif %}
-    </div>
+ <div class="character-overlay">
+  <h2>{{ character.name }}</h2>
+  <div class="character-tags">
+    <span><span class="character-age" data-birthdate="{{ character.birth_date }}">Unknown</span> years old</span>
+    
+    {% if character.birthday %}<span>{{ character.birthday }}</span>{% endif %}
+    {% if character.species %}<span>{{ character.species }} </span>{% endif %}
+    {% if character.zodiac %}<span>{{ character.zodiac }}</span>{% endif %}
+    {% if character.orientation %}<span>{{ character.orientation }}</span>{% endif %}
+    {% if character.writer %}<span>written by {{ character.writer }}</span>{% endif %}
   </div>
+</div>
 
 </a>
 
