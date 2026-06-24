@@ -16,6 +16,7 @@ orientation: Lesbian
 
 age: 25
 birthday: August 24th, 2000 
+birth_date: "2000-08-24"
 zodiac: Virgo
 
 species: Air Witch
