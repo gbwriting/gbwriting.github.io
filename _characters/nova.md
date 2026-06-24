@@ -16,6 +16,7 @@ orientation: Lesbian
 
 age: 27
 birthday: December 31st, 1998
+birth_date: "1998-12-31"
 zodiac: Capricorn
 
 species: Human
