@@ -14,7 +14,8 @@ gender: Female
 orientation: Bisexual
 
 age: 25
-birthday: December 24th, 2000 
+birthday: December 24th, 2000
+birth_date: "2000-12-24"
 zodiac: Capricorn
 
 species: Water Witch
