@@ -14,6 +14,7 @@ orientation: Demisexual
 
 age: 24
 birthday: May 29th, 2002
+birth_date: "2002-05-29"
 zodiac: Gemini
 
 species: Human
