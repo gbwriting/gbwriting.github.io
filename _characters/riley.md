@@ -21,15 +21,15 @@ zodiac: Cancer
 species: Were
 weretype: Leopard
 hometown: New York City
-current_location: 
-occupation: 
+current_location: New York City
+occupation: Model
 
-hair_color: 
-eye_color: 
-height: 
+hair_color: Brown
+eye_color: Blue
+height: 5'11"
 scent: 
-piercings: 
-tattoos: 
+piercings: Ears - 3 per ear
+tattoos: Several all over her body
 scars: 
 features: 
 
@@ -54,23 +54,44 @@ dislikes: |
   
 personality_other: |
 
-education: 
-universities: 
-major: 
-minor: 
-employment: 
+education: BFA
+universities: Parsons School of Design
+major: Photography
+minor: Media Studies
+employment: Model
 
-parents: 
-siblings: 
-children: 
-other_family: 
-pets: 
+parents: |
+  Saoirse Aldersley-Brandon - Mother<br>
+  Ben Brandon - Father
+siblings: Siobhan Brandon - Sister
+children: None
+other_family: |
+  Eliana Aldersley - Aunt<br>
+  Harper Aldersley - Aunt<br>
+  Amelia Aldersley - Cousin<br>
+  Alice Aldersley - Cousin<br>
+  Reagan Mitchell - Cousin<br>
+  Jackson Albridge - Uncle<br>
+  Mara Huntington
+pets: None
 
-relationship_status: 
-partner: 
-dating_since: 
-past_relationships: 
+relationship_status: In A Relationship
+partner: Waverly Vanderbilt
+dating_since: Kindergarten
+past_relationships: None
 
-history: |
+abilities:
+  - name: "Alleviation"
+    info: "the ability to suppress negative physical and mental symptoms"
+
+  - name: "Glass manipulation"
+    info: "the ability to create, shape, and manipulate glass"
+
+  - name: "Intuitive precognition"
+    info: "the ability to intuitively sense and adapt to future events"
   
 ---
+<h3>History Information: </h3>
+* In something of a Domme/Sub relationship within her relationship with Waverly, she is the submissive
+* Struggles with addition and is very good at hiding it from people
+* Has a love/hate relationship with her modeling career
