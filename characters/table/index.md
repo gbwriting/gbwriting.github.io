@@ -32,7 +32,7 @@ title: Character Directory - Table View
             <strong>{{ character.name }}</strong>
           </a>
         </td>
-        <td data-sort="{{ character.age | default: 0 }}">{{ character.age | default: "—" }}</td>
+        <td class="character-age" data-birthdate="{{ character.birth_date }}" data-sort="0">—</td>
         <td>{{ character.birthday | default: "—" }}</td>
         <td>{{ character.species | default: "—" }}</td>
         <td>{{ character.height | default: "—" }}</td>
@@ -185,4 +185,35 @@ function sortTable(columnIndex) {
   // Apply visual state class to header
   table.querySelectorAll("th")[columnIndex].classList.add(isAscending ? "th-sort-asc" : "th-sort-desc");
 }
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+  const ageCells = document.querySelectorAll(".character-age");
+
+  ageCells.forEach(cell => {
+    const birthDateString = cell.getAttribute("data-birthdate");
+    
+    // Skip if no birth_date is provided for the character
+    if (!birthDateString || birthDateString === "") return;
+
+    const birthDate = new Date(birthDateString);
+    const today = new Date();
+
+    // Calculate age
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDifference = today.getMonth() - birthDate.getMonth();
+    
+    // Adjust age if the birthday hasn't happened yet this year
+    if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+
+    // Guard against invalid dates or unborn characters resulting in negative numbers
+    if (!isNaN(age) && age >= 0) {
+      cell.textContent = age;
+      cell.setAttribute("data-sort", age); // Updates the sort attribute dynamically!
+    }
+  });
+});
 </script>
