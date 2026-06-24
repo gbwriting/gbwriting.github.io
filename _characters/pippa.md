@@ -16,6 +16,7 @@ orientation: Bisexual
 
 age: 25
 birthday: April 16th, 2001
+birth_date: "2001-04-16"
 zodiac: Aries
 
 species: Fae
