@@ -15,18 +15,19 @@ orientation: Lesbian
 
 age: 25
 birthday: February 13th, 2001
+birth_date: "2001-02-13"
 zodiac: Aquarius
 
 species: Human
 hometown: Malibu, California
-current_location: 
-occupation: 
+current_location: Malibu | New York City
+occupation: Producer | Writer | Advisor
 
-hair_color: 
-eye_color: 
-height: 
+hair_color: Blonde
+eye_color: Blue
+height: 5'5"
 scent: 
-piercings: 
+piercings: Ears
 tattoos: 
 scars: 
 features: 
@@ -52,23 +53,23 @@ dislikes: |
   
 personality_other: |
 
-education: 
-universities: 
-major: 
-minor: 
+education: BA | MA
+universities: NYU
+major: Women's, Gender, and Sexuality Studies
+minor: Creative Writing
 employment: 
 
-parents: 
-siblings: 
-children: 
-other_family: 
-pets: 
+parents: |
+  Richard Taylor - Father<br>
+  Adeline Auclair - Mother (estranged)
+siblings: Faye Auclair - Sister
+children: None
+other_family: Various
+pets: None
 
-relationship_status: 
-partner: 
-dating_since: 
-past_relationships: 
+relationship_status: In a relationship
+partner: Freshman year of college
+dating_since: Freshman year of college
+past_relationships: Maya Embry
 
-history: |
-  
 ---
