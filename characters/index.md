@@ -82,7 +82,10 @@ title: Characters
 <div class="character-overlay">
   <h2>{{ character.name }}</h2>
   <div class="character-tags">
-    <span class="character-age" data-birthdate="{{ character.birth_date }}">Unknown years old</span>
+    
+    <span>
+      <span class="character-age" data-birthdate="{{ character.birth_date }}" style="display: inline; padding: 0; margin: 0; background: none; border: none; color: inherit; font: inherit;">Unknown</span> years old
+    </span>
     
     {% if character.birthday %}<span>{{ character.birthday }}</span>{% endif %}
     {% if character.species %}<span>{{ character.species }} </span>{% endif %}
@@ -91,7 +94,6 @@ title: Characters
     {% if character.writer %}<span>written by {{ character.writer }}</span>{% endif %}
   </div>
 </div>
-
 </a>
 
 {% endfor %}
