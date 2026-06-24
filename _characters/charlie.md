@@ -15,6 +15,7 @@ orientation: Bisexual
 
 age: 25
 birthday: July 13th, 2000 
+birth_date: "2000-07-13"
 zodiac: Cancer
 
 species: Were
