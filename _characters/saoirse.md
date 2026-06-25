@@ -33,9 +33,9 @@ scars:
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 8w7 
+mbti: ENTJ
+sun_sign: Leo
 moon_sign: 
 rising_sign: 
 
@@ -59,12 +59,6 @@ major: Nonprofit Management | Nonprofit Leadership
 minor: Communications
 employment: COO of Aldersley-Brandon Foundation
 
-parents: 
-siblings: 
-children: 
-other_family: 
-pets: 
-
 parents: |
   Moira McNeal - Mother<br>
   Liam McNeal - Father<<br>
@@ -73,8 +67,8 @@ siblings: |
   Harper Aldersley - Sister<br>
   Jo Darcey - Sister<br>
   Quinton Carter - Brother (deceased)
-children: |
-  Siobhan Brandon - Daughter<br>
+children: |h
+  Sioban Brandon - Daughter<br>
   Riley Brandon - Daughter<br>
   Waverly Vanderbilt - Daughter
 other_family: |
