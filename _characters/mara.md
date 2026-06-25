@@ -38,9 +38,9 @@ scars: |
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 1w2 
+mbti: ISFJ
+sun_sign: Gemini
 moon_sign: 
 rising_sign: 
 
@@ -73,7 +73,7 @@ siblings: |
 children: None
 other_family: |
   Riley Brandon<br>
-  Siobhan Brandon<br>
+  Siobahn Brandon<br>
   Saoirse Aldersley-Brandon<br>
   Ben Brandon<br>
   Eliana Aldersley<br>
