@@ -106,7 +106,7 @@ parents: |
   Eleanor Westley - Mother (deceased)
 siblings: 
   Mara Huntington - Sister<br>
-  Siobhan Brandon - Sister<br>
+  Siobahn Brandon - Sister<br>
 children: None
 other_family: |
   Saoirse Brandon - Surrogate Mother<br>
