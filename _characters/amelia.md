@@ -72,7 +72,7 @@ other_family: |
   Harper Aldersley - Aunt<br>
   Cordelia Mitchell - Mother in Law<br>
   Celeste Mitchell - Mother in Law<br>
-  Siobhan Brandon - Cousin<br>
+  Siobahn Brandon - Cousin<br>
   Riley Brandon - Cousin<br>
   Reagan Mitchell - Cousin<br>
   Waverly Vanderbilt - Cousin<br>
