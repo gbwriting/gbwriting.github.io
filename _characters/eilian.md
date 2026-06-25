@@ -116,7 +116,7 @@ children: |
   Piper Aldersley - Daughter (secret)
 other_family: |
   Hendrix Carter - Nephew<br>
-  Siobhan Brandon - Niece<br>
+  Siobahn Brandon - Niece<br>
   Riley Brandon - Niece<br>
   Alice Aldersley - Niece<br>
   Quinton Carter - Brother (deceased)
