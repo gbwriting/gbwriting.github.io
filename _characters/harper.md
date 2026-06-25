@@ -32,9 +32,9 @@ scars:
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 9w1 
+mbti: ISFJ
+sun_sign: Libra
 moon_sign: 
 rising_sign: 
 
@@ -70,7 +70,7 @@ siblings: |
 children: Alice Aldersley
 other_family: |
   Hendrix Carter - Nephew<br>
-  Siobhan Brandon - Niece<br>
+  Siobahn Brandon - Niece<br>
   Amelia Aldersley - Niece<br>
   Riley Brandon - Niece<br>
   Piper Darcey - Niece<br>
