@@ -38,9 +38,9 @@ scars: Several in various spots on her body, nearly unnoticeable
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 4w3
+mbti: ENTP
+sun_sign: Scorpio
 moon_sign: 
 rising_sign: 
 
