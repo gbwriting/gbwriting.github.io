@@ -34,9 +34,9 @@ scars:
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 3w4
+mbti: ENFP
+sun_sign: Pisces
 moon_sign: 
 rising_sign: 
 
