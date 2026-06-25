@@ -66,7 +66,7 @@ other_family: |
   Eliana Aldersley - Aunt<br>
   Saoirse Brandon - Aunt<br>
   Ben Brandon - Uncle<br>
-  Siobhan Brandon - Cousin<br>
+  Siobahn Brandon - Cousin<br>
   Amelia Aldersley - Cousin<br>
   Riley Brandon - Cousin<br>
   Reagan Mitchell - Cousin<br>
