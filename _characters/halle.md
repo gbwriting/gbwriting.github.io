@@ -36,9 +36,9 @@ scars:
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 6w5
+mbti: ISTJ
+sun_sign: Taurus
 moon_sign: 
 rising_sign: 
 
