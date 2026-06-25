@@ -34,9 +34,9 @@ scars:
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 7w8 
+mbti: ESFP
+sun_sign: Cancer 
 moon_sign: 
 rising_sign: 
 
@@ -63,7 +63,7 @@ employment: Model
 parents: |
   Saoirse Aldersley-Brandon - Mother<br>
   Ben Brandon - Father
-siblings: Siobhan Brandon - Sister
+siblings: Siobahn Brandon - Sister
 children: None
 other_family: |
   Eliana Aldersley - Aunt<br>
