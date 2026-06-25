@@ -119,7 +119,7 @@ other_family: |
   Saoirse Brandon<br>
   Harper Aldersley<br>
   Ben Brandon<br>
-  Siobhan Brandon<br>
+  Siobahn Brandon<br>
   Riley Brandon<br>
   Alice Aldersley  
 pets: Various horses
