@@ -33,9 +33,9 @@ scars:
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 3w4
+mbti: ESFP
+sun_sign: Aquarius
 moon_sign: 
 rising_sign: 
 
