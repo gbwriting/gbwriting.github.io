@@ -67,7 +67,7 @@ children: |
   Amelia Aldersley - Daughter (secret)  
 other_family: |
   Hendrix Carter - Nephew<br>
-  Celia Darcey - Mother In Law
+  Celia Darcey - Mother In Law<br>
   Saoirse Aldersley-Brandon<br>
   Harper Aldersley<br>
   Ben Brandon<br>
