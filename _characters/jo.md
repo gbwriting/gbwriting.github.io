@@ -32,9 +32,9 @@ scars: A long scar that goes from the middle of her torso around to her hip - an
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 5w6
+mbti: ISTJ
+sun_sign: Pisces
 moon_sign: 
 rising_sign: 
 
@@ -71,7 +71,7 @@ other_family: |
   Saoirse Aldersley-Brandon<br>
   Harper Aldersley<br>
   Ben Brandon<br>
-  Siobhan Brandon<br>
+  Siobahn Brandon<br>
   Riley Brandon<br>
   Alice Aldersley  
 pets: | 
