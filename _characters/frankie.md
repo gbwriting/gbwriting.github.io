@@ -35,9 +35,9 @@ scars:
 features: Will occasionally dye her hair blonde or auburn
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 7w8 
+mbti: ENFP
+sun_sign: Scorpio
 moon_sign: 
 rising_sign: 
 
