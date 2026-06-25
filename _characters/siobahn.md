@@ -1,13 +1,13 @@
 ---
 layout: character
 
-name: Siobhan Brandon
+name: Siobahn Brandon
 avatar: https://c.l3n.co/X90I5v.png
 face_claim: Freya Allan
 writer: Sarah
 
-full_name: Siobhan Hailey Brandon
-goes_by: Siobhan
+full_name: Siobahn Hailey Brandon
+goes_by: Siobahn
 nicknames: Sia
 pronouns: She/Her
 gender: Female
@@ -34,9 +34,9 @@ scars:
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 1w9
+mbti: ESTJ
+sun_sign: Capricorn
 moon_sign: 
 rising_sign: 
 
