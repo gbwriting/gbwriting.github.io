@@ -33,8 +33,8 @@ scars: None
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
+enneagram: 2w1
+mbti: INFP
 sun_sign: Gemini
 moon_sign: 
 rising_sign: 
