@@ -36,9 +36,9 @@ scars:
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 4w5 
+mbti: ENFP
+sun_sign: Scorpio
 moon_sign: 
 rising_sign: 
 
