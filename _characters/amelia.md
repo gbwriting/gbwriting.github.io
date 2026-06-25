@@ -35,9 +35,9 @@ scars:
 features: 
 
 love_language: 
-enneagram: 
-mbti: 
-sun_sign: 
+enneagram: 4w3
+mbti: ISFP
+sun_sign: Libra
 moon_sign: 
 rising_sign: 
 
