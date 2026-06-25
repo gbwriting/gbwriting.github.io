@@ -67,8 +67,8 @@ siblings: |
   Harper Aldersley - Sister<br>
   Jo Darcey - Sister<br>
   Quinton Carter - Brother (deceased)
-children: |h
-  Sioban Brandon - Daughter<br>
+children: |
+  Siobahn Brandon - Daughter<br>
   Riley Brandon - Daughter<br>
   Waverly Vanderbilt - Daughter
 other_family: |
