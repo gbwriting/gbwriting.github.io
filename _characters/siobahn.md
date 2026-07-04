@@ -22,7 +22,7 @@ species: Were
 weretype: Leopard
 hometown: New York City
 current_location: New York City 
-occupation: Public Relations Manager
+occupation: Human Resources Manager
 
 hair_color: Light Brown
 eye_color: Blue
