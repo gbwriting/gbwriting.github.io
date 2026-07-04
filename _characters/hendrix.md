@@ -19,8 +19,8 @@ birth_date: "1838-07-31"
 zodiac: Leo
 
 species: Fae
-hometown: Sussex, UK
-current_location: Sussex, UK
+hometown: Petworth, West Sussex, UK
+current_location: Petworth, West Sussex, UK
 occupation: Artist | Photographer
 
 hair_color: Dark Brown
