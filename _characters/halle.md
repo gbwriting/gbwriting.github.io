@@ -26,7 +26,7 @@ occupation: Student | Stripper
 hair_color: Brown (Naturally)
 eye_color: Brown
 height: 5'3"
-scent: 
+scent: Pine | White Musk | Vetiver
 piercings: |
   Belly Button<br>
   Nipples<br>
@@ -39,20 +39,101 @@ love_language:
 enneagram: 6w5
 mbti: ISTJ
 sun_sign: Taurus
-moon_sign: 
-rising_sign: 
+moon_sign: Capricorn
+rising_sign: Scorpio
 
 positive_traits: |
+  Disciplined<br>
+  Intelligent<br>
+  Dependable<br>
+  Observant<br>
+  Resourceful<br>
+  Courageous<br>
+  Practical<br>
+  Self-sufficient<br>
+  Calm under pressure<br>
+  Honest<br>
+  Responsible<br>
+  Determined<br>
+  Financially responsible<br>
+  Detail-oriented<br>
+  Quietly compassionate<br>
+  Creative
   
 negative_traits: |
+  Hyper-independent<br>
+  Slow to trust<br>
+  Emotionally guarded<br>
+  Stubborn<br>
+  Suspicious of others' motives<br>
+  Overworks herself<br>
+  Rarely asks for help<br>
+  Can seem emotionally distant<br>
+  Has difficulty relaxing<br>
+  Pessimistic when stressed<br>
+  Internalizes guilt<br>
+  Avoids vulnerability<br>
+  Overthinks<br>
+  Mistakes self-reliance for strength when support would help<br>
+  Finds it difficult to forgive herself
   
 quirks: |
+  Double-checks doors are locked without thinking<br>
+  Keeps meticulous spreadsheets<br>
+  Always sits where she can see the entrance and exit to a room<br>
+  Carries a small multitool in her bag<br>
+  Rolls sleeves of hoodies or sweaters over her hands when she's tired<br>
+  Keeps multiple backups of important files<br>
+  Watches people's hands when they're talking<br>
+  Solves coding problems in her head while commuting<br>
+  Keeps snacks in her bag<br>
+  Doesn't like wasting food<br>
+  Rarely raises her voice<br>
+  Cleans when she's overwhelmed/stressed<br>
+  Sleeps with a fan running, regardless of season<br>
+  Has notebooks filled with poetry she's secretly written
   
 fears: |
+  Depending on someone who could hurt her<br>
+  Losing the independence she fought to build<br>
+  Being powerless<br>
+  Being unable to protect herself<br>
+  Failing after so much sacrifice<br>
+  Having her past define her future<br>
+  Financial instability<br>
+  Large, chaotic crowds<br>
+  Feeling physically trapped with no clear exits
   
 likes: |
+  Well-written code<br>
+  Mechanical keyboards<br>
+  Chess<br>
+  True crime podcasts<br>
+  Hoodies<br>
+  Thunderstorms<br>
+  Minimalist apartments<br>
+  Dark chocolate<br>
+  High-quality headphones<br>
+  Solving difficult problems<br>
+  Sunrises after a late shift<br>
+  Casual sex<br>
+  Late night burgers<br>
+  Alani, specifically orange creamsicle flavor<br>
+  Music<br>
+  Playing guitar (self taught)<br>
+  Writing poetry/songs (a secret no one knows)
   
 dislikes: |
+  Being underestimated<br>
+  People invading her personal space<br>
+  Manipulation<br>
+  Gossip<br>
+  Being touched unexpectedly<br>
+  People who mistake kindness for weakness<br>
+  Feeling indebted to others<br>
+  People looking over her shoulder while she's coding<br>
+  Anyone who assumes they know her after one conversation<br>
+  Clingy people
   
 personality_other: |
 
