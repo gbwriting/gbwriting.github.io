@@ -26,7 +26,7 @@ occupation: Singer | Guitarist | Bartender | Record Store Clerk
 hair_color: Dark Brown 
 eye_color: Brown
 height: 5'7"
-scent: 
+scent: Cedarwood | Cloves | Patchouli
 piercings: |
   Ears - 3 Each<br>
   Nipples
@@ -34,24 +34,124 @@ tattoos: Various Tattoos
 scars: 
 features: Will occasionally dye her hair blonde or auburn
 
-love_language: 
+love_language: Acts of Service | Physical Touch
 enneagram: 7w8 
 mbti: ENFP
 sun_sign: Scorpio
-moon_sign: 
-rising_sign: 
+moon_sign: Sagittarius
+rising_sign: Aries
 
 positive_traits: |
+  Charismatic<br>
+  Adventurous<br>
+  Loyal<br>
+  Brave<br>
+  Protective<br>
+  Creative<br>
+  Funny<br>
+  Adaptable<br>
+  Honest<br>
+  Passionate<br>
+  Independent<br>
+  Resourceful<br>
+  Quick-witted<br>
+  Fearless under pressure<br>
+  Playful<br>
+  Resilient
   
 negative_traits: |
+  Hyper-independent<br>
+  Avoids vulnerability<br>
+  Restless<br>
+  Impulsive<br>
+  Can self-sabotage relationships<br>
+  Uses humor to deflect emotions<br>
+  Doesn't know when to slow down<br>
+  Bottles up grief<br>
+  Stubborn<br>
+  Struggles to trust romantic partners fully (if she gets a romantic partner)<br>
+  Reckless<br>
+  Difficulty asking for help<br>
+  Pushes people away before they can leave<br>
+  Emotionally inconsistent<br>
+  Avoids difficult conversations<br>
+  Trouble sitting still with painful feelings<br>
+  Can come across as flippant when they're overwhelmed
   
 quirks: |
+  Constantly tapping rhythms<br>
+  Has a guitar pick in nearly every jacket pocket<br>
+  Hums without realizing it<br>
+  Sleeps with music playing quietly<br>
+  Always happy/willing to cuddle Nyx<br>
+  Infectious laugh<br>
+  Sings while stocking records<br>
+  Always has chipped nail polish<br>
+  Collects band tees<br>
+  Climbs onto countertops and tables instead of using chairs or step stools<br>
+  Fidgets with rings<br>
+  Automatically stands between their friends and anyone acting aggressively<br>
+  Makes eye contact while performing that feels intensely personal<br>
+  Says, "I got it," before anyone can offer help<br>
+  Gives the best hugs - only initiates them with people they deeply trust<br>
+  Always the last one to leave after helping clean up<br>
+  Keeps old concert/festival wristbands or lanyards in a box under the bed
   
 fears: |
+  Being dependent on someone<br>
+  Losing Dylan<br>
+  Losing Nyx<br>
+  Losing her found family<br>
+  Becoming a burden<br>
+  Someone discovering the truth about Mariah<br>
+  Letting the people they love down<br>
+  Silence after an argument<br>
+  Feeling stuck<br>
+  Running out of creative inspiration<br>
+  Hospitals<br>
+  Being alone
   
 likes: |
+  Vinyl records<br>
+  Concerts<br>
+  Tattoos<br>
+  Leather jackets<br>
+  Playing guitar<br>
+  Singing<br>
+  Late-night diners<br>
+  Iced black coffee<br>
+  Whiskey<br>
+  Thrift stores<br>
+  Playing gigs<br>
+  Songwriting<br>
+  Halloween<br>
+  Crowds singing together<br>
+  Rainy nights<br>
+  Vintage guitars<br>
+  Making people laugh<br>
+  Found family<br>
+  Loud music<br>
+  Flirting<br>
+  Sex
   
 dislikes: |
+  Feeling controlled<br>
+  Being pitied<br>
+  Dishonesty<br>
+  Manipulation<br>
+  Emotional games<br>
+  Silence used as punishment<br>
+  Fake people<br>
+  Homophobia<br>
+  Misogyny<br>
+  Rigid schedules<br>
+  Empty promises<br>
+  Rich people pretending to understand poverty<br>
+  Being told to "calm down"<br>
+  Condescending attitudes<br>
+  Feeling indebted to someone<br>
+  Hospitals<br>
+  Smell of bleach
   
 personality_other: |
 
