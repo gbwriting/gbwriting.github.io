@@ -20,9 +20,9 @@ birth_date: "2001-04-16"
 zodiac: Aries
 
 species: Fae
-hometown: Sussex, UK
-current_location: Sussex, UK
-occupation: 
+hometown: Petworth, West Sussex, UK
+current_location: Petworth, West Sussex, UK
+occupation: PhD Student
 
 hair_color: Blonde
 eye_color: Blue
@@ -107,11 +107,11 @@ dislikes: |
   
 personality_other: 
 
-education: 
-universities: 
-major: 
-minor: 
-employment: 
+education: BA | MA | PhD - In Progress (2027)
+universities: University of Sussex
+major: English Language & Literature
+minor: Gender Studies
+employment: Student
 
 parents: |
   Jo Darcey - Mother<br>
@@ -171,8 +171,8 @@ abilities:
 
 <h3>College</h3>
 
-* thing
+* <a href="https://www.sussex.ac.uk/study/undergraduate/courses/english-language-and-literature-ba-hons">Bachelor's of Arts in English Language & Literature</a>
+* <a href="https://www.sussex.ac.uk/study/masters/courses/english-literature-culture-and-theory-ma">Master's of Arts in English Literature & Theory</a>
+* <a href="https://www.sussex.ac.uk/study/phd/degrees/english-phd">PhD in English - Expected Graduation May 2027</a>
 
-<h3>Adult Life</h3>
 
-* thing
