@@ -26,7 +26,8 @@ hair_color: Brown
 eye_color: Golden Brown
 height: 5'10"
 scent: Honeysuckle | Spring Water | Willow
-piercings: Ears: 1 each lobe & 1 right helix
+piercings: |
+  Ears - 1 each lobe & 1 right helix
 tattoos: 
 scars: A long scar that goes from the middle of her torso around to her hip - an injury from an iron blade. 
 features: 
