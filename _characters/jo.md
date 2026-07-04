@@ -18,37 +18,131 @@ birthday: March 13th
 zodiac: Pisces
 
 species: Fae
-hometown: Sussex, UK
-current_location: Sussex, UK
+hometown: Petworth, West Sussex, UK
+current_location: Petworth, West Sussex, UK
 occupation: Professor of English
 
 hair_color: Brown
 eye_color: Golden Brown
 height: 5'10"
-scent: 
-piercings: 
+scent: Honeysuckle | Spring Water | Willow
+piercings: Ears: 1 each lobe & 1 right helix
 tattoos: 
 scars: A long scar that goes from the middle of her torso around to her hip - an injury from an iron blade. 
 features: 
 
-love_language: 
+love_language: Quality Time
 enneagram: 5w6
 mbti: ISTJ
 sun_sign: Pisces
-moon_sign: 
-rising_sign: 
+moon_sign: Capricorn
+rising_sign: Virgo
 
 positive_traits: |
+  Wise<br>
+  Patient<br>
+  Loyal<br>
+  Protective<br>
+  Compassionate<br>
+  Intelligent<br>
+  Disciplined<br>
+  Calm<br>
+  Reliable<br>
+  Thoughtful<br>
+  Courageous<br>
+  Observant<br>
+  Honest<br>
+  Emotionally mature<br>
+  Resilient<br>
+  Practical<br>
+  Selfless<br>
+  Deeply devoted
   
 negative_traits: |
+  Bottles up grief<br>
+  Finds it difficult to lean on others<br>
+  Can be emotionally distant while processing pain<br>
+  Stubborn<br>
+  Carries guilt that isn't hers to bear<br>
+  Holds herself to impossibly high standards<br>
+  Rarely prioritizes her own needs<br>
+  Can be overly protective<br>
+  Difficulty letting go<br>
+  Mistakes responsibility for control<br>
+  Slow to forgive herself<br>
+  Quietly pessimistic during periods of loss<br>
+  Believes she should always be the strong one
   
 quirks: |
+  Reads while walking (to everyone else's concern)<br>
+  Always has at least three books in progress<br>
+  Writes notes in the margins of nearly every book she owns<br>
+  Drinks tea at almost the exact same time every day<br>
+  Straightens books absentmindedly<br>
+  Keeps dried flowers pressed between book pages<br>
+  Speaks several languages fluently and occasionally slips between them without realizing it<br>
+  Picky about her pens<br>
+  Remembers obscure historical facts that somehow become relevant<br>
+  Tucks loose hair behind ear while reading<br>
+  Gives books as gifts more often than anything else<br>
+  Keeps every letter Lilly ever wrote<br>
+  Still catches herself setting out two mugs of tea on difficult mornings before quietly putting one away<br>
+  Keeps a journal to document dreams and visions<br>
+  Tends garden with surprising patience<br>
+  Always kisses Piper on the forehead before bed<br>
+  Smiles almost imperceptibly when Eilian walks into a room<br>
+  Has a habit of resting a hand on someone's shoulder when offering reassurance instead of speaking immediately
   
 fears: |
+  Losing Eilian again<br>
+  Losing Piper<br>
+  Failing Amelia<br>
+  Outliving everyone she cares about<br>
+  Becoming emotionally numb<br>
+  Making the wrong decision for her family<br>
+  History repeating itself<br>
+  Watching loved ones carry burdens alone
   
 likes: |
+  Horseback riding<br>
+  Independent bookshops<br>
+  Quiet gardens<br>
+  Freshly brewed tea<br>
+  Classical music<br>
+  Folk music<br>
+  Rain against the window<br>
+  Astronomy<br>
+  Stargazing<br>
+  Homemade bread<br>
+  Museums<br>
+  Chess<br>
+  Poetry<br>
+  Reading<br>
+  Pressed flowers<br>
+  Watching Piper read<br>
+  Seeing Eilian laugh<br>
+  Handwritten letters<br>
+  Running<br>
+  Teaching
   
 dislikes: |
+  Needless violence<br>
+  Arrogance<br>
+  People who underestimate others<br>
+  Carelessness<br>
+  Interrupting someone while they're speaking<br>
+  Books with folded page corners<br>
+  Wasting knowledge<br>
+  Loud, unnecessary arguments<br>
+  Manipulation<br>
+  Hunters<br>
+  Broken promises<br>
+  Seeing people she loves suffer<br>
+  Cruelty disguised as honesty<br>
+  Sensationalism over truth<br>
+  Rushed conversations<br>
+  People dismissing history as irrelevant<br>
+  Cold tea
   
 personality_other: 
 
@@ -56,7 +150,7 @@ education: BA | MA | PhD
 universities: Cambridge & NYU
 major: English | Women's Studies
 minor: History
-employment: Professor of English
+employment: University of Sussex
 
 parents: |
   Oliver Carter - Father (deceased)<br>
