@@ -118,7 +118,9 @@ parents: |
   Lilly Darcey - Mother (deceased)
 siblings: None
 children: None
-other_family: Hendrix Carter - Cousin
+other_family: |
+  Hendrix Carter - Cousin<br>
+  Celia Darcey - Grandmother
 pets: Several horses
 
 relationship_status: Single
