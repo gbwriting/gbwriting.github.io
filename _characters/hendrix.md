@@ -112,7 +112,7 @@ children: None
 other_family: |
   Jo Darcey - Aunt/Mother<br>
   Lilly Darcey - Aunt (deceased)<br>
-  Celia Darcey - Grandmother (deceased)<br>
+  Celia Darcey - Grandmother<br>
   Pippa Darcey - Cousin<br>
   Eilian Aldersley - Aunt<br>
   Amelia Aldersley - Cousin<br>
