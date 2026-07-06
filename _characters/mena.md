@@ -27,7 +27,7 @@ occupation: Actress | Singer | Songwriter
 hair_color: Dark Brown
 eye_color: Brown
 height: 5'9"
-scent: 
+scent: Sea Salt | Sun Warmed Leather | Orange Blossom
 piercings: Ears - 4 Each
 tattoos: |
   Right shoulder: North star<br>
@@ -37,24 +37,105 @@ tattoos: |
 scars: Several in various spots on her body, nearly unnoticeable
 features: 
 
-love_language: 
+love_language: Quality Time
 enneagram: 4w3
 mbti: ENTP
 sun_sign: Scorpio
-moon_sign: 
-rising_sign: 
+moon_sign: Leo
+rising_sign: Gemini
 
 positive_traits: |
+  Charismatic<br>
+  Creative<br>
+  Passionate<br>
+  Loyal<br>
+  Funny<br>
+  Courageous<br>
+  Adaptable<br>
+  Curious<br>
+  Empathetic<br>
+  Optimistic<br>
+  Encouraging<br>
+  Expressive<br>
+  Resourceful<br>
+  Determined<br>
+  Playful<br>
+  Adventurous<br>
+  Protective<br>
+  Quick thinker<br>
+  Inspiring
   
 negative_traits: |
+  Impulsive<br>
+  Restless<br>
+  Struggles with self-destructive coping when overwhelmed<br>
+  Stubborn<br>
+  Avoids sitting with painful emotions for too long<br>
+  Can be defensive<br>
+  Overthinks criticism<br>
+  Uses humor to hide hurt<br>
+  Finds it difficult to slow down<br>
+  Reckless<br>
+  Sensitive beneath the confidence<br>
+  Difficulty asking for emotional support<br>
+  Fears stillness because it leaves her with her thoughts
   
 quirks: |
+  Sings without realizing she's doing it<br>
+  Taps out rhythms constantly<br>
+  Never without Diego's watch and dog tags<br>
+  Wears Diego's jackets more often than not<br>
+  Has countless notebooks filled with lyrics<br>
+  Her phone is filled with voice memos of bits of songs or melody ideas<br>
+  Knows every word to Disney songs<br>
+  Tears up during fireworks (especially Disney fireworks)<br>
+  Collects vinyl records<br>
+  Hugs people tightly and a little longer than expected<br>
+  Slips into rapid Spanish when she's worked up
   
 fears: |
+  Losing another person she loves<br>
+  Forgetting Diego's voice<br>
+  Being defined by her worst moments<br>
+  Not living a life Diego would be proud of<br>
+  Losing herself to fame or public expectations<br>
+  Letting fans down<br>
+  Creative burnout<br>
+  Hospitals
   
 likes: |
+  Songwriting<br>
+  Concerts<br>
+  Dancing<br>
+  Flying (in her Were form)<br>
+  Disneyland<br>
+  Motorcycle rides<br>
+  Ocean sunsets<br>
+  Beach bonfires<br>
+  Vinyl records<br>
+  Spicy food<br>
+  Coffee with way too much flavoring<br>
+  Tattoos<br>
+  Fireworks<br>
+  Creating music<br>
+  Creative collaboration<br>
+  Collecting and sending postcards while traveling<br>
+  Conspiracy theories<br>
+  Casual sex
   
 dislikes: |
+  Dishonesty<br>
+  People taking advantage of others<br>
+  Paparazzi crossing boundaries<br>
+  Feeling trapped<br>
+  Being seen as just a Disney girl<br>
+  Empty fame<br>
+  Performative kindness<br>
+  People who mock emotional vulnerability<br>
+  Being told to "get over it"<br>
+  Artists being exploited<br>
+  Anyone disrespecting Diego's memory<br>
+  People getting too close
   
 personality_other: |
 
