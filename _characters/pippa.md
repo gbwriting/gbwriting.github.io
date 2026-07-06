@@ -121,7 +121,9 @@ children: None
 other_family: |
   Hendrix Carter - Cousin<br>
   Celia Darcey - Grandmother
-pets: Several horses
+pets: |
+  Petunia - Horse<br>
+  Several other horses
 
 relationship_status: Single
 partner: 
