@@ -162,7 +162,7 @@ education: BA | MA
 universities: Columbia University
 major: Journalism | Communications
 minor: Creative Writing
-employment: Self-Employed
+employment: Self-Employed - Between The Lines
 
 parents: |
   Marshall Huntington - Father (estranged)<br>
@@ -181,7 +181,7 @@ other_family: |
   Amelia Aldersley<br>
   Reagan Mitchell<br>
   Alice Aldersley
-pets: None
+pets: Kitty Fantastico - Cat 
 
 relationship_status: Single
 partner: 
