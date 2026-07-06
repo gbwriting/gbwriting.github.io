@@ -27,7 +27,7 @@ occupation: Professor of Art
 hair_color: Blonde/Brown
 eye_color: Blue
 height: 5'6"
-scent: 
+scent: Wisteria | Cedar | Petrichor
 piercings: Ears - 3 Each
 tattoos: |
   Left Wrist: Paint brush line art<br>
@@ -35,24 +35,92 @@ tattoos: |
 scars: 
 features: 
 
-love_language: 
+love_language: Quality Time
 enneagram: 4w5 
 mbti: ENFP
 sun_sign: Scorpio
-moon_sign: 
-rising_sign: 
+moon_sign: Pisces
+rising_sign: Aquarius
 
 positive_traits: |
+  Creative<br>
+  Empathetic<br>
+  Curious<br>
+  Thoughtful<br>
+  Imaginative<br>
+  Compassionate<br>
+  Loyal<br>
+  Patient<br>
+  Encouraging<br>
+  Observant<br>
+  Open-minded<br>
+  Intelligent<br>
+  Gentle<br>
+  Insightful<br>
+  Adaptable<br>
+  Authentic<br>
+  Artistic<br>
+  Kind<br>
+  Emotionally intuitive<br>
+  Inspiring teacher
   
 negative_traits: |
+  Overthinks<br>
+  Gets lost in her own thoughts<br>
+  Quietly self-critical<br>
+  Withdraws when overwhelmed<br>
+  Disappears into work or art when stressed<br>
+  Terrible sleeper<br>
+  Argumentative
   
 quirks: |
+  Always has graphite, or paint on her hands<br>
+  Carries a sketchbook everywhere<br>
+  Sketches people in the simplest moments<br>
+  Keeps pressed leaves and notes tucked into journals and sketchbooks<br>
+  Tilts her head when studying something intensely<br>
+  Listens to music while doing any sort of art<br>
+  Leaves encouraging notes on students' projects<br>
+  Stops to photograph beautiful lighting<br>
+  Keeps every piece of art Eden has ever made<br>
+  Absentmindedly traces shapes on Andie's skin while laying in bed<br>
+  Loses track of times while working in her studio<br>
+  Paints with Eden in the studio<br>
+  Smiles softly whenever she catches Andie watching her
   
 fears: |
+  Losing Andie<br>
+  Losing Eden<br>
+  Forgetting her family's faces<br>
+  Not creating work that truly matters<br>
+  Being unable to protect the people she loves<br>
+  Failing her students
   
 likes: |
+  Sketching outdoors<br>
+  Botanical gardens<br>
+  Vinyl records<br>
+  Indie music<br>
+  Bookstores<br>
+  Art stores<br>
+  Autumn<br>
+  Long walks with Andie<br>
+  Family time<br>
+  Watching Eden create anything<br>
+  Andie reading out loud
   
 dislikes: |
+  Cruelty<br>
+  Rushing creativity<br>
+  People dismissing the arts<br>
+  Creative plagiarism<br>
+  Emotional dishonesty<br>
+  Harsh lighting<br>
+  Seeing people discouraged from creating<br>
+  Judgement without understanding<br>
+  Feeling disconnected from loved ones<br>
+  Broken trust<br>
+  White chocolate
   
 personality_other: |
 
