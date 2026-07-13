@@ -1,0 +1,408 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<div class="wiki-page" style="--accent:#7c5cff;">
+  
+  <!-- GLOBAL WIKI TOP DROPDOWN NAVIGATION BAR -->
+  <nav class="wiki-top-nav">
+    <div class="nav-logo">
+      <a href="https://gbwriting.github.io/" class="logo-link">
+        <span class="logo-text">Greenborough Wiki</span>
+      </a>
+    </div>
+
+    <div class="nav-menu-items">
+      <a href="https://gbwriting.github.io/" class="nav-item-link home-link">Home</a>
+
+      <div class="nav-dropdown">
+        <button class="dropbtn">species <span class="arrow">▾</span></button>
+        <div class="dropdown-content">
+          <a href="https://gbwriting.github.io/wiki/species/fae">Fae</a>
+          <a href="https://gbwriting.github.io/wiki/species/human">Humans</a>
+          <a href="https://gbwriting.github.io/wiki/species/hunter">Hunters</a>
+          <a href="https://gbwriting.github.io/wiki/species/were">Weres</a>
+          <a href="https://gbwriting.github.io/wiki/species/witch">Witches</a>
+        </div>
+      </div>
+      
+      <div class="nav-dropdown">
+        <button class="dropbtn">locations <span class="arrow">▾</span></button>
+        <div class="dropdown-content">
+          <a href="#">Sub Link 1</a>
+          <a href="#">Sub Link 2</a>
+        </div>
+      </div>
+
+      <div class="nav-dropdown">
+        <button class="dropbtn">groups <span class="arrow">▾</span></button>
+        <div class="dropdown-content">
+          <a href="#">Sub Link 1</a>
+          <a href="#">Sub Link 2</a>
+          <a href="#">Sub Link 3</a>
+        </div>
+      </div>
+
+      <div class="nav-dropdown">
+        <button class="dropbtn">misc <span class="arrow">▾</span></button>
+        <div class="dropdown-content">
+          <a href="#">Sub Link 1</a>
+        </div>
+      </div>
+
+    
+    </div>
+  </nav>
+
+  <!-- Jekyll will automatically inject your page content here -->
+  {{ content }}
+
+</div>
+
+</body>
+</html>
+
+<style>
+/* ==========================================================================
+   WIKI TEMPLATE CUSTOM STYLES
+   ========================================================================== */
+
+.wiki-page {
+  max-width: 1100px;
+  margin: 40px auto;
+  background: var(--bg1);
+  border-radius: 16px;
+  overflow: visible; /* Fix: changed to visible so dropdowns overflow layout nicely */
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+  padding: 35px;
+}
+  
+.wiki-top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg2);
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo-text {
+  font: 700 14px var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: var(--g5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-menu-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-item-link {
+  color: var(--greytext);
+  text-decoration: none;
+  padding: 8px 14px;
+  font: 700 11px var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.nav-item-link:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.05);
+}
+
+.nav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-dropdown .dropbtn {
+  background: transparent;
+  color: var(--greytext);
+  border: none;
+  padding: 8px 14px;
+  font: 700 11px var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.nav-dropdown .dropbtn .arrow {
+  font-size: 9px;
+  margin-left: 3px;
+  opacity: 0.6;
+}
+
+.nav-dropdown:hover .dropbtn {
+  color: #fff;
+  background: rgba(255,255,255,0.05);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background: #222; 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.5);
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.08);
+  z-index: 10;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  color: var(--greytext);
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font: 400 13px var(--bodyfont);
+  transition: all 0.2s ease;
+}
+
+.dropdown-content a:hover {
+  background: var(--g2);
+  color: #fff;
+}
+
+.nav-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.wiki-header {
+  border-bottom: 2px solid rgba(255,255,255,0.08);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.wiki-category {
+  font: 700 11px var(--smallfont);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: var(--g5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wiki-category a {
+  color: inherit;
+  text-decoration: none;
+  background: inherit;
+  -webkit-background-clip: inherit;
+  -webkit-text-fill-color: inherit;
+  transition: opacity 0.2s ease;
+}
+
+.wiki-category a:hover {
+  opacity: 0.7;
+}
+
+.wiki-header h1 {
+  font: 700 38px var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 25px 0 5px 0;
+}
+
+.wiki-subtitle {
+  font: 400 15px var(--bodyfont);
+  color: var(--greytext);
+  margin: 0;
+  font-style: italic;
+}
+
+.wiki-container {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 35px;
+  align-items: flex-start;
+}
+
+.wiki-content {
+  flex: 1;
+}
+
+.wiki-content p {
+  font: 400 15px/1.7 var(--bodyfont);
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 20px;
+}
+
+.wiki-content h2 {
+  font: 700 22px var(--subtitlefont);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 8px;
+  margin-top: 35px;
+  letter-spacing: 1px;
+}
+
+.wiki-content h2::first-letter {
+  text-transform: uppercase;
+  color: rgb(var(--r1));
+}
+
+.wiki-content h3 {
+  font: 700 16px var(--subtitlefont);
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+  margin-top: 25px;
+  letter-spacing: 1px;
+}
+
+.wiki-content ul, .wiki-content ol {
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.wiki-content li {
+  font: 400 15px var(--bodyfont);
+  margin-bottom: 8px;
+  color: rgba(255,255,255,0.8);
+}
+  
+.wiki-content li strong {
+  color: rgb(var(--r1));
+  text-transform: uppercase;
+}
+
+.wiki-body-image {
+  margin: 25px 0;
+  background: var(--bg2);
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.wiki-body-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+.wiki-body-image .image-caption {
+  display: block;
+  font: 400 12px var(--bodyfont);
+  color: var(--greytext);
+  margin-top: 8px;
+  text-align: center;
+}
+
+.wiki-infobox {
+  width: 320px;
+  background: var(--bg2);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  position: sticky;
+  top: 20px;
+}
+
+.infobox-header {
+  background: var(--g2);
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.infobox-header h3 {
+  margin: 0;
+  font: 700 16px var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.infobox-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.secondary-box-image {
+  border-top: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  margin: 10px 0;
+}
+
+.infobox-caption {
+  display: block;
+  padding: 8px 12px;
+  font: 400 11px var(--smallfont);
+  color: var(--greytext);
+  background: rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.infobox-data {
+  padding: 10px 0;
+}
+
+.infobox-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  font: 400 13px var(--bodyfont);
+  border-bottom: 1px dotted rgba(255,255,255,0.05);
+}
+
+.infobox-row:last-child {
+  border-bottom: none;
+}
+
+.infobox-row x {
+  font: 700 11px var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: var(--g5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 40%;
+}
+
+.infobox-row y {
+  width: 60%;
+  text-align: right;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .wiki-container {
+    flex-direction: column;
+  }
+  .wiki-infobox {
+    width: 100%;
+    position: static;
+  }
+}
+</style>
