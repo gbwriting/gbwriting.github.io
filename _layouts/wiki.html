@@ -409,4 +409,58 @@ layout: default
     position: static;
   }
 }
+
+  /* ==========================================================================
+   FULL WIDTH WIKI CONTENT STYLES
+   ========================================================================== */
+
+.wiki-full-content {
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* Inherit styling rules exactly from the split content layout */
+.wiki-full-content p {
+  font: 400 15px/1.7 var(--bodyfont);
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 20px;
+}
+
+.wiki-full-content h2 {
+  font: 700 22px var(--subtitlefont);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 8px;
+  margin-top: 35px;
+  letter-spacing: 1px;
+}
+
+.wiki-full-content h2::first-letter {
+  text-transform: uppercase;
+  color: rgb(var(--r1));
+}
+
+.wiki-full-content h3 {
+  font: 700 16px var(--subtitlefont);
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+  margin-top: 25px;
+  letter-spacing: 1px;
+}
+
+.wiki-full-content ul, .wiki-full-content ol {
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.wiki-full-content li {
+  font: 400 15px var(--bodyfont);
+  margin-bottom: 8px;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.8);
+}
+
+.wiki-full-content li strong {
+  color: rgb(var(--r1));
+  text-transform: uppercase;
+}
 </style>
