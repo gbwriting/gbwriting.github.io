@@ -5,6 +5,9 @@ collections:
   characters:
     output: true
     permalink: /characters/:name/
+  stories:
+    output: true
+    permalink: /stories/:path/
 
 defaults:
   - scope:
@@ -12,3 +15,8 @@ defaults:
       type: "characters"
     values:
       layout: character
+  - scope:
+      path: ""
+      type: "stories"
+    values:
+      layout: story
