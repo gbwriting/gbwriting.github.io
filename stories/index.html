@@ -1,152 +1,226 @@
 ---
-layout: archive
-title: Story Archives
+layout: default
+title: Story Archive
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Story Archive</title>
+</head>
+<body>
 
-<div class="directory-header">
-  <h1>Writing Archives</h1>
-  <p>A catalog of short stories, logs, and historical records set in Greenborough.</p>
-</div>
+<div class="archive-page">
+  
+  <header class="archive-header">
+    <h1>Story <x>Archive</x></h1>
+    <p>A collection of written works, short fiction, and character logs.</p>
+  </header>
 
-<!-- AUTO-GENERATING STORY CARD GRID -->
-<div class="story-grid">
-  {% assign stories = site.pages | where: "type", "story" | sort: "date" | reverse %}
-  {% for story in stories %}
-    <article class="story-card">
-      <div class="card-top">
-        <span class="genre-pill">{{ story.genre | default: "Lore" }}</span>
-        <time class="story-date">{{ story.date | date: "%b %d, %Y" }}</time>
+  <main class="archive-grid">
+    {% for story in site.stories %}
+    <article class="archive-card">
+      <div class="card-cover">
+        <img src="{{ story.cover | default: 'https://placehold.co/400x500' }}" alt="{{ story.title }}">
       </div>
+      
+      <div class="card-details">
+        <h2><a href="{{ story.url }}">{{ story.title }}</a></h2>
+        
+        <div class="card-meta">
+          {% if story.word_count %}<span><y>Words:</y> {{ story.word_count }}</span>{% endif %}
+          {% if story.rating %}<span><y>Rating:</y> {{ story.rating }}</span>{% endif %}
+        </div>
 
-      <h2 class="card-title">
-        <a href="{{ story.url }}">{{ story.title }}</a>
-      </h2>
+        {% if story.summary %}
+        <p class="card-summary">{{ story.summary }}</p>
+        {% endif %}
 
-      <p class="card-summary">
-        {{ story.summary | default: "Click to read this entry..." }}
-      </p>
+        {% if story.tags %}
+        <div class="card-tags">
+          {% for tag in story.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
 
-      <div class="card-bottom">
-        <span class="author-name">By {{ story.author | default: "Anonymous" }}</span>
-        <a href="{{ story.url }}" class="read-btn">Read Tale →</a>
+        <a href="{{ story.url }}" class="read-btn">Read Story &rarr;</a>
       </div>
     </article>
-  {% endfor %}
+    {% endfor %}
+  </main>
+
 </div>
 
 <style>
-.directory-header {
-  margin-bottom: 35px;
+/* MAIN CONTAINER */
+.archive-page {
+  max-width: 1100px;
+  margin: 40px auto;
+  background: var(--bg1);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+}
+
+/* ARCHIVE HEADER */
+.archive-header {
+  padding: 30px;
+  background: var(--g2);
   border-bottom: 1px solid rgba(255,255,255,0.08);
-  padding-bottom: 20px;
 }
 
-.directory-header h1 {
-  font: 700 36px var(--subtitlefont, sans-serif);
+.archive-header h1 {
+  font: 700 36px var(--subtitlefont);
   text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #fff;
-  margin: 0 0 8px 0;
+  letter-spacing: 4px;
+  margin: 0 0 10px 0;
 }
 
-.directory-header p {
-  font-size: 15px;
-  color: var(--greytext, #8a8a9e);
+.archive-header h1 x {
+  background: var(--g5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.archive-header p {
   margin: 0;
+  font: 400 14px var(--bodyfont);
+  color: var(--greytext);
 }
 
-.story-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 24px;
-}
-
-.story-card {
-  background: #14141c;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 12px;
-  padding: 24px;
+/* ARCHIVE GRID & CARDS */
+.archive-grid {
+  padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  gap: 20px;
 }
 
-.story-card:hover {
-  transform: translateY(-4px);
-  border-color: #7c5cff;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
-}
-
-.card-top {
+.archive-card {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 14px;
+  gap: 20px;
+  background: var(--g1);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.2s ease;
 }
 
-.genre-pill {
-  background: rgba(124, 92, 255, 0.15);
-  color: #a38cff;
-  font: 700 10px var(--subtitlefont, sans-serif);
+.archive-card:hover {
+  transform: translateY(-2px);
+}
+
+.card-cover img {
+  width: 140px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.card-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-details h2 {
+  margin: 0 0 8px 0;
+  font: 700 20px var(--subtitlefont);
   text-transform: uppercase;
-  letter-spacing: 1.2px;
-  padding: 4px 10px;
-  border-radius: 20px;
-  border: 1px solid rgba(124, 92, 255, 0.3);
+  letter-spacing: 2px;
 }
 
-.story-date {
-  font-size: 12px;
-  color: var(--greytext, #8a8a9e);
-}
-
-.card-title {
-  font: 700 20px var(--subtitlefont, sans-serif);
-  margin: 0 0 12px 0;
-  line-height: 1.3;
-}
-
-.card-title a {
-  color: #fff;
+.card-details h2 a {
+  color: var(--whitetext);
   text-decoration: none;
-  transition: color 0.2s ease;
 }
 
-.card-title a:hover {
-  color: #7c5cff;
+.card-details h2 a:hover {
+  background: var(--g5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-meta {
+  display: flex;
+  gap: 15px;
+  font: 500 12px var(--smallfont);
+  margin-bottom: 12px;
+  color: var(--greytext);
+}
+
+.card-meta y {
+  color: var(--whitetext);
+  text-transform: uppercase;
 }
 
 .card-summary {
-  font-size: 14px;
-  line-height: 1.6;
-  color: rgba(255, 255, 255, 0.7);
-  margin: 0 0 20px 0;
+  font: 400 13px/1.5 var(--bodyfont);
+  color: var(--greytext);
+  margin: 0 0 15px 0;
   flex-grow: 1;
 }
 
-.card-bottom {
+.card-tags {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 14px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-  font-size: 12px;
+  gap: 8px;
+  margin-bottom: 15px;
 }
 
-.author-name {
-  color: var(--greytext, #8a8a9e);
+.tag {
+  background: var(--bg1);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font: 500 10px var(--smallfont);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--greytext);
+  border: 1px solid rgba(255,255,255,0.05);
 }
 
 .read-btn {
-  color: #7c5cff;
-  text-decoration: none;
-  font-weight: 700;
+  align-self: flex-start;
+  font: 700 12px var(--subtitlefont);
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: var(--whitetext);
+  text-decoration: none;
+  background: var(--bg1);
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: background 0.2s;
 }
 
 .read-btn:hover {
-  text-decoration: underline;
+  background: var(--g3);
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  .archive-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-cover img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
+
+  .card-details {
+    align-items: center;
+  }
+
+  .card-tags {
+    justify-content: center;
+  }
 }
 </style>
+
+</body>
+</html>
