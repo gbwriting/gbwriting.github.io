@@ -53,10 +53,10 @@ layout: default
         {% endif %}
       </div>
 
-      {% if page.date %}
+      {% if page.date_written %}
         <div class="info-box">
           <y>Date Written</y>
-          <z>{{ page.date }}</z>
+          <z>{{ page.date_written }}</z>
         </div>
         {% endif %}
 
@@ -190,10 +190,14 @@ layout: default
 }
 
 .story-summary-box p {
-  margin: 0;
-  font: 700 14px var(--subtitlefont);
   line-height: 1.5;
-  color: var(--greytext);
+   font: 700 14px var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: var(--g5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 4px;
 }
 
 /* READING CONTENT AREA */
