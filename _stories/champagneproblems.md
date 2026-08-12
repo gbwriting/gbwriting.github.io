@@ -10,6 +10,7 @@ summary: "This short story was originally written for a short story challenge in
 characters:
   - "Piper"
   - "Noah"
+  - "Riley"
 tags:
   - Short Story
   - 31 Stories
