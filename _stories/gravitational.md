@@ -8,7 +8,9 @@ word_count: "2,597"
 date_written: "January 2023"
 summary: "While walking home from school, teenage Reagan Mitchell is forced to use her gravity abilities to save Dominic's 5 year old sister, Adria, from getting struck by a speeding car. But after realizing that he was the one who intentionally shoved the child into danger, Reagan is forced to realize that there is a darker side to one of her closest friends. "
 characters:
-  - "Character"
+  - "Reagan"
+  - "Adria"
+  - "Dominic"
 tags:
   - Short Story
   - 31 Stories
