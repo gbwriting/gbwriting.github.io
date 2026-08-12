@@ -3,7 +3,7 @@ layout: story
 title: "Would've, Could've, Should've"
 subtitle: "A Greenborough Short Story"
 author: "Kaci"
-cover: "https://i.pinimg.com/1200x/0c/95/d2/0c95d270e2b88fae23b35ec1919e729d.jpg"
+cover: "https://i.pinimg.com/736x/31/ed/2b/31ed2b023b22a53e40b99eba4724b737.jpg"
 word_count: "2,477"
 date_written: "January 2023"
 summary: "Only 14 years old, Wren Dubois endures severe emotional and physical abuse from her cruel older brother, August. Her only salvation is Dominic, a 26 year old resident of the Manor who positions himself as both her savior and her protector. But when Dominic's comfort starts shifting to something far more predatory, Wren learns how far she'll go to hold onto the only love she's ever known."
