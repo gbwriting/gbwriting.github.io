@@ -6,7 +6,7 @@ author: "Kaci"
 cover: "https://i.pinimg.com/1200x/0c/95/d2/0c95d270e2b88fae23b35ec1919e729d.jpg"
 word_count: "2,477"
 rating: "Mature"
-date: "January 2023"
+date_written: "January 2023"
 perspective: "Wren"
 summary: "This short story was originally written for a short story challenge in January 2023. It reflects an older version of Greenborough and not our current lore."
 characters:
