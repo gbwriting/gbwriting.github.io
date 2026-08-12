@@ -6,7 +6,7 @@ author: "Sarah"
 cover: "https://i.pinimg.com/736x/41/cd/81/41cd81cd14090be25c1d512c58336274.jpg"
 word_count: "1,300"
 date_written: "January 2023"
-summary: "Devastated after discovering Eilian accepted Jackson's betrayal, Josephine hides in her twin brother's home. Hiding just out of sight, Josephine breaks as she hears Eilian tell Quinton that she'll go through with the marriage."
+summary: "Devastated after discovering Eilian accepted Jackson's betrothal, Josephine hides in her twin brother's home. Hiding just out of sight, Josephine breaks as she hears Eilian tell Quinton that she'll go through with the marriage."
 characters:
   - "Josephine"
 tags:
