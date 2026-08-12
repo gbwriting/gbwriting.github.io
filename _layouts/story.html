@@ -38,10 +38,10 @@ layout: default
         </div>
         {% endif %}
 
-        {% if page.rating %}
+        {% if page.perspective %}
         <div class="info-box">
-          <y>Rating</y>
-          <z>{{ page.rating }}</z>
+          <y>Character Perspective</y>
+          <z>{{ page.perspective }}</z>
         </div>
         {% endif %}
 
@@ -52,6 +52,20 @@ layout: default
         </div>
         {% endif %}
       </div>
+
+      {% if page.date %}
+        <div class="info-box">
+          <y>Date Written</y>
+          <z>{{ page.date }}</z>
+        </div>
+        {% endif %}
+
+      {% if page.rating %}
+        <div class="info-box">
+          <y>Rating</y>
+          <z>{{ page.rating }}</z>
+        </div>
+        {% endif %}
 
       {% if page.summary %}
       <div class="story-summary-box">
@@ -143,7 +157,7 @@ layout: default
 }
 
 .info-box y {
-  font: 500 10px var(--smallfont);
+  font: 500 11px var(--smallfont);
   text-transform: uppercase;
   letter-spacing: 1px;
   opacity: 0.8;
@@ -167,19 +181,17 @@ layout: default
 }
 
 .story-summary-box x {
-  font: 700 12px var(--subtitlefont);
+  font: 500 11px var(--smallfont);
   text-transform: uppercase;
   letter-spacing: 1px;
-  background: var(--g5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  opacity: 0.8;
   display: block;
   margin-bottom: 5px;
 }
 
 .story-summary-box p {
   margin: 0;
-  font: 400 13px var(--bodyfont);
+  font: 700 14px var(--subtitlefont);
   line-height: 1.5;
   color: var(--greytext);
 }
