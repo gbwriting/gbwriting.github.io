@@ -1,0 +1,131 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | Greenborough Archives</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="archive-body">
+
+<div class="archive-wrapper">
+
+  <!-- TOP BRANDING BAR -->
+  <header class="archive-nav">
+    <div class="archive-logo">
+      <a href="https://gbwriting.github.io/">
+        <span class="logo-badge">ARCHIVE</span>
+        <span class="logo-title">Greenborough Library</span>
+      </a>
+    </div>
+
+    <nav class="archive-menu">
+      <a href="https://gbwriting.github.io/" class="archive-nav-link">Wiki Home</a>
+      <a href="/stories" class="archive-nav-link active">All Stories</a>
+    </nav>
+  </header>
+
+  <!-- MAIN ARCHIVE INDEX CONTENT -->
+  <main class="archive-main">
+    {{ content }}
+  </main>
+
+  <footer class="archive-footer">
+    <p>&copy; Greenborough Archives. All rights reserved.</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
+
+<style>
+/* ==========================================================================
+   STANDALONE ARCHIVE LAYOUT STYLES
+   ========================================================================== */
+
+.archive-body {
+  background: #0d0d11;
+  color: rgba(255, 255, 255, 0.88);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: var(--bodyfont, system-ui, -apple-system, sans-serif);
+}
+
+.archive-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px 60px 20px;
+}
+
+/* TOP NAVIGATION BAR */
+.archive-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background: #14141c;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.archive-logo a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.logo-badge {
+  background: #7c5cff;
+  color: #fff;
+  font: 700 10px var(--subtitlefont, sans-serif);
+  padding: 3px 8px;
+  border-radius: 4px;
+  letter-spacing: 1.5px;
+}
+
+.logo-title {
+  font: 700 16px var(--subtitlefont, sans-serif);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.archive-menu {
+  display: flex;
+  gap: 15px;
+}
+
+.archive-nav-link {
+  color: var(--greytext, #8a8a9e);
+  text-decoration: none;
+  font: 700 12px var(--subtitlefont, sans-serif);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.archive-nav-link:hover,
+.archive-nav-link.active {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.archive-footer {
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 12px;
+  color: var(--greytext, #8a8a9e);
+}
+</style>
