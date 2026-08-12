@@ -38,10 +38,10 @@ layout: default
         </div>
         {% endif %}
 
-        {% if page.perspective %}
+        {% if page.date_written %}
         <div class="info-box">
-          <y>Character Perspective</y>
-          <z>{{ page.perspective }}</z>
+          <y>Date Written</y>
+          <z>{{ page.date_written }}</z>
         </div>
         {% endif %}
 
@@ -52,20 +52,6 @@ layout: default
         </div>
         {% endif %}
       </div>
-
-      {% if page.date_written %}
-        <div class="info-box">
-          <y>Date Written</y>
-          <z>{{ page.date_written }}</z>
-        </div>
-        {% endif %}
-
-      {% if page.rating %}
-        <div class="info-box">
-          <y>Rating</y>
-          <z>{{ page.rating }}</z>
-        </div>
-        {% endif %}
 
       {% if page.summary %}
       <div class="story-summary-box">
@@ -190,9 +176,7 @@ layout: default
 }
 
 .story-summary-box p {
-  line-height: 1.5;
    font: 700 14px var(--subtitlefont);
-  text-transform: uppercase;
   letter-spacing: 0.5px;
   background: var(--g5);
   -webkit-background-clip: text;
