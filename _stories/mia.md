@@ -4,7 +4,7 @@ title: "Protecting Mia"
 subtitle: "A Greenborough Short Story"
 author: "Kaci"
 cover: "https://i.pinimg.com/736x/00/fa/01/00fa01333ec50c3e16aeff4f2c1160cd.jpg"
-word_count: "##"
+word_count: "3,104"
 date_written: "January 2023"
 summary: "Determined to protect her newborn niece from her drug-addicted sister, Tessa faces an agonizing wait outside the NICU to see the baby. Despite her sister's anger, Tessa vows to fight through for custody to provide her niece a safe home. "
 characters:
