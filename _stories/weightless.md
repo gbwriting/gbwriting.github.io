@@ -8,7 +8,7 @@ word_count: "2,230"
 date_written: "January 2023"
 summary: "Freshly discharged from a treatment facility for her eating disorder, 15 year old Brooklyn Acardi returns to her emotionally neglectful parents and their nomadic life on a renovated school bus. When she immediately faces pressure from her toxic mother to lose the weight she gained in recovery, Brooklyn gives up on her own healing and falls straight back into dangerous habits to gain her mother's love in the only way she knows how. "
 characters:
-  - "Character"
+  - "Brooklyn"
 tags:
   - Short Story
   - 31 Stories
