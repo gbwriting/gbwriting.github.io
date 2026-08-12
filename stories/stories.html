@@ -1,0 +1,152 @@
+---
+layout: archive
+title: Story Archives
+---
+
+<div class="directory-header">
+  <h1>Writing Archives</h1>
+  <p>A catalog of short stories, logs, and historical records set in Greenborough.</p>
+</div>
+
+<!-- AUTO-GENERATING STORY CARD GRID -->
+<div class="story-grid">
+  {% assign stories = site.pages | where: "type", "story" | sort: "date" | reverse %}
+  {% for story in stories %}
+    <article class="story-card">
+      <div class="card-top">
+        <span class="genre-pill">{{ story.genre | default: "Lore" }}</span>
+        <time class="story-date">{{ story.date | date: "%b %d, %Y" }}</time>
+      </div>
+
+      <h2 class="card-title">
+        <a href="{{ story.url }}">{{ story.title }}</a>
+      </h2>
+
+      <p class="card-summary">
+        {{ story.summary | default: "Click to read this entry..." }}
+      </p>
+
+      <div class="card-bottom">
+        <span class="author-name">By {{ story.author | default: "Anonymous" }}</span>
+        <a href="{{ story.url }}" class="read-btn">Read Tale →</a>
+      </div>
+    </article>
+  {% endfor %}
+</div>
+
+<style>
+.directory-header {
+  margin-bottom: 35px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding-bottom: 20px;
+}
+
+.directory-header h1 {
+  font: 700 36px var(--subtitlefont, sans-serif);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  margin: 0 0 8px 0;
+}
+
+.directory-header p {
+  font-size: 15px;
+  color: var(--greytext, #8a8a9e);
+  margin: 0;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.story-card {
+  background: #14141c;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.story-card:hover {
+  transform: translateY(-4px);
+  border-color: #7c5cff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.genre-pill {
+  background: rgba(124, 92, 255, 0.15);
+  color: #a38cff;
+  font: 700 10px var(--subtitlefont, sans-serif);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(124, 92, 255, 0.3);
+}
+
+.story-date {
+  font-size: 12px;
+  color: var(--greytext, #8a8a9e);
+}
+
+.card-title {
+  font: 700 20px var(--subtitlefont, sans-serif);
+  margin: 0 0 12px 0;
+  line-height: 1.3;
+}
+
+.card-title a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.card-title a:hover {
+  color: #7c5cff;
+}
+
+.card-summary {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 20px 0;
+  flex-grow: 1;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 12px;
+}
+
+.author-name {
+  color: var(--greytext, #8a8a9e);
+}
+
+.read-btn {
+  color: #7c5cff;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.read-btn:hover {
+  text-decoration: underline;
+}
+</style>
