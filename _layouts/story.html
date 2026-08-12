@@ -190,7 +190,7 @@ layout: default
 }
 
 .story-reader {
-  background: var(--bg1);
+  background: var(--bg2);
   padding: 35px 40px;
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,0.06);
@@ -214,6 +214,38 @@ layout: default
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 30px 0 15px 0;
+}
+
+/* CENTERED ALT QUOTE STYLING */
+.story-reader blockquote.quote-alt {
+  margin: 35px auto;
+  padding: 20px 25px;
+  max-width: 450px;
+  text-align: center;
+  background: var(--g1);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.story-reader blockquote.quote-alt p {
+  margin: 0 0 6px 0;
+  font: 500 14px var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--greytext);
+}
+
+.story-reader blockquote.quote-alt p:last-child {
+  margin-bottom: 0;
+}
+
+.story-reader blockquote.quote-alt strong {
+  font: 700 18px var(--subtitlefont);
+  letter-spacing: 3px;
+  background: var(--g5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .story-footer {
@@ -251,6 +283,10 @@ layout: default
 
   .story-grid-meta {
     grid-template-columns: 1fr;
+  }
+
+  .story-reader blockquote.quote-alt {
+    max-width: 100%;
   }
 }
 </style>
