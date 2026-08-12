@@ -8,7 +8,9 @@ word_count: "2,597"
 date_written: "January 2023"
 summary: "Forbidden by hospital policy to see her girlfriend's daughter after a suicide attempt, Celeste faces an agonizing wait to see the girl she's raised as her own. Fortunately for her, Fae Queen Elyse Aldersley uses her authority to break through the red tape and reunite mother and daughter. "
 characters:
-  - "Character"
+  - "Celeste"
+  - "Elyse"
+  - "Reagan"
 tags:
   - Short Story
   - 31 Stories
