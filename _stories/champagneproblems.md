@@ -6,7 +6,7 @@ author: "Kaci"
 cover: "https://i.pinimg.com/736x/c3/b7/65/c3b765c5c9630a20d39a975e52132e4b.jpg"
 word_count: "6,080"
 date_written: "January 2023"
-summary: "This short story was originally written for a short story challenge in January 2023. It reflects an older version of Greenborough and not our current lore."
+summary: "At 18 years old, Piper Aldersley is ready to end her failing long distance relationship with her boyfriend, Noah Huntington, right after her family's annual charity ball. But when he drops to one knee in front of hundreds of people, Piper's idea of a quiet, private breakup twists into a public spectacle."
 characters:
   - "Piper"
   - "Noah"
@@ -348,5 +348,40 @@ tags:
 
 <p>“Piper.”</p>
 
-<p>Noah’s green eyes fell on her as he stepped closer to her once more. He took her han</p>
+<p>Noah’s green eyes fell on her as he stepped closer to her once more. He took her hand, and somehow she was smiling even though she was certain one of the <em>many</em> courses of her dinner, burrito included, were about to make a reappearance on his shoes.</p>
 
+<p>“From the very moment that I met you, it seemed as if the very universe made us happen. For so long, I felt like you were completely out of my league. Sometimes, I think you still are.”</p>
+
+<p>Piper heard the collective chuckle from the room. The noise sounded far away. In her ears, her heart pounded. Her chest felt tight, and she wished she could bring herself to look away from him. She wanted her mother, her sister, Jo, Riley, Hendrix, Saoirse… <em>anyone</em> else. Instead, she was hanging on his every word.</p>
+
+<p>“Despite everything, you chose me. In the past three and a half years, you’ve made me believe in true love. You’d be surprised, growing up in Greenborough, but I didn’t believe in magic until the moment we shared our first kiss. With that…”</p>
+
+<p><em>Please don’t, Noah.</em></p>
+
+<p>Another collective gasp followed as Noah knelt on one knee in front of her. He slipped his hand into the pocket of his suit coat and produced a ring box. Her eyes didn’t leave his as he opened it and her gaze fell on the ring he was presenting her with.</p>
+
+<p>In another world, she would have found it beautiful. She recognized it immediately. It was his great-great-grandmother’s ring, after all. It had been passed down the line of the Huntington family for generations. If she had paid attention to dinner at all, she might have noticed it missing from Martha Huntington’s left hand. Once upon a time, Piper had dreamed of the day it would be on her own finger. In that fantasy, she was older and he proposed to her in private, not in front of hundreds of people who seemed to be holding in a collective breath.</p>
+
+<p>“I know we’re young, and I know there are people in this room that think we’d be insane to marry when we have so much time, but I can’t help but look to your sister and Shiloh. I see our love mirrored in them, and I know you’re the person I’m going to grow old with.”</p>
+
+<p>Piper turned her head at the mention of her sister. She found Percy instantly as if she was drawn by a magnet. She was standing beside Shiloh with Alice in her arms. Her brother-in-law’s arm was around Percy’s waist like it belonged there. Percy looked concerned. When their eyes met, Piper swore she saw the <em>slightest</em> shake of her head, though she couldn’t be certain it wasn’t in her head.</p>
+
+<p>“Piper Quinn Aldersley,” Noah’s voice pulled her eyes back to him. “Will you make me the happiest man in the world and be my wife?”</p>
+
+<p>It was her turn to speak. She watched him hand the microphone off to a member of the band, who had stepped forward to collect it. Surely, they expected she would say yes and he would want both hands to hold her close. Instead, Piper was frozen. Every second ticked by like a thousand years. She was aware of <em>every</em> last pair of eyes on her. The flash of a camera caught her attention, though she didn’t look away from his green eyes.</p>
+
+<p>“Piper, did you hear me?” Noah murmured under his breath. “This is the part where you say yes.”</p>
+
+<p><em>But I don’t want to say yes.</em></p>
+
+<p>“Piper.”</p>
+
+<p><em>How could you put me on the spot like this? If you really loved me-</em></p>
+
+<p>“Piper, do you really think they’re going to love you if you say no?”</p>
+
+<p>The words were barely a whisper. They were meant only for her ears. In that moment, everything clicked into place. The conversation at lunch, the desire for photos outside, talking to the reporter, and now the very, very public proposal. He knew she was gone. <em>This</em> was his way of coming out ahead in the breakup. He knew there would be two outcomes to this moment: either she would say yes and he would have what he wanted <em>or</em> she would say no and he would be the heartbroken victim on one knee. He would either end the night engaged to an Aldersley or the poor soul who had his heart broken by one.</p>
+
+<p>With that, Piper looked up to lock eyes with Riley.</p>
+
+<p>And then she tugged on her ear.</p>
