@@ -29,7 +29,7 @@ title: Story Archive
         
         <div class="card-meta">
           {% if story.word_count %}<span><y>Words:</y> {{ story.word_count }}</span>{% endif %}
-          {% if story.rating %}<span><y>Rating:</y> {{ story.rating }}</span>{% endif %}
+          {% if story.author %}<span><y>Written By:</y> {{ story.author }}</span>{% endif %}
         </div>
 
         {% if story.summary %}
@@ -146,7 +146,7 @@ title: Story Archive
 .card-meta {
   display: flex;
   gap: 15px;
-  font: 500 12px var(--smallfont);
+  font: 500 13px var(--smallfont);
   margin-bottom: 12px;
   color: var(--greytext);
 }
@@ -157,7 +157,7 @@ title: Story Archive
 }
 
 .card-summary {
-  font: 400 13px/1.5 var(--bodyfont);
+  font: 400 14px/1.5 var(--bodyfont);
   color: var(--greytext);
   margin: 0 0 15px 0;
   flex-grow: 1;
