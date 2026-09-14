@@ -20,7 +20,7 @@ zodiac: Sagittarius
 
 species: Fae
 hometown: Atlanta, Georgia
-current_location: New York City
+current_location: Greenborough, Oregon
 occupation: Musician | Photographer
 
 hair_color: Dyed Purple (Naturally Blonde)
@@ -105,7 +105,7 @@ education: High School Diploma
 universities: None
 major: None
 minor: None
-employment: Musician | Photographer | Record Store Clerk
+employment: Vinyl Destination
 
 parents: |
   Thomas Montgomery - Father (Estranged)<br>
@@ -163,9 +163,10 @@ abilities:
   
 <h3>NYC:</h3>
 
-* Took a bus to NYC immediately after graduation from high school
+* Took a bus to California immediately after graduation from high school
+* Somehow ended up in Greenborough, Oregon
 * Changed her name formally to Nyx Lydia Bryant, to honor her grandmother
 * Came out as lesbian and non-binary, preferring she/they pronouns, though feels "mostly feminine"
-* Got a job at a record store not long after getting to NYC, where she still works
+* Got a job at a record store not long after getting to Greenborough, where she still works
 * First big purchase was a camera, and she started doing freelance photography
 * Moved in with Frankie and started Echoed Skies
