@@ -20,8 +20,8 @@ birth_date: "1999-11-04"
 zodiac: Scorpio
 
 species: Air Witch
-hometown: New York City 
-current_location: New York City
+hometown: Greenborough, Oregon
+current_location: Greenborough, Oregon
 occupation: Publishing Illustrator
 
 hair_color: Brown
@@ -96,7 +96,7 @@ dislikes: |
 personality_other: 
 
 education: BFA | MFA
-universities: NYU
+universities: Greenborough University
 major: Fine Arts & Graphic Design
 minor: Business
 employment: Publishing Illustrator
@@ -157,7 +157,7 @@ abilities:
 * Moved in with the Brandon's the day she graduated high school
 * But had basically been living there already
 * Her father cut her off as soon as she graduated
-* Went to school at NYU and majored in art
+* Went to school at GU and majored in art
 
 <h3>Adult Life</h3>
 
