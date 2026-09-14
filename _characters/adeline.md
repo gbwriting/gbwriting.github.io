@@ -2,7 +2,7 @@
 layout: character
 
 name: Adeline Hartley
-avatar: [https://d.l3n.co/bXwAZv.png](https://c.l3n.co/bXw7WK.png)
+avatar: https://c.l3n.co/bXw7WK.png
 face_claim: Taylor Swift
 writer: Kaci
 
