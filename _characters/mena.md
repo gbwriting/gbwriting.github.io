@@ -21,7 +21,7 @@ zodiac: Scorpio
 species: Were
 weretype: Red Tailed Hawk
 hometown: San Diego, California
-current_location: San Diego, CA | New York City
+current_location: San Diego, CA | Greenborough, OR
 occupation: Actress | Singer | Songwriter
 
 hair_color: Dark Brown
