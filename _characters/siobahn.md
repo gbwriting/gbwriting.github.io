@@ -20,8 +20,8 @@ zodiac: Capricorn
 
 species: Were
 weretype: Leopard
-hometown: New York City
-current_location: New York City 
+hometown: Greenborough, Oregon
+current_location: Greenborough, Oregon
 occupation: Human Resources Manager
 
 hair_color: Light Brown
@@ -55,7 +55,7 @@ dislikes: |
 personality_other: |
 
 education: BSILR | MILR
-universities: Cornell University School of Industrial and Labor Relations
+universities: Greenborough University
 major: Industrial and Labor Relations - Human Resources
 minor: Sociology
 employment: Aldersley-Brandon Foundation
