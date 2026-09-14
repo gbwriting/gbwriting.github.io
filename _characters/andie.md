@@ -20,7 +20,7 @@ zodiac: Aquarius
 
 species: Fae
 hometown: Chicago, IL
-current_location: New York City
+current_location: Greenborough, Oregon
 occupation: Professor of English Literature
 
 hair_color: Brown
@@ -118,7 +118,7 @@ education: "BA | MSt | DPhil"
 universities: "St. Anne's College - Oxford University"
 major: "English Language & Literature"
 minor: None
-employment: Professor of English Literature 
+employment: Greenborough, University
 
 parents: |
   Elliot Collins - Father<br>
