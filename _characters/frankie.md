@@ -20,7 +20,7 @@ zodiac: Scorpio
 
 species: Fire Witch
 hometown: Asbury Park, New Jersey
-current_location: New York City
+current_location: Greenborough, Oregon
 occupation: Singer | Guitarist | Bartender | Record Store Clerk
 
 hair_color: Dark Brown 
@@ -156,10 +156,10 @@ dislikes: |
 personality_other: |
 
 education: BFA
-universities: NYU
+universities: Greenborough University
 major: Music Production
 minor: Creative Writing
-employment: Singer | Guitarist | Bartender | Record Store Clerk
+employment: Vinyl Destination & Factory 13
 
 parents: |
   Arianna Gallo - Mother (deceased)
@@ -199,3 +199,5 @@ abilities:
 * Frankie also got a job at the record store which was owned by Alex's parents
 * Eventually, the relationship with Mariah ended after 3 years due to Mariah moving - by then Frankie had a decent savings
 * Frankie and Nyx met when Nyx got a job at the record store, they hit it off, and it didn't take long for them to learn about the others' passion for music - then Echoed Skies was formed
+* Was accepted to Greenborough University and made the decision to move and the rest of the family moved with her
+
