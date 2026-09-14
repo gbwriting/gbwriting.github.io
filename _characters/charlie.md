@@ -20,8 +20,8 @@ zodiac: Cancer
 
 species: Were
 weretype: Snow Leopard
-hometown: Medford, Oregon
-current_location: New York City
+hometown: Medford, Oregon | Boston, MA 
+current_location: Greenborough, Oregon
 occupation: Architect
 
 hair_color: Auburn
@@ -176,7 +176,7 @@ While Christopher treated Adria like glass, the same didn’t apply to Charlie. 
 
 Everything changed when Charlie and Adria were fifteen. Charlie doesn’t talk about that night, but Christopher’s abuse took a particularly violent turn that made Michelle finally confess what was happening to her twin brother, Devon. He stepped in immediately, paying for lawyers that helped with custody and gave them refuge in Boston, where he lived. The change was a breath of fresh air for them all – they finally had a fresh start somewhere safe. Adria had incredible doctors in Boston to help with her health, and Charlie finally received the autism diagnosis Christopher refused to let Michelle seek for their daughter. In Boston, things were safe, stable, and normal for the first time in their life.
 
-When it came time for college, there was no question that Adria and Charlie would remain near each other. They researched colleges together, eventually agreeing to move to New York City. They both enrolled in school – Adria to study Marine Biology while Charlie chose to study architecture. Neither of them wanted to live in dorms, instead choosing to live together in a two bedroom apartment near campus. Just as they always had, they supported each other through college and into graduate school.
+When it came time for college, there was no question that Adria and Charlie would remain near each other. They researched colleges together, eventually agreeing to move to Greenborough, Oregon. They both enrolled in school – Adria to study Marine Biology while Charlie chose to study architecture. Neither of them wanted to live in dorms, instead choosing to live together in a two bedroom apartment near campus. Just as they always had, they supported each other through college and into graduate school.
 
 Now, with their degrees complete, neither of them have wanted to move away from each other. They still share an apartment as they’ve progressed into their adult lives and careers. Adria works full time at the aquarium, pursuing her dream career, while Charlie is working the million supervised hours as a junior architect to get fully licensed. It’s busy, sometimes chaotic, but the kind of life that Charlie has always wanted to live – with Adria, her best friend, sister, and other half.
 
