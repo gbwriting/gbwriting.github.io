@@ -19,8 +19,8 @@ birth_date: "2020-06-16"
 zodiac: Gemini
 
 species: Fae
-hometown: New York City
-current_location: 
+hometown: Greenborough, Oregon
+current_location: Greenborough, Oregon
 occupation: Elementary School Student
 
 hair_color: Blonde
