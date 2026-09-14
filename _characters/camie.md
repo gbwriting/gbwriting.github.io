@@ -20,7 +20,7 @@ zodiac: Aquarius
 
 species: Human
 hometown: Malibu, California
-current_location: Malibu | New York City
+current_location: Malibu, CA | NYC | Greenborough, OR
 occupation: Producer | Writer | Advisor
 
 hair_color: Blonde
