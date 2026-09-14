@@ -19,8 +19,8 @@ birth_date: "2000-05-23"
 zodiac: Gemini
 
 species: Human
-hometown: New York City
-current_location: New York City
+hometown: Greenborough, Oregon
+current_location: Greenborough, Oregon
 occupation: Freelance Journalist
 
 hair_color: Brown
@@ -159,7 +159,7 @@ dislikes: |
 personality_other: |
 
 education: BA | MA
-universities: Columbia University
+universities: Greenborough University
 major: Journalism | Communications
 minor: Creative Writing
 employment: Self-Employed - Between The Lines
