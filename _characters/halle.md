@@ -19,8 +19,8 @@ birth_date: "2000-05-13"
 zodiac: Taurus
 
 species: Human
-hometown: Union City, NJ
-current_location: New York City
+hometown: Portland, Oregon
+current_location: Greenborough, Oregon
 occupation: Student | Stripper
 
 hair_color: Brown (Naturally)
@@ -138,9 +138,9 @@ dislikes: |
 personality_other: |
 
 education: BS | MS - In Progress
-universities: 
+universities: Greenborough University
 major: Computer Science
-minor: 
+minor: Creative Writing
 employment: Stripper | Student
 
 parents: Unknown
@@ -160,6 +160,7 @@ past_relationships:
 * Being the smallest at the group home meant she was often picked on by the bigger kids, so she learned how to defend herself
 * One day, she was held down by a group of boys and they took turns beating her before sexually assaulting her
 * She often left the group home to wander and take time for herself, it happened more and more - not that anyone noticed
-* The second she turned 18, she went to a strip club and begged the woman who owned the club to give her a job - she's been working there ever since
+* The second she turned 18, she went to a strip club and begged the woman who owned the club, Vivian Laurent, to give her a job - she's been working there ever since. 
+* There is undeniable tensipn between them, but not because Vivian is trying to seduce Halle. They're two incredibly self-controlled women who understand each other. There are moments where: Vivian adjusts Halle's necklace before she goes on stage. Halle fixes Vivian's cufflinks. Their eyes linger a beat too long - neither comments on it. The attraction exists, but neither acts on it.
 * She is paying her way through school and is determined to make life her own
 * Isn't one for relationships, one-night stands are preferable - though she's found herself in a casual hook-up situation with Charlie
