@@ -21,7 +21,7 @@ zodiac: Virgo
 
 species: Air Witch
 hometown: London, UK
-current_location: New York City
+current_location: Greenborough, Oregon
 occupation: Musician | Audio Engineer
 
 hair_color: Blonde
