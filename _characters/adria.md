@@ -20,7 +20,7 @@ zodiac: Capricorn
 
 species: Water Witch
 hometown: Medford, Oregon
-current_location: Brooklyn, NY
+current_location: Greenborough, Oregon
 occupation: Marine Educator & Public Programs Specialist | Student
 
 hair_color: Golden Brown 
@@ -117,10 +117,10 @@ dislikes: |
 personality_other: 
 
 education: BS | MS | PhD - In Progress
-universities: Cornell University
+universities: Greenborough University
 major: Environmental Science
 minor: Education
-employment: Marine Educator & Public Programs Specialist | Student
+employment: Greenborough Aquarium
 
 parents: Michelle Mackenzie - Mother (adopted)
 siblings: Charlie Mackenzie - Sister 
@@ -175,10 +175,12 @@ abilities:
 * Throughout the years there are many hospital visits because of her heart - it becomes obvious that it's a ticking time bomb
 * One night, Charlie and Adria decide to do a ritual to bind Charlie to Adria as her familiar in an attempt to help give her strength - what they didn't realize is they ended up doing a spell/ritual that was much more powerful
 * When the abuse gets to a boiling point, Michelle finally files for divorce before moving to Boston, MA where her twin brother Devin lived with his adopted daughter Tatum
-* Boston is where Charlie and Adria finish out high school and where the sisters were accepted to Cornell University
+* Boston is where Charlie and Adria finish out high school and where the sisters were accepted to Greenborough University
+
 
 <h3>Now:</h3>
 
+* Moved from Boston to Greenborough for college and is in love with the city and the safety it provides supernaturals
 * Adria still struggles with her heart, forever a time bomb ticking over her head - though she lives her life to the fullest
 * After graduating with her MS she got a job at New York Aquarium as a Marine Educator & Public Programs Specialist while also working towards her doctorate
 * Constantly monitors her heart, but does it in a subtle way - she doesn't want to worry her family
