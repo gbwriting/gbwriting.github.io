@@ -20,7 +20,7 @@ zodiac: Cancer
 
 species: Fae
 hometown: Chicago, IL
-current_location: New York City
+current_location: Greenborough, Oregon
 occupation: Elementary School Student
 
 hair_color: Brown
@@ -127,6 +127,6 @@ abilities:
   - name: "Clairvoyancy"
     info: "the ability to detect abnormalities and entities, sights, and visual sensations outside of normal ranges"
 ---
-Eden was born to Andie and Tamzin Reynolds on July 16th, 2020 in Chicago, Illinois. For the first five years of her life, she lived in the Uptown neighborhood of Chicago with her mothers. In August 2025, Eden and her mothers moved to New York City. 
+Eden was born to Andie and Tamzin Reynolds on July 16th, 2020 in Chicago, Illinois. For the first five years of her life, she lived in the Uptown neighborhood of Chicago with her mothers. In August 2025, Eden and her mothers moved to Greenborough, Oregon. 
 
 Eden's best friend is Alice Aldersley, who she lives near and goes to school with. They are in love. 
