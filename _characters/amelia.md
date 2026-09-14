@@ -19,8 +19,8 @@ birth_date: "1998-10-21"
 zodiac: Libra
 
 species: Fae
-hometown: New York City
-current_location: New York City
+hometown: Greenborough, Oregon
+current_location: Greenborough, Oregon
 occupation: Choreographer | Dancer | Photographer
 
 hair_color: Brown
@@ -156,7 +156,7 @@ dislikes: |
 personality_other: |
 
 education: BFA | MFA
-universities: NYU - Tisch School of Arts
+universities: Greenborough University
 major: Performing Arts - Dance
 minor: Photography
 employment: Choreographer | Dancer | Photographer
