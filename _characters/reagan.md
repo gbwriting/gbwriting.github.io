@@ -20,8 +20,8 @@ birth_date: "1997-08-05"
 zodiac: Leo
 
 species: Earth Witch
-hometown: New York City
-current_location: New York City
+hometown: Greenborough, Oregon
+current_location: Greenborough, Oregon
 occupation: Lawyer | High Priestess
 
 hair_color: Blonde
@@ -101,10 +101,10 @@ dislikes: |
 personality_other: 
 
 education: BA | JD
-universities: Columbia University
+universities: Greenborough University
 major: Political Science
 minor: 
-employment: Lawyer | High Priestess
+employment: Hawthorne Coven
 
 parents: |
   Cordelia Mitchell - Mother<br>
@@ -148,7 +148,7 @@ abilities:
 
 <h3>College</h3>
 
-* Went to Columbia University, where she got her Bachelor's Degree before going to law school
+* Went to Greenborough University, where she got her Bachelor's Degree before going to law school
 * Passed the bar on the first try thanks to Amelia's help studying
 
 <h3>Adult Life</h3>
