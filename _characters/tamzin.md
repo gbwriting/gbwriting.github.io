@@ -21,8 +21,8 @@ zodiac: Scorpio
 species: Fae
 weretype:
 hometown: London, UK
-current_location: New York City
-occupation: Professor of Art
+current_location: Greenborough, Oregon
+occupation: Professor of Art | Head of Art Department
 
 hair_color: Blonde/Brown
 eye_color: Blue
@@ -128,7 +128,7 @@ education: BA | MSt | DPhil
 universities: St. Anne's College - Oxford University
 major: Fine Arts
 minor: English
-employment: Professor of Art
+employment: Greenborough, University
 
 parents: |
   Chastity Reynolds - Mother (deceased)<br>
