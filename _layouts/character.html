@@ -13,7 +13,7 @@ layout: default
 
 <body>
 
-<div class="character-page" style="--accent:#7c5cff;">
+<div class="character-page" data-species="{{ page.species | downcase | slugify }}">
 
 
 
@@ -419,6 +419,63 @@ layout: default
   
   
 <style>
+
+  /*** HUMAN ***/
+
+.character-page[data-species="human"] {
+--r1: 255, 185, 130;
+--r2: 180, 180, 245;
+}
+
+
+/*** FAE ***/
+.character-page[data-species="fae"] {
+--r1: 255, 150, 200;
+--r2: 255, 185, 190;
+}
+
+
+/*** WERE ***/
+.character-page[data-species="were"] {
+--r1: 90, 200, 80;
+--r2: 70, 190, 150;
+}
+
+
+/*** WATER WITCH ***/
+.character-page[data-species="water-witch"] {
+--r1: 120, 210, 190;
+--r2: 60, 180, 200;
+}
+
+
+/*** FIRE WITCH ***/
+.character-page[data-species="fire-witch"] {
+--r1: 255, 94, 77;
+--r2: 255, 145, 50;
+}
+
+
+/*** EARTH WITCH ***/
+.character-page[data-species="earth-witch"] {
+--r1: 143, 230, 75;
+--r2: 60, 120, 65;
+}
+
+
+/*** AIR WITCH ***/
+.character-page[data-species="air-witch"] {
+--r1: 183, 244, 255;
+--r2: 160, 190, 245;
+}
+
+
+/*** HUNTER ***/
+.character-page[data-species="hunter"] {
+--r1: 240, 140, 50;
+--r2: 120, 180, 160;
+}
+
 /* MAIN WRAPPER */
 .character-page {
   max-width: 1100px;
