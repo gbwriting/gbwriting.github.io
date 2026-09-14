@@ -21,7 +21,7 @@ zodiac: Pisces
 species: Were
 weretype: 
 hometown: Boston, MA
-current_location: New York City
+current_location: Greenborough, Oregon
 occupation: Barista | Freelance Photographer
 
 hair_color: Blonde
@@ -55,10 +55,10 @@ dislikes: |
 personality_other: |
 
 education: BFA
-universities: Purchase College, State University of New York
+universities: Greenborough, University
 major: Photography
 minor: Environmental Studies
-employment: Barista | Freelance Photographer
+employment: Deja Brew
 
 parents: Devin Richardson - Father (adopted)
 siblings: None
