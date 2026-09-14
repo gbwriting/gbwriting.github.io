@@ -19,7 +19,7 @@ zodiac: Libra
 
 species: Fae
 hometown: Northern Ireland
-current_location: New York
+current_location: Greenborough, Oregon
 occupation: Coordinator of Events & Outreach
 
 hair_color: Blonde
@@ -138,7 +138,7 @@ dislikes: |
 personality_other: |
 
 education: BA | MA
-universities: 
+universities: Greenborough University
 major: Public Relations | Event Management
 minor: Business Administration
 employment: Aldersley-Brandon Foundation
