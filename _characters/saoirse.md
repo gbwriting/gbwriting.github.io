@@ -20,7 +20,7 @@ zodiac: Leo
 species: Fae
 weretype:
 hometown: Northern Ireland
-current_location: New York City
+current_location: Greenborough, Oregon
 occupation: COO of Aldersley-Brandon Foundation
 
 hair_color: Blonde
@@ -129,7 +129,7 @@ dislikes: |
 personality_other: |
 
 education: BS | MNLM
-universities: Columbia University
+universities: Greenborough University
 major: Nonprofit Management | Nonprofit Leadership
 minor: Communications
 employment: COO of Aldersley-Brandon Foundation
