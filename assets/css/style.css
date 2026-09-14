@@ -28,9 +28,9 @@ html, body {
   --greytext: #ccc;
   --darktext: #555;
 
-  /* Global Default Gradient Base (Soft Pink/Purple) */
-  --r1: 250, 172, 168;
-  --r2: 221, 214, 243;
+  /* Global Default Gradient Base  */
+  --r1: 55, 67, 114;
+  --r2: 196, 184, 216;
   --c1: rgb(var(--r1));
   --c2: rgb(var(--r2));
 
