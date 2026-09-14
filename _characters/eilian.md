@@ -19,7 +19,7 @@ zodiac: Gemini
 
 species: Fae
 hometown: Northern Ireland
-current_location: New York City
+current_location: Greenborough, Oregon
 occupation: CEO of the Aldersley-Brandon Foundation
 
 hair_color: Blonde
@@ -99,10 +99,10 @@ dislikes: |
 personality_other: 
 
 education: BA | MA
-universities: Columbia University
+universities: Greenborough University
 major: Public Administration & Policy
 minor: Business
-employment: CEO of the Aldersley-Brandon Foundation
+employment: Aldersley-Brandon Foundation
 
 parents: |
   Liam McNeal - Father (deceased)<br>
