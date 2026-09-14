@@ -20,8 +20,8 @@ zodiac: Cancer
 
 species: Were
 weretype: Leopard
-hometown: New York City
-current_location: New York City
+hometown: Greenborough, Oregon
+current_location: Greenborough, Oregon
 occupation: Model
 
 hair_color: Brown
@@ -149,7 +149,7 @@ dislikes: |
 personality_other: |
 
 education: BFA
-universities: Parsons School of Design
+universities: Greenborough University
 major: Photography
 minor: Media Studies
 employment: Model
