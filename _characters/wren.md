@@ -19,7 +19,7 @@ zodiac: Gemini
 
 species: Human
 hometown: Paris, France
-current_location: New York City
+current_location: Greenborough, Oregon
 occupation: Nanny | Art Student
 
 hair_color: Blonde
@@ -110,10 +110,10 @@ personality_other: |
   She is highly perceptive of emotional changes in others
 
 education: BFA in progress
-universities: NYU
+universities: Greenborough University
 major: Fine Art
 minor: Psychology
-employment: Nanny
+employment: Nanny to Aldersley Family
 
 parents: |
   Antoine Dubois - Father (deceased)
@@ -135,10 +135,10 @@ past_relationships: Dominic Abrams - Ex Husband
 * Her parents were very devoted to her. Celine stayed home with her while Antoine worked.
 * Wren lost both her parents when she was seven years old. They were fatally stabbed during a mugging.
 
-<h3>New York City</h3>
+<h3>Greenborough</h3>
 
 * Wren’s only living relative was her paternal uncle, Louis Dubois, who was granted custody of her after her parents’ death.
-* He worked as a lawyer in New York City. Wren came to live with him shortly after her parents’ funeral.
+* He worked as a lawyer in Greenborough, Oregon. Wren came to live with him shortly after her parents’ funeral.
 * While Louis never neglected Wren’s physical needs, he was not an openly paternal person and could come off cold and distant. He wanted to fulfill the family obligation to take care of Wren, but did not develop a close relationship with her.
 * Instead, he hired a nanny for her until she was old enough to care for herself and enrolled her in an online schooling program that focused in English and French culture rather than an American school.
 * Wren was very immersed in her studies, though lacking in social interaction with peers her own age due to being homeschooled.
@@ -189,6 +189,6 @@ past_relationships: Dominic Abrams - Ex Husband
 
 * Wren’s divorce was final almost a year ago. Dominic did everything he could to control the situation and Wren received nothing in the divorce, but her freedom from him was more than worth it to her.
 * Reagan and Harper encouraged Wren to apply to NYU during the divorce.
-* Wren currently attends NYU, where she is studying art in her second year at the program.
+* Wren currently attends GU, where she is studying art in her second year at the program.
 * Wren still lives with Harper and still works as Alice's nanny.
 
