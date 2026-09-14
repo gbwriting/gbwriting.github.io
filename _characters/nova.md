@@ -21,7 +21,7 @@ zodiac: Capricorn
 
 species: Human
 hometown: Los Angeles, California
-current_location: LA / NYC
+current_location: Los Angeles, CA | Greenborough, OR
 occupation: Director | Screenwriter
 
 hair_color: Brown
