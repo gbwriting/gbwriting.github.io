@@ -29,8 +29,8 @@ html, body {
   --darktext: #555;
 
   /* Global Default Gradient Base  */
-  --accent1: 200, 120, 230;
---accent2: 170, 195, 220;
+  --r1: 200, 120, 230;
+  --r2: 170, 195, 220;
   --c1: rgb(var(--r1));
   --c2: rgb(var(--r2));
 
