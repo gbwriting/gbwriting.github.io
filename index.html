@@ -3,307 +3,464 @@ layout: default
 ---
 
 <!DOCTYPE html>
-
-<title>greenborough writing</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&family=Poppins:wght@400;500;700;800&family=Josefin+Sans:wght@400;500;600;700&family=Yeseva+One&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Greenborough</title>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&family=Poppins:wght@300;400;500;600;700&family=Josefin+Sans:wght@400;500;600;700&family=Yeseva+One&display=swap" rel="stylesheet">
 
 <style>
-/
-  
-  
-/* MAIN WRAPPER */
-  
-  
+
+/* ==========================================================================
+   HOMEPAGE CONTAINER
+   ========================================================================== */
 .homepage {
-  max-width: 1400px;
-  margin: 40px auto;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.mainwrapper {
   background: var(--bg1);
-  border-radius: 16px;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
   overflow: hidden;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.7), 0 0 40px rgba(0, 0, 0, 0.3);
 }
-  
-  .mainwrapper {
-    max-width: 1200px;
-      margin: 40px auto;
 
-
-  }
-
-/* BANNER */
-.banner {
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
+/* ==========================================================================
+   BANNER & TITLE HEADER
+   ========================================================================== */
+.banner-header {
   position: relative;
-  background: var(--g1);
-    border-radius: 16px 16px 0 0;
-
+  width: 100%;
+  height: 420px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  overflow: hidden;
 }
 
-.banner img {
+.banner-header img.banner-img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
-
+ 
+  transition: transform 0.6s ease;
 }
 
 
-
-
-  
-/* title */
-.title {
-  padding: 40px 40px 20px 40px;
-  background: var(--g3);
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(15,15,20,0.95) 0%, rgba(15,15,20,0.4) 50%, transparent 80%);
 }
-  
-.title h1{
+
+.title-content {
+  position: relative;
+  z-index: 2;
+  padding: 40px;
+  width: 100%;
+}
+
+.title-content h1 {
   font-family: var(--headerfont);
-  font-size: 90px;
-  text-transform: lowercase;
-  margin:0;
+  font-size: 84px;
   font-weight: 500;
-  letter-spacing: 3px;
-}
-
-.title tag {
-  margin-top: 20px;
-  font-family: var(--subtitlefont);
-  text-transform:uppercase; 
-  letter-spacing:2px;
-  font-size: 14px;
-  font-weight: 500;
-  padding-left: 40px;
-
-  
-}
-/* INTRO */
-  .intro {
-  padding: 0px 40px 25px 40px;
-  background: var(--g3);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-    border-radius: 0 0 16px 16px;
-    
-}
-  
-  .intro .box {  background:var(--t4); padding:12px 18px; border-radius:8px; }
-
-.intro .box p {
+  line-height: 0.95;
   margin: 0 0 12px 0;
+  letter-spacing: 2px;
+  text-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.title-content tag {
+  display: inline-block;
+  font-family: var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.85);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  padding: 8px 18px;
+  border-radius: 50px;
+  backdrop-filter: blur(8px);
+}
+
+/* ==========================================================================
+   INTRO & MAP FEATURE SECTION
+   ========================================================================== */
+.world-feature-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 24px;
+  padding: 30px 40px 10px 40px;
+}
+
+/* MAP BOX */
+.map-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--glass-border);
+  background: var(--glass-bg);
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-decoration: none;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.map-card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  filter: brightness(0.85);
+}
+
+
+.map-card-info {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
+.map-badge {
+  font-family: var(--subtitlefont);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: var(--g5);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.map-card-info h3 {
+  margin: 0 0 4px 0;
+  font-family: var(--subtitlefont);
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.map-card-info p {
+  margin: 0;
+  font-family: var(--smallfont);
+  font-size: 11px;
+  color: var(--greytext);
+}
+
+
+
+/* INTRO TEXT BOX */
+.intro-box {
+  background: var(--g2);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-box p {
+  margin: 0 0 14px 0;
   font-family: var(--smallfont);
   font-size: 13px;
-  line-height: 1.3;
-    letter-spacing: 1.5px;
-
-
+  line-height: 1.6;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 0.5px;
 }
 
-.intro p:last-child {
+.intro-box p:last-child {
   margin-bottom: 0;
 }
 
-/* GRID */
-.navgrid{
-  display:grid;
+/* ==========================================================================
+   NAVIGATION GRID & CARDS
+   ========================================================================== */
+.navgrid {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 18px;
-  padding: 30px;
+  gap: 20px;
+  padding: 30px 40px;
 }
 
-.card{
+.card {
   background: var(--g2);
-  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
   padding: 20px;
-  transition: 0.25s ease;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   text-decoration: none;
   color: inherit;
-
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
-  gap: 15px;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  overflow: hidden;
 }
 
-.card:hover{
-  transform: translateY(-4px);
-  background: var(--g3);
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--g1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
 }
 
-/* LEFT SIDE TEXT */
-.card-text{
+.card:hover::before {
+  opacity: 1;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(var(--r2), 0.4);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4), 0 0 20px var(--accent-glow);
+}
+
+.card-text {
   flex: 1;
   min-width: 0;
+  position: relative;
+  z-index: 1;
 }
 
-.card h2{
-  margin: 0px 0px 10px 0px;
+.card h2 {
+  margin: 0 0 8px 0;
   font-family: var(--subtitlefont);
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
+  color: #fff;
 }
 
-.card p{
-  margin-top: 15px;
+.card p {
+  margin: 0;
   font-family: var(--smallfont);
   font-size: 11px;
-  line-height: 1.3;
-  letter-spacing: 1.5px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  color: var(--greytext);
   background: var(--t4);
-  padding: 12px 12px;
+  padding: 10px 14px;
   border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
 }
 
-/* RIGHT IMAGE */
-.card-image{
-  width: 110px;
-  height: 110px;
+.card-image {
+  width: 100px;
+  height: 100px;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.08);
-  background: rgba(0,0,0,0.2);
+  border: 1px solid var(--glass-border);
+  position: relative;
+  z-index: 1;
 }
 
-.card-image img{
+.card-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
+  transition: transform 0.4s ease;
 }
 
 
-
-/* FOOTER */
-.footer{
-  padding: 30px;
-  text-align:center;
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+.footer {
+  padding: 25px 40px;
+  text-align: center;
+  font-family: var(--smallfont);
   font-size: 12px;
-  color: rgba(255,255,255,0.5);
-  border-top: 1px solid rgba(255,255,255,0.08);
+  letter-spacing: 1px;
+  color: var(--greytext);
+  border-top: 1px solid var(--glass-border);
+  background: rgba(0,0,0,0.2);
 }
 
-/* MOBILE */
-@media (max-width: 768px){
-  .navgrid{
+/* ==========================================================================
+   RESPONSIVE DESIGN
+   ========================================================================== */
+@media (max-width: 900px) {
+  .world-feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage {
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+
+  .banner-header {
+    height: 320px;
+  }
+
+  .title-content {
+    padding: 20px;
+  }
+
+  .title-content h1 {
+    font-size: 52px;
+  }
+
+  .title-content tag {
+    font-size: 11px;
+  }
+
+  .world-feature-grid, .navgrid {
+    padding: 20px;
+  }
+
+  .navgrid {
     grid-template-columns: 1fr;
   }
 
-
-  
-  .title h1 {
-    font-size: 55px; 
-    letter-spacing: 1px;
-  }
-  
-   .title tag {
-    font-size: 11px; 
-    letter-spacing: 1px;
+  .card {
+    flex-direction: column-reverse;
+    align-items: flex-start;
   }
 
+  .card-image {
+    width: 100%;
+    height: 140px;
+  }
 }
 </style>
+</head>
 
+<body>
 
 <div class="homepage">
-<div class="mainwrapper">
-  <!-- BANNER -->
-  <div class="banner">
-    <img src="https://d.l3n.co/XVEXUH.png">
-  </div>
+  <div class="mainwrapper">
+    
+    <!-- BANNER & TITLE HEADER -->
+    <div class="banner-header">
+      <img class="banner-img" src="https://b.l3n.co/bxGCse.png" alt="Greenborough Banner">
+      <div class="banner-overlay"></div>
+      <div class="title-content">
+        <h1>greenborough</h1>
+        <tag>a collection of characters, places, and information about greenborough's world.</tag>
+      </div>
+    </div>
 
-  <!-- title -->
-  <div class="title">
-    <h1>greenborough</h1>
-    <tag>a collection of characters, places, and information about greenborough's world. </tag>
-  </div>
+    <!-- WORLD FEATURE & MAP SECTION -->
+    <div class="world-feature-grid">
+      
+      <!-- MAP FEATURE CONTAINER -->
+      <a class="map-card" href="https://gbwriting.github.io/world/">
+        <!-- Replace src below with your actual map image URL -->
+        <img src="https://d.l3n.co/bxGJDk.png">
+        <div class="map-card-overlay"></div>
+        <div class="map-card-info">
+          <span class="map-badge">City Map</span>
+          <h3>Explore Greenborough</h3>
+          <p>Click to find out more about the city of Greenborough</p>
+        </div>
+      </a>
 
-  <div class="intro">  <div class="box">
-  <p>
-    Greenborough exists as a world where supernaturals have created lives among humans.  </p>
-<p>    
-   Greenborough was created in April 2022 by Kaci & Sarah Loveless-Hall. This site is an archive of character information, short stories, lore, and other information regarding this writing world.</p>
-    </div></div>
-  
-  
-  
-  <!-- NAV GRID -->
-  <div class="navgrid">
+      <!-- INTRO BOX -->
+      <div class="intro-box">
+        <p>Greenborough exists as a world where supernaturals have created lives among humans.</p>
+        <p>Greenborough was created in April 2022 by Kaci &amp; Sarah Loveless-Hall. This site is an archive of character information, short stories, lore, and other information regarding this writing world.</p>
+      </div>
+
+    </div>
+
+    <!-- NAV GRID -->
+    <div class="navgrid">
 
       <a class="card" href="https://gbwriting.github.io/characters/">
-  <div class="card-text">
-    <h2>Characters</h2>
-    <p>profiles, histories, relationships, and information on all characters</p>
-  </div>
-  <div class="card-image">
-    <img src="https://i.pinimg.com/736x/5e/0e/c2/5e0ec256cd9a4634c54f61e24fbb11ca.jpg">
-  </div>
-</a>
-    
-    <a class="card" href="https://gbwriting.github.io/species/">
-  <div class="card-text">
-    <h2>Species</h2>
-    <p>lore, history, and information about each species</p>
-  </div>
-  <div class="card-image">
-    <img src="https://i.pinimg.com/736x/f6/de/d7/f6ded7aa690fdaf8742a6b4f94acddcb.jpg">
-  </div>
-</a>
-    
-    <a class="card" href="https://gbwriting.github.io/world/">
-  <div class="card-text">
-    <h2>World</h2>
-    <p>locations, businesses, groups, and world information</p>
-  </div>
-  <div class="card-image">
-    <img src="https://i.pinimg.com/736x/ff/7e/45/ff7e4585514661561c872c77e7d57f7c.jpg">
-  </div>
-</a>
-    
-   <a class="card" href="https://gbwriting.github.io/writing/">
-  <div class="card-text">
-    <h2>Writing</h2>
-    <p>short stories, rp collections, and other pieces of writing.</p>
-  </div>
-  <div class="card-image">
-    <img src="https://i.pinimg.com/736x/a1/b5/9c/a1b59c9f49049bb52244400b1f6a4532.jpg">
-  </div>
-</a>
-    
-    <a class="card" href="https://gbwriting.github.io/archive/">
-  <div class="card-text">
-    <h2>Archive</h2>
-    <p>previous lore, writing, short stories, and other information</p>
-  </div>
-  <div class="card-image">
-    <img src="https://i.pinimg.com/736x/97/24/b9/9724b970655aea556576ebba00cd0605.jpg">
-  </div>
-</a>
+        <div class="card-text">
+          <h2>Characters</h2>
+          <p>profiles, histories, relationships, and information on all characters</p>
+        </div>
+        <div class="card-image">
+          <img src="https://i.pinimg.com/736x/5e/0e/c2/5e0ec256cd9a4634c54f61e24fbb11ca.jpg" alt="Characters">
+        </div>
+      </a>
 
-   <a class="card" href="https://gbwriting.github.io/about/">
-  <div class="card-text">
-    <h2>About</h2>
-    <p>about the writers of greenborough</p>
-  </div>
-  <div class="card-image">
-    <img src="https://i.pinimg.com/736x/5e/98/94/5e989441d6faa178d63c2622cdcc438d.jpg">
-  </div>
-</a>
+      <a class="card" href="https://gbwriting.github.io/species/">
+        <div class="card-text">
+          <h2>Species</h2>
+          <p>lore, history, and information about each species</p>
+        </div>
+        <div class="card-image">
+          <img src="https://i.pinimg.com/736x/f6/de/d7/f6ded7aa690fdaf8742a6b4f94acddcb.jpg" alt="Species">
+        </div>
+      </a>
 
-   
+      <a class="card" href="https://gbwriting.github.io/world/">
+        <div class="card-text">
+          <h2>World</h2>
+          <p>locations, businesses, groups, and world information</p>
+        </div>
+        <div class="card-image">
+          <img src="https://i.pinimg.com/736x/ff/7e/45/ff7e4585514661561c872c77e7d57f7c.jpg" alt="World">
+        </div>
+      </a>
 
-    
+      <a class="card" href="https://gbwriting.github.io/writing/">
+        <div class="card-text">
+          <h2>Writing</h2>
+          <p>short stories, rp collections, and other pieces of writing.</p>
+        </div>
+        <div class="card-image">
+          <img src="https://i.pinimg.com/736x/a1/b5/9c/a1b59c9f49049bb52244400b1f6a4532.jpg" alt="Writing">
+        </div>
+      </a>
+
+      <a class="card" href="https://gbwriting.github.io/archive/">
+        <div class="card-text">
+          <h2>Archive</h2>
+          <p>previous lore, writing, short stories, and other information</p>
+        </div>
+        <div class="card-image">
+          <img src="https://i.pinimg.com/736x/97/24/b9/9724b970655aea556576ebba00cd0605.jpg" alt="Archive">
+        </div>
+      </a>
+
+      <a class="card" href="https://gbwriting.github.io/about/">
+        <div class="card-text">
+          <h2>About</h2>
+          <p>about the writers of greenborough</p>
+        </div>
+        <div class="card-image">
+          <img src="https://i.pinimg.com/736x/5e/98/94/5e989441d6faa178d63c2622cdcc438d.jpg" alt="About">
+        </div>
+      </a>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      © 2026 | Kaci &amp; Sarah Loveless-Hall
+    </div>
+
   </div>
-
-  <!-- FOOTER -->
-  <div class="footer">
-    © 2026 | Kaci & Sarah Loveless-Hall 
-  </div>
-
 </div>
-  
-</div>  
+
+</body>
+</html>
