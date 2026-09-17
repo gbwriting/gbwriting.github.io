@@ -1,0 +1,350 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Greenborough | City Map & Districts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&family=Poppins:wght@300;400;500;600;700&family=Josefin+Sans:wght@400;500;600;700&family=Yeseva+One&display=swap" rel="stylesheet">
+
+<style>
+/* Page Container */
+.map-page {
+  max-width: 1280px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.mainwrapper {
+  background: var(--bg1);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.7);
+}
+
+/* Header Banner */
+.banner-header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.banner-header img.banner-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(15,15,20,0.95) 0%, rgba(15,15,20,0.4) 50%, transparent 80%);
+}
+
+.title-content {
+  position: relative;
+  z-index: 2;
+  padding: 30px 40px;
+  width: 100%;
+}
+
+.title-content h1 {
+  font-family: var(--headerfont);
+  font-size: 64px;
+  line-height: 1.15;
+  margin: 0 0 10px 0;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, #ffffff 30%, rgba(var(--r2),1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Large Map Section  */
+.main-map-section {
+  padding: 40px 40px 20px 40px;
+}
+
+.map-display {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  
+}
+
+.map-display img {
+  width: 100%;
+  height: auto;
+  max-height: 650px;
+  object-fit: cover;
+  display: block;
+}
+
+.map-caption {
+  padding: 16px 20px;
+  background: rgba(0, 0, 0, 0.25);
+  font-family: var(--smallfont);
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--greytext);
+  border-top: 1px solid var(--glass-border);
+}
+
+/* District List */
+.district-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px 40px 40px 40px;
+}
+
+.section-heading {
+  font-family: var(--subtitlefont);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 8px;
+}
+
+.district-card {
+  background: var(--g1);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 24px;
+}
+
+.district-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.district-tag {
+  font-family: var(--subtitlefont);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: var(--g3);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.district-card h2 {
+  margin: 0 0 12px 0;
+  font-family: var(--subtitlefont);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.district-card p {
+  margin: 0;
+  font-family: var(--smallfont);
+  font-size: 12px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  color: var(--greytext);
+  background: var(--t4);
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.district-image {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.district-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* Mobile Design*/
+@media (max-width: 768px) {
+  .map-page {
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+
+  .banner-header {
+    height: 220px;
+  }
+
+  .title-content {
+    padding: 20px;
+  }
+
+  .title-content h1 {
+    font-size: 42px;
+  }
+
+  .main-map-section, .district-list {
+    padding: 20px;
+  }
+
+  .district-card {
+    flex-direction: column-reverse;
+  }
+
+  .district-image {
+    width: 100%;
+    height: 180px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="map-page">
+  <div class="mainwrapper">
+    
+    <!-- BANNER & TITLE HEADER -->
+    <div class="banner-header">
+      <img class="banner-img" src="https://d.l3n.co/XVEXUH.png">
+      <div class="banner-overlay"></div>
+      <div class="title-content">
+        <h1>city map</h1>
+      </div>
+    </div>
+
+    <!-- MAIN MAP DISPLAY -->
+    <div class="main-map-section">
+      <div class="map-display">
+        <img src="https://a.l3n.co/bySCy5.png">
+        <div class="map-caption">
+          Overview map of Greenborough, Oregon.
+        </div>
+      </div>
+    </div>
+
+    <!-- DISTRICT SECTIONS -->
+    <div class="district-list">
+      <div class="section-heading">Districts &amp; Key Locations</div>
+
+      <!-- Northern District -->
+      <div class="district-card">
+        <div class="district-text">
+          <span class="district-tag">North</span>
+          <h2>Northern Greenborough</h2>
+          <p>This area of Greenborough is known for being home to the most affluent families of the city. Here, you can find larger homes, private schools, and elite shopping districts. As we get closer to the city's center, the architecture transitions to luxurious high rise apartments.</p>
+        </div>
+        <div class="district-image">
+          <img src="https://i.pinimg.com/1200x/79/84/b9/7984b9c446afe75bc5c4911ad4a0fe06.jpg">
+        </div>
+      </div>
+
+      <!-- Northeast -->
+      <div class="district-card">
+        <div class="district-text">
+          <span class="district-tag">Northeast</span>
+          <h2>Northeastern Greenborough</h2>
+          <p>This area is defined by upper-middle class neighborhoods - full of tree lined streets, spacious family homes, excellent schools, and high-end shopping centers. As you travel further east, the suburban neighborhoods gradually give way to dense forests.</p>
+        </div>
+        <div class="district-image">
+          <img src="https://i.pinimg.com/1200x/e3/01/7a/e3017aa5d5df6a6a6400e536d4d6ed0d.jpg">
+        </div>
+      </div>
+
+      <!-- City Park -->
+      <div class="district-card">
+        <div class="district-text">
+          <span class="district-tag">Downtown</span>
+          <h2>Meadow View Park</h2>
+          <p>Inspired by iconic urban green spaces, Meadow View Park serves as downtown's primary outdoor space. This park is central to the city and features expansive lawns, a permanent pavillion for music, a winter ice skating rink, and much more.</p>
+        </div>
+        <div class="district-image">
+          <img src="https://i.pinimg.com/736x/76/72/a6/7672a6a44b8a0b2a5f3c94c526873890.jpg">
+        </div>
+      </div>
+
+
+      <!-- Downtown/City Center -->
+      <div class="district-card">
+        <div class="district-text">
+          <span class="district-tag">LOCATION</span>
+          <h2>NAME</h2>
+          <p>DESCRIPTION</p>
+        </div>
+        <div class="district-image">
+          <img src="IMG">
+        </div>
+      </div>
+
+      <!-- Eastern -->
+      <div class="district-card">
+        <div class="district-text">
+          <span class="district-tag">LOCATION</span>
+          <h2>NAME</h2>
+          <p>DESCRIPTION</p>
+        </div>
+        <div class="district-image">
+          <img src="IMG">
+        </div>
+      </div>
+
+      <!-- GU -->
+      <div class="district-card">
+        <div class="district-text">
+          <span class="district-tag">LOCATION</span>
+          <h2>NAME</h2>
+          <p>DESCRIPTION</p>
+        </div>
+        <div class="district-image">
+          <img src="IMG">
+        </div>
+      </div>
+
+
+
+
+
+
+<!-- Northeast -->
+      <div class="district-card">
+        <div class="district-text">
+          <span class="district-tag">LOCATION</span>
+          <h2>NAME</h2>
+          <p>DESCRIPTION</p>
+        </div>
+        <div class="district-image">
+          <img src="IMG">
+        </div>
+      </div>
+      
+
+    </div>
+
+    
+
+  </div>
+</div>
+
+</body>
+</html>
