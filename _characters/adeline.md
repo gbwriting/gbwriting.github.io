@@ -99,7 +99,7 @@ employment: Atlas Records
 
 parents: |
   Calvin Hartley - Father<br>
-  Jocelyn Hartley - Mother<<br>
+  Jocelyn Hartley - Mother<br>
 siblings: |
   Blaire Hartley - Sister<br>
 children: 
