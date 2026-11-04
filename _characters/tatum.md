@@ -2,8 +2,8 @@
 layout: character
 
 name: Tatum Richardson
-avatar: https://c.l3n.co/X90rO5.png
-face_claim: Hannah Dodd
+avatar: https://c.l3n.co/xnqMQ0by.png
+face_claim: Adelaide Kane
 writer: Sarah
 
 full_name: Tatum Laine Richardson
