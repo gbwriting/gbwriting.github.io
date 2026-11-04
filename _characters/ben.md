@@ -15,7 +15,7 @@ orientation: Bisexual
 
 age: Unknown
 birthday: October 16th
-zodiac: Leo
+zodiac: Libra
 
 species: Were
 weretype: Leopard
@@ -26,44 +26,70 @@ occupation: Detective
 hair_color: Brown
 eye_color: Blue
 height: 6'2"
-scent: 
+scent: Pine | Cypress
 piercings: None
 tattoos: None
 scars: Various
 features: 
 
 love_language: Acts of Service | Quality Time
-enneagram: THING
-mbti: THING
+enneagram: 5w6
+mbti: ESFJ
 sun_sign: Libra
 moon_sign: Aries
 rising_sign: Pisces
 
 positive_traits: |
-  Thing<br>
-
+  Protective<br>
+  Sarcastic<br>
+  Quick Thinker<br>
+  Confident<br>
+  Intelligent<br>
+  Brave<br>
   
 negative_traits: |
-  Thing<br>
+  Workaholic<br>
+  Forgets to slow down<br>
+  Helps others to his own detriment<br>
+  Stubborn<br>
+  Overprotective at times<br>
   
 quirks: |
-  Thing<br>
+  Loves to tease Saoirse<br>
+  Never misses an important event<br>
+  Enjoys being right<br>
+  Loves to debate "just because"<br>
+  Protective over his daughters, plus Mara and Waverly<br>
+  King of Dad Jokes<br>
   
 fears: |
-  Thing<br>
+  Losing his family<br>
+  Being unable to help<br>
+  Causing harm, even unintentionally<br>
   
 likes: |
-  Thing<br>
+  Being right<br>
+  Quality time with family<br>
+  Surfing<br>
+  Snowboarding<br>
+  Being active in general<br>
+  Being outside<br>
+  Learning new things<br>
   
 dislikes: |
-  Thing<br>
+  Feeling trapped, especially inside<br>
+  Paperwork<br>
+  Stiff clothing<br>
+  Being away from family<br>
+  Raisins<br>
+  Sore losers<br>
 
   
 personality_other: |
 
-education: 
-universities: 
-major: 
+education: BA
+universities: Greenborough University
+major: Criminal Justice
 minor: 
 employment: Greenborough Police Department
 
@@ -95,8 +121,10 @@ dating_since: Centuries
 past_relationships: None
 
 abilities:
-  - name: "Ability"
-    info: "description"
+  - name: "Locality Tracking"
+    info: "the ability to intuitively locate anyone regardless of where they happen to be"
+  - name: "Teleportation"
+    info: "the ability to teleport from one location to another"
   
 ---
 <h3>History Information: </h3>
