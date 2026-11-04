@@ -19,13 +19,13 @@ birth_date: "2000-02-27"
 zodiac: Pisces
 
 species: Were
-weretype: 
+weretype: Lynx
 hometown: Boston, MA
 current_location: Greenborough, Oregon
 occupation: Barista | Freelance Photographer
 
-hair_color: Blonde
-eye_color: Blue
+hair_color: Brown
+eye_color: Brown
 height: 5'6"
 scent: 
 piercings: Ears - 2 Per Ear
