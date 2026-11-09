@@ -2,7 +2,7 @@
 layout: character
 
 name: Saoirse Brandon
-avatar: https://d.l3n.co/X900v2.png
+avatar: https://c.l3n.co/7GyQmPfI.png
 face_claim: Yvonne Strahovski
 writer: Sarah
 
