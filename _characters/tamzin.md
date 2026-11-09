@@ -2,8 +2,8 @@
 layout: character
 
 name: Tamzin Reynolds
-avatar: https://a.l3n.co/X90gEC.png
-face_claim: Claudia Jessie
+avatar: https://d.l3n.co/DXBWSYBB.png
+face_claim: Dakota Johnson
 writer: Sarah
 
 full_name: Dr. Tamzin Karay Reynolds
