@@ -2,7 +2,7 @@
 layout: character
 
 name: Tatum Richardson
-avatar: https://c.l3n.co/xnqMQ0by.png
+avatar: https://b.l3n.co/423hHcBx.png
 face_claim: Adelaide Kane
 writer: Sarah
 
