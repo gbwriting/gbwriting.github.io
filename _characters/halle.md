@@ -2,7 +2,7 @@
 layout: character
 
 name: Halle Reed
-avatar: https://b.l3n.co/X9jacZ.png
+avatar: https://a.l3n.co/dZd76fIi.png
 face_claim: Xana
 writer: Sarah
 
