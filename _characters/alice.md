@@ -2,7 +2,7 @@
 layout: character
 
 name: Alice Aldersley
-avatar: https://a.l3n.co/X9jwnH.png
+avatar: https://a.l3n.co/0QuwQiPo.png
 face_claim: 
 writer: Sarah
 
