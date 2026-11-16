@@ -1,5 +1,5 @@
 ---
-layout: character2
+layout: character
 
 name: Adeline Hartley
 avatar: https://c.l3n.co/bXw7WK.png
