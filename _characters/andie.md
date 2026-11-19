@@ -37,6 +37,7 @@ mbti: INFJ
 sun_sign: Aquarius
 moon_sign: Libra
 rising_sign: Gemini
+moon_phase: Waning Gibbous
 
 positive_traits: |
   Nurturing<br>
