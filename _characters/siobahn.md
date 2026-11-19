@@ -39,6 +39,7 @@ mbti: ESTJ
 sun_sign: Capricorn
 moon_sign: 
 rising_sign: 
+moon_phase: Waning Crescent
 
 positive_traits: |
   
