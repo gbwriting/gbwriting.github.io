@@ -39,6 +39,7 @@ mbti: ENFP
 sun_sign: Pisces
 moon_sign: 
 rising_sign: 
+moon_phase: Third Quarter
 
 positive_traits: |
   
