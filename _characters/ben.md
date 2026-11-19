@@ -38,6 +38,7 @@ mbti: ESFJ
 sun_sign: Libra
 moon_sign: Aries
 rising_sign: Pisces
+moon_phase: Unknown
 
 positive_traits: |
   Protective<br>
