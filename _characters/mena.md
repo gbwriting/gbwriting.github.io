@@ -43,6 +43,7 @@ mbti: ENTP
 sun_sign: Scorpio
 moon_sign: Leo
 rising_sign: Gemini
+moon_phase: Waning Crescent
 
 positive_traits: |
   Charismatic<br>
