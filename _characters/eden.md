@@ -38,7 +38,7 @@ mbti: ENFP
 sun_sign: Cancer
 moon_sign: Gemini
 rising_sign: Cancer
-moon_sign: Waning Crescent
+moon_phase: Waning Crescent
 
 positive_traits: |
   Curious<br>
