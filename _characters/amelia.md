@@ -40,6 +40,7 @@ mbti: ISFP
 sun_sign: Libra
 moon_sign: Scorpio
 rising_sign: Sagittarius
+moon_phase: Waxing Crescent
 
 positive_traits: |
   Creative<br>
