@@ -41,6 +41,7 @@ mbti: ISTJ
 sun_sign: Taurus
 moon_sign: Capricorn
 rising_sign: Scorpio
+moon_phase: Waxing Gibbous
 
 positive_traits: |
   Disciplined<br>
