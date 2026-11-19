@@ -38,6 +38,7 @@ mbti: ENFP
 sun_sign: Sagittarius 
 moon_sign: Aquarius
 rising_sign: Capricorn
+moon_phase: Waxing Crescent
 
 positive_traits: |
   Adventurous<br>
