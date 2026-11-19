@@ -39,6 +39,7 @@ mbti: INFJ
 sun_sign: Aries
 moon_sign: Sagittarius
 rising_sign: Aquarius
+moon_phase: Waning Gibbous
 
 positive_traits: |
   Creative<br>
