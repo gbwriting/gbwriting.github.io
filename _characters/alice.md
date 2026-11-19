@@ -38,6 +38,7 @@ mbti: INFP
 sun_sign: Gemini
 moon_sign: 
 rising_sign: 
+moon_phase: Waning Crescent
 
 positive_traits: |
   
