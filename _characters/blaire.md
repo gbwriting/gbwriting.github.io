@@ -39,6 +39,7 @@ mbti: ESFP
 sun_sign: Capricorn
 moon_sign: Aries
 rising_sign: Cancer
+moon_phase: First Quarter
 
 positive_traits: |
   Charismatic<br>
