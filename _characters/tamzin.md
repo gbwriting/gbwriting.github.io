@@ -41,6 +41,7 @@ mbti: ENFP
 sun_sign: Scorpio
 moon_sign: Pisces
 rising_sign: Aquarius
+moon_phase: Waxing Gibbous
 
 positive_traits: |
   Creative<br>
