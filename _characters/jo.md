@@ -38,6 +38,7 @@ mbti: ISTJ
 sun_sign: Pisces
 moon_sign: Capricorn
 rising_sign: Virgo
+moon_phase: Unknown
 
 positive_traits: |
   Wise<br>
