@@ -37,6 +37,7 @@ mbti: ENTJ
 sun_sign: Gemini
 moon_sign: Capricorn
 rising_sign: Aries
+moon_phase: Unknown
 
 positive_traits: |
   Ambitious<br>
