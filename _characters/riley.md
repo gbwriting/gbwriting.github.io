@@ -39,6 +39,7 @@ mbti: ESFP
 sun_sign: Cancer 
 moon_sign: Aries
 rising_sign: Sagittarius
+moon_phase: Waning Crescent
 
 positive_traits: |
   Charismatic<br>
