@@ -37,6 +37,7 @@ mbti: ISFJ
 sun_sign: Libra
 moon_sign: Cancer
 rising_sign: Virgo
+moon_phase: Unknown
 
 positive_traits: |
   Compassionate<br>
