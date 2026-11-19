@@ -39,6 +39,7 @@ mbti: ISFJ
 sun_sign: Scorpio
 moon_sign: Gemini
 rising_sign: Capricorn
+moon_phase: Waning Crescent
 
 positive_traits: |
   Artistic<br>
