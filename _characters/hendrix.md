@@ -38,6 +38,7 @@ mbti: ESTP
 sun_sign: Leo
 moon_sign: Scorpio
 rising_sign: Leo
+moon_phase: Waxing Gibbous
 
 positive_traits: |
   Artistic<br>
