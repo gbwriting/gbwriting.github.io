@@ -38,6 +38,7 @@ mbti: ESFP
 sun_sign: Aquarius
 moon_sign: Virgo
 rising_sign: Leo
+moon_phase: Waning Gibbous
 
 positive_traits: |
   Charismatic<br>
