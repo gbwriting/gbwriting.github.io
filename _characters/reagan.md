@@ -39,6 +39,7 @@ mbti: ESTJ
 sun_sign: Leo
 moon_sign: Virgo
 rising_sign: Sagittarius
+moon_phase: Waxing Crescent
 
 positive_traits: |
   Confident<br>
