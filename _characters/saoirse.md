@@ -38,6 +38,7 @@ mbti: ENTJ
 sun_sign: Leo
 moon_sign: Capricorn
 rising_sign: Scorpio
+moon_phase: Unknown
 
 positive_traits: |
   Decisive<br>
