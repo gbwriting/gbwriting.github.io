@@ -37,6 +37,7 @@ mbti: ISFJ
 sun_sign: Gemini
 moon_sign: Capricorn
 rising_sign: Sagittarius
+moon_phase: Waning Gibbous
 
 positive_traits: |
   Gentle<br>
