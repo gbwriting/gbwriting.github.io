@@ -39,6 +39,7 @@ mbti: ENFP
 sun_sign: Virgo
 moon_sign: Cancer
 rising_sign: Aquarius
+moon_phase: Waning Crescent
 
 positive_traits: |
   Creative<br>
