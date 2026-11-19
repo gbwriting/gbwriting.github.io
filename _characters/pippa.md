@@ -39,6 +39,7 @@ mbti: INFJ
 sun_sign: Aries
 moon_sign: Virgo
 rising_sign: Capricorn
+moon_phase: Waning Crescent
 
 positive_traits: |
   Kind hearted<br>
