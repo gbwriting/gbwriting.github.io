@@ -53,6 +53,7 @@ mbti: ENTJ
 sun_sign: Capricorn
 moon_sign: Scorpio
 rising_sign: Aries
+moon_phase: Waning Gibbous
 
 positive_traits: |
   Blunt<br>
