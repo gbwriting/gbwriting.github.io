@@ -40,6 +40,7 @@ mbti: ENFP
 sun_sign: Scorpio
 moon_sign: Sagittarius
 rising_sign: Aries
+moon_phase: Waning Gibbous
 
 positive_traits: |
   Charismatic<br>
