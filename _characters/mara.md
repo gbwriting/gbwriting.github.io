@@ -43,6 +43,7 @@ mbti: ISFJ
 sun_sign: Gemini
 moon_sign: Taurus
 rising_sign: Scorpio
+moon_phase: Waning Gibbous
 
 positive_traits: |
   Loyal<br>
