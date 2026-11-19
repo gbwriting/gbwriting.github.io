@@ -44,6 +44,7 @@ mbti: ENTJ
 sun_sign: Capricorn
 moon_sign: Gemini
 rising_sign: Aries
+moon_phase: Waxing Gibbous
 
 positive_traits: |
   Charming<br>
