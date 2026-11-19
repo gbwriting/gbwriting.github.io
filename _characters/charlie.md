@@ -39,6 +39,7 @@ mbti: ISTJ
 sun_sign: Cancer
 moon_sign: Sagittarius
 rising_sign: Capricorn
+moon_phase: Waxing Gibbous
 
 positive_traits: |
   Sarcastic<br>
